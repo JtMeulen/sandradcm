@@ -1,0 +1,29 @@
+.navbar {
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 30px;
+    background: lightsteelblue;
+    display: flex;
+    flex-flow: column;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.navitems a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.navitems a:hover {
+    color: pink;
+}
+
+.active,
+.navitems a:active {
+    color: fuchsia !important;
+}
