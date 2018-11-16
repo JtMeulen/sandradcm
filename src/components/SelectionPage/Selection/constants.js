@@ -1,7 +1,8 @@
 export const gamesMap = [
     {
         name: 'Game 1',
-        category: 'serious'
+        category: 'serious',
+        link: '/game1'
     },
     {
         name: 'Game 2',
@@ -32,7 +33,8 @@ export const gamesMap = [
 export const artMap = [
     {
         name: 'Game 1',
-        category: 'art'
+        category: 'art',
+        link: 'art1'
     },
     {
         name: 'Game 2',

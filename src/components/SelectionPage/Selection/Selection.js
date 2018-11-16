@@ -25,21 +25,22 @@ class Selection extends Component {
         const Aux = (props) => {
             return props.children
         }
+
         // only render the filter selection for games
         const renderFilter = () => {
             return this.props.pageName === 'games';
         };
 
-
         const thumbNailMaps = {
             games: gamesMap,
             art: artMap
         }
-        const thumbnails = thumbNailMaps[this.props.pageName].map(item => {
+
+        const thumbnails = thumbNailMaps[this.props.pageName].map((item, idx) => {
             if(this.state.filter === 'all'){
-                return <Thumbnail key={item.name} category={item.category} name={item.name} />;
+                return <Thumbnail key={idx} {...item} {...this.props} />;
             } else if(this.state.filter === item.category) {
-                return <Thumbnail key={item.name} category={item.category} name={item.name} />;
+                return <Thumbnail key={idx} {...item} {...this.props} />;
             }
         });
 
