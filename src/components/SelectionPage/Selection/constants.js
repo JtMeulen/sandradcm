@@ -126,7 +126,8 @@ export const artMap = [
         name: 'Thranduil',
         category: 'art',
         image: 'Thranduil_Painting.png',
-        backgroundOffset: 'top'
+        backgroundOffset: 'top',
+        text: 'Exercise in digital painting! The .gif below shows the work in progress:'
     },
     {
         id: 'KoiPendant',

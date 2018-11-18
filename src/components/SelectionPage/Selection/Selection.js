@@ -38,7 +38,7 @@ class Selection extends Component {
 
         const thumbnails = thumbNailMaps[this.props.pageName].map((item, idx) => {
             if(this.state.filter === 'all'){
-                return <Thumbnail key={idx} {...item} {...this.props} />;
+                return <Thumbnail key={idx} {...item} {...this.props} index={idx} allthumbnails={thumbNailMaps[this.props.pageName]}/>;
             } else if(this.state.filter === item.category) {
                 return <Thumbnail key={idx} {...item} {...this.props} />;
             }

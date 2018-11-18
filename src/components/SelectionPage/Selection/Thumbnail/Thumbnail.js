@@ -1,16 +1,30 @@
 import React, {Component} from 'react';
 
+import Modal from '../../../Modal/Modal';
 import styles from './Thumbnail.module.css';
 
 class Thumbnail extends Component {
+
+    state = {
+        modal: false
+    }
+
+    closeModalHandler = () => {
+        this.setState({
+            modal: false
+        });
+    }
 
     handleClick = () => {
         if (this.props.link) {
             this.props.history.push(this.props.link);
         };
 
-        if (this.props.image) {
-            console.log('Open modal!');
+        if (this.props.image && this.props.category === 'art') {
+            console.log('Open modal!', this.props.allthumbnails[this.props.index]);
+            this.setState({
+                modal: true
+            });
         };
     };
 
@@ -41,10 +55,15 @@ class Thumbnail extends Component {
         };
 
         return(
-            <div className={styles.thumbnail} onClick={this.handleClick}>
-                <div className={styles.image} style={backgroundStyle} id={this.props.id}>
-                    <div className={styles.overlay}>
-                        <span>{this.props.name}</span>
+            <div id="modal" className={styles.imageSlider}>
+                {this.state.modal &&
+                    <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index}/>
+                }
+                <div className={styles.thumbnail} onClick={this.handleClick}>
+                    <div className={styles.image} style={backgroundStyle} id={this.props.id}>
+                        <div className={styles.overlay}>
+                            <span>{this.props.name}</span>
+                        </div>
                     </div>
                 </div>
             </div>
