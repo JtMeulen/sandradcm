@@ -7,11 +7,11 @@ class Navbar extends Component {
     render() {
         return(
             <div className={styles.navbar}>
-                <h1 className={styles.title}>Sandra da Cruz Martins</h1>
+                <img className={styles.title} src="http://www.sandradcm.com/wp-content/uploads/2015/03/SandradaCruzMartins.png" alt="" />
                 <div className={styles.navitems}>
-                    <NavLink to="/" exact activeClassName={styles.active}>Games</NavLink>
-                    <NavLink to="/my-art" activeClassName={styles.active}>Art</NavLink>
-                    <NavLink to="/about-me" activeClassName={styles.active}>About Me</NavLink>
+                    <NavLink to="/" exact activeClassName={styles.active}>GAMES</NavLink>
+                    <NavLink to="/my-art" activeClassName={styles.active}>ART</NavLink>
+                    <NavLink to="/about-me" activeClassName={styles.active}>ABOUT ME</NavLink>
                 </div>
             </div>
         );

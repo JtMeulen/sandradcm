@@ -1,9 +1,9 @@
 .navbar {
     height: 100px;
     width: 100vw;
-    text-align: center;
+    align-items: center;
     padding-top: 30px;
-    background: lightsteelblue;
+    background: rgb(247, 247, 247);
     display: flex;
     flex-flow: column;
 }
@@ -11,19 +11,21 @@
 .title {
     margin-top: 0;
     margin-bottom: 10px;
+    width: 547px;
+    height: 52px;
 }
 
 .navitems a {
     text-decoration: none;
-    color: white;
+    color: rgb(36, 36, 36);
     margin: 10px;
-}
-
-.navitems a:hover {
-    color: pink;
+    font-weight: 700;
+    font-size: 0.8em;
+    transition: 0.2s;
 }
 
 .active,
+.navitems a:hover,
 .navitems a:active {
-    color: fuchsia !important;
+    color: rgb(93, 199, 153) !important;
 }

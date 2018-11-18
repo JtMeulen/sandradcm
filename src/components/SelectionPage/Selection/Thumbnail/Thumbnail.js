@@ -10,8 +10,8 @@ class Thumbnail extends Component {
 
     render() {
         const color = {
-            serious: 'red',
-            casual: 'green',
+            serious: 'lightyellow',
+            casual: 'lightgreen',
             art: 'lightblue'
         }
 

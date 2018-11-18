@@ -1,12 +1,13 @@
 .thumbnail {
-    width: 170px;
-    height: 100px;
+    width: 285px;
+    height: 210px;
     margin: 30px 10px 0 10px;
     border: 1px solid black;
     cursor: pointer;
-};
+    transition: 0.2s;
+}
 
 .thumbnail:hover,
 .thumbnail:active {
-    border: 2px solid green;
+    box-shadow: 0 0 5px #aaa;
 }
