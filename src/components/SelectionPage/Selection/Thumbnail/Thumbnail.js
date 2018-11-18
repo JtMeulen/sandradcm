@@ -22,7 +22,7 @@ class Thumbnail extends Component {
         if (this.props.category === 'art') {
             return 'url("images/art/' + this.props.image + '")';
         } else {
-            return 'url("images/games/' + this.props.image + '")';
+            return 'url("images/games/thumbnails/' + this.props.image + '")';
         }
     }
 
@@ -42,7 +42,7 @@ class Thumbnail extends Component {
 
         return(
             <div className={styles.thumbnail} onClick={this.handleClick}>
-                <div className={styles.image} style={backgroundStyle} id={this.props.name}>
+                <div className={styles.image} style={backgroundStyle} id={this.props.id}>
                     <div className={styles.overlay}>
                         <span>{this.props.name}</span>
                     </div>

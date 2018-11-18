@@ -4,6 +4,7 @@
     margin: 16px 8px 0 8px;
     cursor: pointer;
     overflow: hidden;
+    background: lightgrey;
 }
 
 .overlay,
@@ -23,7 +24,6 @@
     background: rgba(0,0,0,0.5);
     color: white;
     opacity: 0;
-    box-shadow:inset 0px 0px 0px 3px #f00;
 }
 
 .thumbnail:hover .image,
