@@ -1,13 +1,37 @@
 .thumbnail {
     width: 285px;
     height: 210px;
-    margin: 30px 10px 0 10px;
-    border: 1px solid black;
+    margin: 16px 8px 0 8px;
     cursor: pointer;
-    transition: 0.2s;
+    overflow: hidden;
 }
 
-.thumbnail:hover,
-.thumbnail:active {
-    box-shadow: 0 0 5px #aaa;
+.overlay,
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.overlay {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    opacity: 0;
+    box-shadow:inset 0px 0px 0px 3px #f00;
+}
+
+.thumbnail:hover .image,
+.thumbnail:active .image {
+    transform: scale(1.2);
+}
+
+.thumbnail:hover .overlay,
+.thumbnail:active .overlay {
+    opacity: 1;
 }

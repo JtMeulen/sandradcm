@@ -32,33 +32,58 @@ export const gamesMap = [
 
 export const artMap = [
     {
-        name: 'Game 1',
+        name: 'Thranduil',
         category: 'art',
-        image: 'art1'
+        image: 'Thranduil_Painting.png',
+        backgroundOffset: 'top'
     },
     {
-        name: 'Game 2',
+        name: 'KoiPendant',
         category: 'art',
-        image: ''
+        image: 'KoiPendant_Full.jpg',
+        backgroundOffset: 'bottom'
     },
     {
-        name: 'Game 3',
-        category: 'art'
+        name: 'Pods',
+        category: 'art',
+        image: 'Pods.png',
+        backgroundOffset: 'center bottom -40px'
     },
     {
-        name: 'Game 4',
-        category: 'art'
+        name: 'Easter',
+        category: 'art',
+        image: 'FlavourEasterCard.png',
+        backgroundOffset: 'right'
     },
     {
-        name: 'Game 5',
-        category: 'art'
+        name: 'Zyan',
+        category: 'art',
+        image: 'Kaart_Zyan.png'
     },
     {
-        name: 'Game 6',
-        category: 'art'
+        name: 'Noa',
+        category: 'art',
+        image: 'Kaart_Noa.png'
     },
     {
-        name: 'Game 7',
-        category: 'art'
+        name: 'Capra',
+        category: 'art',
+        image: 'CapraCard.jpg'
+    },
+    {
+        name: 'Ziggo',
+        category: 'art',
+        image: 'Ziggo_Doorposter.png'
+    },
+    {
+        name: 'SqueakSquad',
+        category: 'art',
+        image: 'SqueakSquad.png'
+    },
+    {
+        name: 'Koala',
+        category: 'art',
+        image: 'Koala.jpg',
+        backgroundOffset: 'top'
     }
 ];

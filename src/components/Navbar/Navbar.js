@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return(
             <div className={styles.navbar}>
-                <img className={styles.title} src="http://www.sandradcm.com/wp-content/uploads/2015/03/SandradaCruzMartins.png" alt="" />
+                <img className={styles.title} src={'images/common/SDCM_logo.png'} alt="" />
                 <div className={styles.navitems}>
                     <NavLink to="/" exact activeClassName={styles.active}>GAMES</NavLink>
                     <NavLink to="/my-art" activeClassName={styles.active}>ART</NavLink>
