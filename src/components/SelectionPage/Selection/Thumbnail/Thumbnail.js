@@ -5,7 +5,13 @@ import styles from './Thumbnail.module.css';
 class Thumbnail extends Component {
 
     handleClick = () => {
-        this.props.link && this.props.history.push(this.props.link);
+        if(this.props.link) {
+            this.props.history.push(this.props.link);
+        }
+
+        if(this.props.image) {
+            console.log('Open modal!')
+        }
     }
 
     render() {

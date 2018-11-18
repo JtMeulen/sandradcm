@@ -8,7 +8,6 @@ class AboutPage extends Component {
     render() {
 
         return (
-            
             <div className={styles.container}>
                 <Title title={this.props.pageName} />
                 <div className={styles.info}>

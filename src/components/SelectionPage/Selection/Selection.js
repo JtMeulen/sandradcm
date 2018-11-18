@@ -42,6 +42,7 @@ class Selection extends Component {
             } else if(this.state.filter === item.category) {
                 return <Thumbnail key={idx} {...item} {...this.props} />;
             }
+            return null;
         });
 
         return (

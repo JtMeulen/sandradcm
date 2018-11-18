@@ -34,11 +34,12 @@ export const artMap = [
     {
         name: 'Game 1',
         category: 'art',
-        link: 'art1'
+        image: 'art1'
     },
     {
         name: 'Game 2',
-        category: 'art'
+        category: 'art',
+        image: ''
     },
     {
         name: 'Game 3',
