@@ -21,6 +21,9 @@ class AboutPage extends Component {
                         <br /><br />
                         I specialize in 2D characters and environments, in-game animation and assets, adapting styles,
                         3D texturing, concept sketching and illustration.
+                        <br /><br />
+                        <h3>Contact</h3>
+                        Want to let me know something - or maybe work together? Get in touch!
                     </div>
                     <img src='http://www.sandradcm.com/wp-content/uploads/2017/11/AboutMe.png' alt=''/>
                 </div>

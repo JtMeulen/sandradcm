@@ -1,7 +1,11 @@
 .GamePage {
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0;
     box-sizing: border-box;
     width: 900px;
     min-height: calc(100vh - 200px - 130px);
+}
+
+.GamePage a {
+    color: rgb(93, 199, 153);
 }
