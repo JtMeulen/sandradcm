@@ -3,119 +3,119 @@ export const gamesMap = [
         id: 'CandyCrushSaga',
         name: 'Candy Crush Saga',
         category: 'casual',
-        link: '/candy-crush-saga',
+        link: '/games/candy-crush-saga',
         image: 'CandyCrushSaga.png'
     },
     {
         id: 'WarChild',
         name: 'WarChild',
         category: 'serious',
-        link: '/warchild',
+        link: '/games/warchild',
         image: 'WarChild.png'
     },
     {
         id: 'MeldKamer',
         name: 'Meldkamer Control',
         category: 'serious',
-        link: '/meldkamer-control',
+        link: '/games/meldkamer-control',
         image: 'MeldKamer.png'
     },
     {
         id: 'Kenau',
         name: 'Kenau',
         category: 'casual',
-        link: '/kenau',
+        link: '/games/kenau',
         image: 'Kenau.png'
     },
     {
         id: 'Suez',
         name: 'Suez',
         category: 'casual',
-        link: '/suez',
+        link: '/games/suez',
         image: 'Suez.png'
     },
     {
         id: 'SuperHelden',
         name: 'Ziggo: SuperHelden Spel',
         category: 'serious',
-        link: '/superhelden',
+        link: '/games/superhelden',
         image: 'SuperHelden.png'
     },
     {
         id: 'MediaMasters',
         name: 'MediaMasters 2013',
         category: 'serious',
-        link: '/mediamasters',
+        link: '/games/mediamasters',
         image: 'MediaMasters.png'
     },
     {
         id: 'Qubios',
         name: 'Qubios Casual Game Assets',
         category: 'casual',
-        link: '/qubios',
+        link: '/games/qubios',
         image: 'Qubios.png'
     },
     {
         id: 'Catch22',
         name: 'Catch-22',
         category: 'casual',
-        link: '/catch22',
+        link: '/games/catch22',
         image: 'Catch22.png'
     },
     {
         id: 'AllNighter',
         name: 'All Nighter',
         category: 'casual',
-        link: '/allnighter',
+        link: '/games/allnighter',
         image: 'AllNighter.png'
     },
     {
         id: 'LightWatch',
         name: 'LightWatch',
         category: 'casual',
-        link: '/lightwatch',
+        link: '/games/lightwatch',
         image: 'LightWatch.jpg'
     },
     {
         id: 'BlokBlok',
         name: 'BlokBlok',
         category: 'casual',
-        link: '/blokblok',
+        link: '/games/blokblok',
         image: 'BlokBlok.png'
     },
     {
         id: 'RiseOfGods',
         name: 'Rise of Gods: Card Game',
         category: 'casual',
-        link: '/rise-of-gods',
+        link: '/games/rise-of-gods',
         image: 'RiseOfGods.jpg'
     },
     {
         id: 'JellyReef',
         name: 'the Jelly Reef',
         category: 'casual',
-        link: '/jellyreef',
+        link: '/games/jellyreef',
         image: 'JellyReef.png'
     },
     {
         id: 'Vogels',
         name: 'Vogels',
         category: 'serious',
-        link: '/vogels',
+        link: '/games/vogels',
         image: 'Vogels.png'
     },
     {
         id: 'Noisia',
         name: 'Noisia: Infection',
         category: 'casual',
-        link: '/noisia',
+        link: '/games/noisia',
         image: 'Noisia.png'
     },
     {
         id: 'SpeedRunner',
         name: 'Disney XD: Speed Runner',
         category: 'casual',
-        link: '/speed-runner',
+        link: '/games/speed-runner',
         image: 'SpeedRunner.jpg'
     }
 ];

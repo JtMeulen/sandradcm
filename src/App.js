@@ -12,30 +12,30 @@ class App extends Component {
 
     let routes = (
       <Switch>
-        <Route path="/" exact render={(props) => <SelectionPage {...props} pageName='games' />} />
+        <Route path="/games" exact render={(props) => <SelectionPage {...props} pageName='games' />} />
         <Route path="/my-art" exact render={(props) => <SelectionPage {...props} pageName='art' />} />
         <Route path="/about-me" exact render={(props) => <AboutPage {...props} pageName='about' />} />
 
         {/* ------------Game Pages --------------*/}
-        <Route path="/candy-crush-saga" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/warchild" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/meldkamer-control" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/kenau" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/suez" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/superhelden" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/mediamasters" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/qubios" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/catch22" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/allnighter" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/lightwatch" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/blokblok" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/rise-of-gods" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/jellyreef" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/vogels" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/noisia" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/speed-runner" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/candy-crush-saga" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/warchild" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/meldkamer-control" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/kenau" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/suez" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/superhelden" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/mediamasters" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/qubios" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/catch22" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/allnighter" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/lightwatch" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/blokblok" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/rise-of-gods" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/jellyreef" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/vogels" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/noisia" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/speed-runner" exact render={(props) => <GamePage {...props} />} />
 
-        <Redirect to="/" />
+        <Redirect to="/games" />
       </Switch>
     );
 
