@@ -1,0 +1,23 @@
+.Footer {
+    width: 100%;
+    height: 200px;
+    background: #323232;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 50px;
+    color: white;
+}
+.Footer p {
+    margin: 5px;
+}
+.Footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Footer a:hover,
+.Footer a:active,
+.Footer a:focus {
+    color: grey;
+}

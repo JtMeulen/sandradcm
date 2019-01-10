@@ -1,0 +1,6 @@
+.GamePage {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 900px;
+    min-height: calc(100vh - 315px - 130px);
+}

@@ -3,4 +3,5 @@
     flex-flow: column;
     align-items: center;
     margin-bottom: 150px;
+    min-height: calc(100vh - 200px - 130px);
 }

@@ -1,15 +1,14 @@
 .filterBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 50px;
-    width: 400px;
+    width: 450px;
     margin-bottom: 30px;
 }
 
 .filterBar div {
     width: 30%;
     border: 1px solid black;
-    border-radius: 4px;
     text-align: center;
     display: flex;
     flex-flow: column;
@@ -18,8 +17,18 @@
     transition: 0.2s;
 }
 
+.filterBar div:nth-child(1) {border-radius: 4px 0 0 4px;}
+.filterBar div:nth-child(2) {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+.filterBar div:nth-child(3) {border-radius: 0 4px 4px 0;}
+
 .filterBar div:hover,
 .filterBar div:active,
 .active {
-    background: pink;
+    background: rgb(228, 228, 228);
+    color: rgb(93, 199, 153);
+    font-weight: 700;
 }
