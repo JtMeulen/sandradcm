@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import Aux from '../../../Aux';
 import Banner from '../../components/Banner/Banner';
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
 import LinkGroup from '../../components/LinkGroup/LinkGroup';
@@ -22,7 +21,7 @@ const CandyCrushSaga = (props) => {
     const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
 
     return (
-        <Aux>
+        <Fragment>
             <Banner type={"image"} url={"/images/games/thumbnails/CandyCrushSaga.png"} />
             <TitleInfo title={"King: Candy Crush Saga"} />
             <p>
@@ -103,7 +102,7 @@ const CandyCrushSaga = (props) => {
             portraits of players and colleagues and more. Some of my designs were also featured in the
             Candy Crush TV show.
             </p>
-        </Aux>
+        </Fragment>
     )
 }
 

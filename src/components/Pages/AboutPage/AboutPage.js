@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Title from '../Title/Title';
+import Title from '../SelectionPage/Title/Title';
 import styles from './AboutPage.module.css';
 
 class AboutPage extends Component {

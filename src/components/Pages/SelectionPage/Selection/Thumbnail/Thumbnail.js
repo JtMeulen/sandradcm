@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Modal from '../../../Modal/Modal';
+import Modal from '../../../../Modal/Modal';
 import styles from './Thumbnail.module.css';
 
 class Thumbnail extends Component {

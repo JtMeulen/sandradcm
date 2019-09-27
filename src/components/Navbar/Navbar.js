@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return(
             <div className={styles.navbar}>
-                <img className={styles.title} src={'images/common/SDCM_logo.png'} alt="" />
+                {/* <img className={styles.title} src={'images/common/SDCM_logo.png'} alt="" /> */}
                 <div className={styles.navitems}>
                     <NavLink to="/games" activeClassName={styles.active}>GAMES</NavLink>
                     <NavLink to="/my-art" activeClassName={styles.active}>ART</NavLink>

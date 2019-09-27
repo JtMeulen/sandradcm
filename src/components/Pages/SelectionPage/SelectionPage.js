@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Title from '../Title/Title';
+import Title from './Title/Title';
 import Selection from './Selection/Selection';
 import styles from './SelectionPage.module.css';
 

@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import SelectionPage from './components/SelectionPage/SelectionPage';
-import AboutPage from './components/AboutPage/AboutPage';
-import GamePage from './components/GamePage/GamePage';
+import MainPage from './components/Pages/MainPage/MainPage';
+import SelectionPage from './components/Pages/SelectionPage/SelectionPage';
+import AboutPage from './components/Pages/AboutPage/AboutPage';
+import GamePage from './components/Pages/GamePage/GamePage';
 
 class App extends Component {
   render() {
 
     let routes = (
       <Switch>
+        <Route path="/" exact render={(props) => <MainPage {...props} pageName='games' />} />
         <Route path="/games" exact render={(props) => <SelectionPage {...props} pageName='games' />} />
         <Route path="/my-art" exact render={(props) => <SelectionPage {...props} pageName='art' />} />
         <Route path="/about-me" exact render={(props) => <AboutPage {...props} pageName='about' />} />
@@ -39,17 +41,13 @@ class App extends Component {
       </Switch>
     );
 
-    const Aux = (props) => {
-      return props.children
-    }
-
     return (
       <BrowserRouter>
-        <Aux>
+        <Fragment>
           <Navbar />
           {routes}
           <Footer />
-        </Aux>
+        </Fragment>
       </BrowserRouter>
     );
   }
