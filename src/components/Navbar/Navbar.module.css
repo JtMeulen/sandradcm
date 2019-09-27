@@ -3,10 +3,11 @@
     width: 100vw;
     position: fixed;
     align-items: center;
-    padding-top: 30px;
+    justify-content: center;
     display: flex;
     flex-flow: column;
     z-index: 100;
+    transition: .15s linear;
 }
 
 .title {
@@ -18,9 +19,9 @@
 
 .navitems a {
     text-decoration: none;
-    color: white;
     margin: 10px;
     transition: 0.2s;
+    color: inherit;
 }
 
 .active,

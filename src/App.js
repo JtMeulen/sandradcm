@@ -8,11 +8,36 @@ import AboutPage from './components/Pages/AboutPage/AboutPage';
 import GamePage from './components/Pages/GamePage/GamePage';
 
 class App extends Component {
-  render() {
+  state = {
+    headerScrollPercent: 0,
+    bottomOfWindowPixel: document.documentElement.clientHeight
+  }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenToScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.listenToScroll);
+  }
+
+  listenToScroll = () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.clientHeight;
+
+    const headerScrollPercent = winScroll / height;
+    const bottomOfWindowPixel = winScroll + height;
+
+    this.setState({
+      headerScrollPercent: headerScrollPercent,
+      bottomOfWindowPixel: bottomOfWindowPixel
+    });
+  }
+
+  render() {
     let routes = (
       <Switch>
-        <Route path="/" exact render={(props) => <MainPage {...props} />} />
+        <Route path="/" exact render={(props) => <MainPage {...props} {...this.state} />} />
         <Route path="/about-me" exact render={(props) => <AboutPage {...props} pageName='about' />} />
 
         {/* ------------Game Pages --------------*/}
@@ -41,8 +66,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Fragment>
-          <Navbar />
-          {routes}
+          <Navbar headerScrollPercent={this.state.headerScrollPercent} />
+            {routes}
           <Footer />
         </Fragment>
       </BrowserRouter>
