@@ -16,9 +16,9 @@ class Header extends Component {
     return (
       <div className={styles.header}>
         <div className={styles.titleContainer} style={{opacity: 1 - (headerScrollPercent * 8)}}>
-          <div className={styles.title}>Sandra da Cruz Martins</div>
+          <div className={styles.title}>SANDRA DA CRUZ MARTINS</div>
           <div className={styles.divider} />
-          <div className={styles.subTitle}>2D game artist</div>
+          <div className={styles.subTitle}>2D GAME ARTIST</div>
         </div>
 
         <div className={styles.scrollButtonContainer}>
