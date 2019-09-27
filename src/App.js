@@ -4,7 +4,6 @@ import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import MainPage from './components/Pages/MainPage/MainPage';
-import SelectionPage from './components/Pages/SelectionPage/SelectionPage';
 import AboutPage from './components/Pages/AboutPage/AboutPage';
 import GamePage from './components/Pages/GamePage/GamePage';
 
@@ -13,9 +12,7 @@ class App extends Component {
 
     let routes = (
       <Switch>
-        <Route path="/" exact render={(props) => <MainPage {...props} pageName='games' />} />
-        <Route path="/games" exact render={(props) => <SelectionPage {...props} pageName='games' />} />
-        <Route path="/my-art" exact render={(props) => <SelectionPage {...props} pageName='art' />} />
+        <Route path="/" exact render={(props) => <MainPage {...props} />} />
         <Route path="/about-me" exact render={(props) => <AboutPage {...props} pageName='about' />} />
 
         {/* ------------Game Pages --------------*/}
@@ -37,7 +34,7 @@ class App extends Component {
         <Route path="/games/noisia" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/speed-runner" exact render={(props) => <GamePage {...props} />} />
 
-        <Redirect to="/games" />
+        <Redirect to="/" />
       </Switch>
     );
 

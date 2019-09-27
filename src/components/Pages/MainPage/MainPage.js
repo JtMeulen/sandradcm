@@ -10,11 +10,11 @@ class MainPage extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.listenToScroll)
+    window.addEventListener('scroll', this.listenToScroll);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.listenToScroll)
+    window.removeEventListener('scroll', this.listenToScroll);
   }
 
   listenToScroll = () => {
@@ -35,7 +35,7 @@ class MainPage extends Component {
     return (
       <Fragment>
         <Header headerScrollPercent={headerScrollPercent} />
-        <Main bottomOfWindowPixel={bottomOfWindowPixel} />
+        <Main bottomOfWindowPixel={bottomOfWindowPixel} {...this.props} />
       </Fragment>
     );
   }

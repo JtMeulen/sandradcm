@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import Modal from '../../../../Modal/Modal';
+import Modal from '../../../../../Modal/Modal';
 import styles from './Thumbnail.module.css';
 
 class Thumbnail extends Component {
@@ -21,7 +21,6 @@ class Thumbnail extends Component {
         };
 
         if (this.props.image && this.props.category === 'art') {
-            console.log('Open modal!', this.props.allthumbnails[this.props.index]);
             this.setState({
                 modal: true
             });
