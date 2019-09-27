@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import Title from '../SelectionPage/Title/Title';
 import styles from './AboutPage.module.css';
 
 class AboutPage extends Component {
@@ -9,7 +8,6 @@ class AboutPage extends Component {
 
         return (
             <div className={styles.container}>
-                <Title title={this.props.pageName} />
                 <div className={styles.info}>
                     <div className={styles.textArea}>
                         Hello! I am Sandra da Cruz Martins, a 28-year-old 2D game artist from Amsterdam, the Netherlands.
@@ -25,7 +23,6 @@ class AboutPage extends Component {
                         <h3>Contact</h3>
                         Want to let me know something - or maybe work together? Get in touch!
                     </div>
-                    <img src='http://www.sandradcm.com/wp-content/uploads/2017/11/AboutMe.png' alt=''/>
                 </div>
             </div>
         );
