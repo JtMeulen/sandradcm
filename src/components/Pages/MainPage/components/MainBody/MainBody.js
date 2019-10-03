@@ -3,7 +3,7 @@ import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
 import Selection from '../Selection/Selection';
 
-import styles from "./Main.module.css";
+import styles from "./MainBody.module.css";
 
 class Main extends Component {
   render() {

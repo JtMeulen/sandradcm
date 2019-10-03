@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import MainBody from './components/MainBody/MainBody';
 
 class MainPage extends Component {
 
@@ -10,7 +10,7 @@ class MainPage extends Component {
     return (
       <Fragment>
         <Header headerScrollPercent={headerScrollPercent} />
-        <Main bottomOfWindowPixel={bottomOfWindowPixel} {...this.props} />
+        <MainBody bottomOfWindowPixel={bottomOfWindowPixel} {...this.props} />
       </Fragment>
     );
   }
