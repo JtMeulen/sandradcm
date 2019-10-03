@@ -3,14 +3,15 @@ import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
 import Selection from '../Selection/Selection';
 
-import styles from "./MainBody.module.css";
+// import styles from "./MainBody.module.css";
 
-class Main extends Component {
+class MainBody extends Component {
   render() {
     const { bottomOfWindowPixel } = this.props;
 
     return (
-      <div className={styles.container}>
+      // FOR SOME WEIRD REASON THE CLASSNAME IS NOT ATTACHED
+      <div style={{background: '#FFF'}}>
         <Title
           bottomOfWindowPixel={bottomOfWindowPixel}
           title={"What I Do"}
@@ -40,4 +41,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default MainBody;
