@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
+import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
 
 // import styles from "./MainBody.module.css";
@@ -19,6 +20,8 @@ class MainBody extends Component {
         />
 
         <IconBoxes bottomOfWindowPixel={bottomOfWindowPixel} />
+
+        <MediaLinks bottomOfWindowPixel={bottomOfWindowPixel} />
 
         <Title
           bottomOfWindowPixel={bottomOfWindowPixel}
