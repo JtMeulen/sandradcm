@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import ParalaxHeader from './ParalaxHeader/ParalaxHeader';
 import styles from "./Header.module.css";
 
 class Header extends Component {
@@ -15,6 +16,8 @@ class Header extends Component {
 
     return (
       <div className={styles.header}>
+        <ParalaxHeader headerScrollPercent={headerScrollPercent} />
+
         <div className={styles.titleContainer} style={{opacity: 1 - (headerScrollPercent * 8)}}>
           <div className={styles.title}>SANDRA DA CRUZ MARTINS</div>
           <div className={styles.divider} />
