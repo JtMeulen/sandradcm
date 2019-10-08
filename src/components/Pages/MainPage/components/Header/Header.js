@@ -18,7 +18,7 @@ class Header extends Component {
       <div className={styles.header}>
         <ParalaxHeader headerScrollPercent={headerScrollPercent} />
 
-        <div className={styles.titleContainer} style={{opacity: 1 - (headerScrollPercent * 8)}}>
+        <div className={styles.titleContainer} style={{opacity: 1 - (headerScrollPercent / 20)}}>
           <div className={styles.title}>SANDRA DA CRUZ MARTINS</div>
           <div className={styles.divider} />
           <div className={styles.subTitle}>2D GAME ARTIST</div>

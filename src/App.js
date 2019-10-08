@@ -25,7 +25,7 @@ class App extends Component {
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.clientHeight;
 
-    const headerScrollPercent = winScroll / height;
+    const headerScrollPercent = (winScroll / height) * 100;
     const bottomOfWindowPixel = winScroll + height;
 
     this.setState({

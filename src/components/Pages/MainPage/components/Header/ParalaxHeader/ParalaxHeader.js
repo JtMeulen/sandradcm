@@ -9,35 +9,37 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         className={styles.paralax}
         style={{
           backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax0@2x.png")',
-          transform: `translateY(${headerScrollPercent * 700}px)`
+          position: 'fixed'
         }}
       />
       <div
         className={styles.paralax}
         style={{
           backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax1@2x.png")',
-          transform: `translateY(${headerScrollPercent * 600}px)`
+          position: 'fixed',
+          top: `-${headerScrollPercent * 1}px`
         }}
       />
       <div
         className={styles.paralax}
         style={{
           backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax3@2x.png")',
-          transform: `translateY(${headerScrollPercent * 400}px)`
+          position: 'fixed',
+          top: `-${headerScrollPercent * 2}px`
         }}
       />
       <div
         className={styles.paralax}
         style={{
           backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax5@2x.png")',
-          transform: `translateY(${headerScrollPercent * 200}px)`
+          position: 'fixed',
+          top: `-${headerScrollPercent * 5}px`
         }}
       />
       <div
         className={styles.paralax}
         style={{
-          backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax7@2x.png")',
-          transform: `translateY(${headerScrollPercent * 1}px)`
+          backgroundImage: 'url("http://www.firewatchgame.com/images/parallax/parallax7@2x.png")'
         }}
       />
     </Fragment>
