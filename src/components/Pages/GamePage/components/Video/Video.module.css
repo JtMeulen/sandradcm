@@ -1,0 +1,5 @@
+.video div:first-of-type {
+  margin: 20px auto;
+  max-width: 990px;
+  height: calc(990px / 16 * 9);
+}

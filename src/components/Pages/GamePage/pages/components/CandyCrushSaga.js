@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import Banner from '../../components/Banner/Banner';
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
 import LinkGroup from '../../components/LinkGroup/LinkGroup';
+import Video from '../../components/Video/Video';
 import styles from './styles.module.css';
 
 const CandyCrushSaga = (props) => {
@@ -71,7 +72,7 @@ const CandyCrushSaga = (props) => {
                 My designs were featured on worldwide media (such as {BBC_URL}),
                 in app stores and on social media. King celebrated this with a big campaign – check out the video below!
                 </p>
-                {/* TODO: VIDEO TO COME HERE https://www.youtube.com/watch?v=D4pCVx6ln3E&amp;feature=youtu.be&amp;_=3 */}
+                <Video videoId={"D4pCVx6ln3E"} />
                 <p>
                 I have created several characters for the game. One is the witch Caramella, who first sent main
                 character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
@@ -94,7 +95,7 @@ const CandyCrushSaga = (props) => {
                 Claire magazine. Then Creative Director Nina Garcia designed a Candy level for a spread they did
                 on game design.
                 </p>
-                {/* TODO: VIDEO TO COME HERE https://www.youtube.com/watch?v=xVzDu_g8-vY&amp;_=4 */}
+                <Video videoId={"xVzDu_g8-vY"} />
                 <p>
                 I created the art for a design-themed live ops – and a Candified version of Garcia herself.
                 </p>
