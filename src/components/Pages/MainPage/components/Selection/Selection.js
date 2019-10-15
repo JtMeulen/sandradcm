@@ -20,7 +20,8 @@ class Selection extends Component {
     };
 
     handleFilterClick = (filter) => {
-        this.setState({filter: filter});
+        this.setState({filter: 'none'});
+        setTimeout(() => this.setState({filter: filter}), 20);
     };
 
     render() {
@@ -52,9 +53,7 @@ class Selection extends Component {
                         <Filter handleFilterClick={this.handleFilterClick} active={this.state.filter} />
                     </Slider>
                 )}
-                <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
-                    <div className={styles.allthumbnails}>{thumbnails}</div>
-                </Slider>
+                <div className={styles.allthumbnails}>{thumbnails}</div>
             </div>
         );
     }

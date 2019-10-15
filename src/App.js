@@ -15,6 +15,7 @@ class App extends Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.listenToScroll);
+    this.listenToScroll();
   }
 
   componentWillUnmount() {

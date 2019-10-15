@@ -2,10 +2,19 @@ import React, { Component } from "react";
 
 class Slider extends Component {
   state = {
-    visible: false
+    forcedUpdate: false
   }
   ref = React.createRef();
   visible = false;
+
+  componentDidMount() {
+    if(this.props.isThumbnail) {
+      setTimeout(() => {
+        this.visible = this.props.bottomOfWindowPixel - this.ref.current.offsetTop > 200;
+        this.setState({forcedUpdate: true});
+      }, 1);
+    }
+  }
 
   componentDidUpdate() {
     this.visible = this.props.bottomOfWindowPixel - this.ref.current.offsetTop > 200;

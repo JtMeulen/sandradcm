@@ -1,17 +1,27 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import styles from './Navbar.module.css';
 
 class Navbar extends Component {
+    state = {
+      forcedUpdate: true
+    }
     scrolled = false;
 
+    componentDidMount() {
+      setTimeout(() => {
+        this.setState({forcedUpdate: true});
+      }, 1);
+    }
+
     componentDidUpdate() {
-        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 0.5) {
-            this.scrolled = true
-        } else {
-            this.scrolled = false;
-        }
+      if(window.location.pathname !== "/" || this.props.headerScrollPercent > 60) {
+          this.scrolled = true
+      } else {
+          this.scrolled = false;
+      }
     }
 
     render() {
@@ -31,15 +41,41 @@ class Navbar extends Component {
             }}
           >
             <div className={styles.navitems}>
-              <NavLink to="/games" activeClassName={styles.active}>
-                GAMES
-              </NavLink>
-              <NavLink to="/my-art" activeClassName={styles.active}>
-                ART
-              </NavLink>
-              <NavLink to="/about-me" activeClassName={styles.active}>
-                ABOUT ME
-              </NavLink>
+              {window.location.pathname === "/" ? (
+                <React.Fragment>
+                  <Link
+                    to="about-me-section"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    activeClass={styles.active}
+                  >
+                    ABOUT ME
+                  </Link>
+                  <Link
+                    to="games-section"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    activeClass={styles.active}
+                  >
+                    GAMES
+                  </Link>
+                  <Link
+                    to="art-section"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    activeClass={styles.active}
+                  >
+                    ART
+                  </Link>
+                </React.Fragment>
+              ) : (
+                <NavLink to="/">
+                  HOME
+                </NavLink>
+              )}
             </div>
           </div>
         );

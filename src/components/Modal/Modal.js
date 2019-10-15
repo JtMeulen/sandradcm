@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import styles from './Modal.module.css';
 
 class ImageSlider extends Component {
@@ -7,6 +7,14 @@ class ImageSlider extends Component {
     state = {
         allImages: this.props.allImages,
         idx: this.props.idx
+    }
+
+    componentDidMount() {
+        disableBodyScroll();
+    }
+
+    componentWillUnmount() {
+        enableBodyScroll();
     }
 
     closeModalHandler = () => {

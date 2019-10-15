@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 import Modal from '../../../../../Modal/Modal';
+import Slider from '../../../../../Slider';
+
 import styles from './Thumbnail.module.css';
 
 class Thumbnail extends Component {
@@ -58,13 +60,15 @@ class Thumbnail extends Component {
                 {this.state.modal &&
                     <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index}/>
                 }
-                <div className={styles.thumbnail} onClick={this.handleClick}>
-                    <div className={styles.image} style={backgroundStyle} id={this.props.id}>
-                        <div className={styles.overlay}>
-                            <span>{this.props.name}</span>
+                <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel} isThumbnail>
+                    <div className={styles.thumbnail} onClick={this.handleClick}>
+                        <div className={styles.image} style={backgroundStyle} id={this.props.id}>
+                            <div className={styles.overlay}>
+                                <span>{this.props.name}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Slider>
             </div>
         );
     };

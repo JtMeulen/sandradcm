@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import MainBody from './components/MainBody/MainBody';
 
 class MainPage extends Component {
-
   render() {
     const { headerScrollPercent, bottomOfWindowPixel } = this.props;
     return (
