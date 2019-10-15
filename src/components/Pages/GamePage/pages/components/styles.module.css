@@ -1,5 +1,5 @@
 .mainContent {
-  width: 990px;
+  max-width: 990px;
   margin: 0 auto;
 }
 

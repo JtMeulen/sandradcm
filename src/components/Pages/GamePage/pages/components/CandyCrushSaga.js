@@ -4,6 +4,7 @@ import Banner from '../../components/Banner/Banner';
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
 import LinkGroup from '../../components/LinkGroup/LinkGroup';
 import Video from '../../components/Video/Video';
+import BigImage from '../../components/BigImage/BigImage';
 import styles from './styles.module.css';
 
 const CandyCrushSaga = (props) => {
@@ -46,6 +47,7 @@ const CandyCrushSaga = (props) => {
                 </p>
                 <LinkGroup links={links} />
                 {/* TODO: BIG IMAGE */}
+                <BigImage googleId={"1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT"} />
                 <p>
                 Other significant learning opportunities I had the fortune of receiving from King were, among
                 others, attending a DISC course, life drawing seminars from Samantha Youssef and THU 2016.
