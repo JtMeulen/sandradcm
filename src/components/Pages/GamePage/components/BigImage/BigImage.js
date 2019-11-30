@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 
 import Spinner from '../Spinner/Spinner';
 import styles from './BigImage.module.css';
@@ -9,7 +9,7 @@ class BigImage extends Component {
   }
   render() {
     return (
-      <Fragment>
+      <div className={styles.container}>
         {this.state.loading && <Spinner />}
         <img
           src={`https://drive.google.com/uc?id=${this.props.googleId}`}
@@ -18,7 +18,7 @@ class BigImage extends Component {
           className={styles.image}
           onLoad={() => this.setState({loading: false})}
         />
-      </Fragment>
+      </div>
     );
   }
 }

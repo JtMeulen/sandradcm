@@ -5,6 +5,7 @@ import TitleInfo from '../../components/TitleInfo/TitleInfo';
 import LinkGroup from '../../components/LinkGroup/LinkGroup';
 import Video from '../../components/Video/Video';
 import BigImage from '../../components/BigImage/BigImage';
+import Thumbnails from '../../components/Thumbnails/Thumbnails';
 import styles from './styles.module.css';
 
 const CandyCrushSaga = (props) => {
@@ -21,11 +22,23 @@ const CandyCrushSaga = (props) => {
         {text: "the King blog", url: "https://community.king.com/en/candy-crush-saga/discussion/246667/the-art-of-candy-crush-saga"}
     ];
 
+    const thumbnails = [
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT',
+        '1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT'
+    ];
+
     const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
 
     return (
         <Fragment>
-            <Banner type={"image"} url={"/images/games/thumbnails/CandyCrushSaga.png"} />
+            <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} />
             <div className={styles.mainContent}>
                 <TitleInfo title={"King: Candy Crush Saga"} />
                 <p>
@@ -46,7 +59,6 @@ const CandyCrushSaga = (props) => {
                 experience, some of which can be found here:
                 </p>
                 <LinkGroup links={links} />
-                {/* TODO: BIG IMAGE */}
                 <BigImage googleId={"1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT"} />
                 <p>
                 Other significant learning opportunities I had the fortune of receiving from King were, among
@@ -58,7 +70,7 @@ const CandyCrushSaga = (props) => {
                 levels, released every week, with custom art and narrative on the Saga map and behind the
                 game board.
                 </p>
-                {/* TODO: CONTAINER WITH THUMBNAILS */}
+                <Thumbnails thumbnails={thumbnails} positions={[0,1,2,3,4,5]}/>
                 <p>
                 For each episode, the team would brainstorm narrative and titles themselves. Episodes are also
                 often compiled of pre-existing assets. In this way, I have contributed to over 50 episodes more.
@@ -69,7 +81,7 @@ const CandyCrushSaga = (props) => {
                 depict main characters Tiffi and Yeti in search what would happen after level 2000. The
                 Bubblegum Troll was there to soothe their Y2K scare with a glimpse into the future.
                 </p>
-                {/* TODO: CONTAINER WITH THUMBNAILS */}
+                <Thumbnails thumbnails={thumbnails} positions={[6,7]}/>
                 <p>
                 My designs were featured on worldwide media (such as {BBC_URL}),
                 in app stores and on social media. King celebrated this with a big campaign – check out the video below!
@@ -80,7 +92,7 @@ const CandyCrushSaga = (props) => {
                 character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
                 special set of levels, Caramella would transform in happiness and hand out her treats.
                 </p>
-                {/* TODO: CONTAINER WITH THUMBNAILS */}
+                <Thumbnails thumbnails={thumbnails} positions={[8]}/>
                 <p>
                 Other examples are the snowmen Holly and Dale, who often are used in holiday and winter
                 themed episodes and live-ops.
