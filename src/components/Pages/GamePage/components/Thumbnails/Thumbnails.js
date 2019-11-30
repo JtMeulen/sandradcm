@@ -12,6 +12,7 @@ class Thumbnails extends Component {
 
       return (
         <div
+          key={idx}
           className={styles.thumbnail}
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail}')`}}
           onClick={() => console.log('clicked: ', thumbnail, ' idx: ', idx)}

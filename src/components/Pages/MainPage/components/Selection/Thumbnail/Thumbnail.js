@@ -29,18 +29,6 @@ class Thumbnail extends Component {
         };
     };
 
-    getBackground = () => {
-        if (!this.props.image) {
-            return 'url("images/common/placeholder-image.jpg")';
-        }
-
-        if (this.props.category === 'art') {
-            return 'url("images/art/' + this.props.image + '")';
-        } else {
-            return 'url("images/games/thumbnails/' + this.props.image + '")';
-        }
-    }
-
     getBackgroundPosition = () => {
         if (!this.props.backgroundOffset) {
             return 'center';
@@ -51,7 +39,7 @@ class Thumbnail extends Component {
 
     render() {
         const backgroundStyle = {
-            backgroundImage: this.getBackground(),
+            backgroundImage: `url('https://drive.google.com/uc?id=${this.props.image}')`,
             backgroundPosition: this.getBackgroundPosition()
         };
 
