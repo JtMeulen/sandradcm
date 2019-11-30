@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import MainPage from './components/Pages/MainPage/MainPage';
-import AboutPage from './components/Pages/AboutPage/AboutPage';
 import GamePage from './components/Pages/GamePage/GamePage';
 
 class App extends Component {
@@ -39,7 +38,6 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route path="/" exact render={(props) => <MainPage {...props} {...this.state} />} />
-        <Route path="/about-me" exact render={(props) => <AboutPage {...props} pageName='about' />} />
 
         {/* ------------Game Pages --------------*/}
         <Route path="/games/candy-crush-saga" exact render={(props) => <GamePage {...props} />} />
