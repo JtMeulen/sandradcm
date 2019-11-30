@@ -43,6 +43,10 @@ class GamePage extends Component {
         "speed-runner": <SpeedRunner {...this.props} />
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render(){
         const route = this.props.match.path.replace('/games/', '');
         return (

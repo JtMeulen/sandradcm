@@ -29,18 +29,6 @@ class Thumbnail extends Component {
         };
     };
 
-    getBackground = () => {
-        if (!this.props.image) {
-            return 'url("images/common/placeholder-image.jpg")';
-        }
-
-        if (this.props.category === 'art') {
-            return 'url("images/art/' + this.props.image + '")';
-        } else {
-            return 'url("images/games/thumbnails/' + this.props.image + '")';
-        }
-    }
-
     getBackgroundPosition = () => {
         if (!this.props.backgroundOffset) {
             return 'center';
@@ -51,14 +39,14 @@ class Thumbnail extends Component {
 
     render() {
         const backgroundStyle = {
-            backgroundImage: this.getBackground(),
+            backgroundImage: `url('https://drive.google.com/uc?id=${this.props.image}')`,
             backgroundPosition: this.getBackgroundPosition()
         };
 
         return(
             <div id="modal" className={styles.imageSlider}>
                 {this.state.modal &&
-                    <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index}/>
+                    <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index} mainpage />
                 }
                 <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel} isThumbnail>
                     <div className={styles.thumbnail} onClick={this.handleClick}>

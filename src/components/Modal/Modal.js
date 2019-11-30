@@ -53,7 +53,8 @@ class ImageSlider extends Component {
 
     render() {
         const { allImages, idx } = this.state;
-        const currentImage = `images/${allImages[idx].category}/${allImages[idx].image}`;
+        const imageUrl = this.props.mainpage ? allImages[idx].image : allImages[idx];
+        const currentImage = `https://drive.google.com/uc?id=${imageUrl}`;
         const imageDetails = allImages[idx];
 
         return(
@@ -66,9 +67,11 @@ class ImageSlider extends Component {
                     <img className={styles.image} src={currentImage} alt="" onClick={this.doNothingHandler}/>
                 </div>
 
-                <div className={styles.subtext} onClick={this.doNothingHandler}>
-                    {imageDetails.text}
-                </div>
+                {this.props.mainpage &&
+                    <div className={styles.subtext} onClick={this.doNothingHandler}>
+                        {imageDetails.text}
+                    </div>
+                }
             </div>
         );
     }
