@@ -46,7 +46,7 @@ class Thumbnail extends Component {
         return(
             <div id="modal" className={styles.imageSlider}>
                 {this.state.modal &&
-                    <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index}/>
+                    <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index} mainpage />
                 }
                 <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel} isThumbnail>
                     <div className={styles.thumbnail} onClick={this.handleClick}>
