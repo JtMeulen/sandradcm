@@ -1,5 +1,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
 
 import styles from './Video.module.css';
 
@@ -12,7 +14,7 @@ const Video = (props) => {
     }
   };
   return (
-    <div className={styles.video}>
+    <div className={cn(styles.video, { [styles.mobileVideo]: isMobile })}>
       <YouTube
         videoId={props.videoId}
         opts={options}

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
 
 import Spinner from '../Spinner/Spinner';
 import styles from './BigImage.module.css';
@@ -9,7 +11,7 @@ class BigImage extends Component {
   }
   render() {
     return (
-      <div className={styles.container}>
+      <div className={cn(styles.container, { [styles.mobileContainer]: isMobile })}>
         {this.state.loading && <Spinner />}
         <img
           src={`https://drive.google.com/uc?id=${this.props.googleId}`}

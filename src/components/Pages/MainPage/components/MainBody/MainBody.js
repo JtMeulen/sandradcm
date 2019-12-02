@@ -1,20 +1,21 @@
 import React, { Component } from "react";
 import { Element } from 'react-scroll'
+import { isMobile } from 'react-device-detect';
+import cn from 'classnames';
 
 import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
 import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
 
-// import styles from "./MainBody.module.css";
+import styles from "./MainBody.module.css";
 
 class MainBody extends Component {
   render() {
     const { bottomOfWindowPixel } = this.props;
 
     return (
-      // FOR SOME WEIRD REASON THE CLASSNAME IS NOT ATTACHED
-      <div style={{background: '#FFF'}}>
+      <div className={cn(styles.mainContainer, { [styles.mobileContainer]: isMobile })}>
         <Element id="about-me" name="about-me-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}

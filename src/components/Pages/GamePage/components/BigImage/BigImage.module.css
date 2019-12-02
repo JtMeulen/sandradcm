@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.mobileContainer {
+  min-height: 100px;
+}
+
 .image {
   width: 100%;
 }

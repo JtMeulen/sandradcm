@@ -1,37 +1,45 @@
 import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
+import { isMobile } from 'react-device-detect';
 
 import styles from './Navbar.module.css';
 
 class Navbar extends Component {
     state = {
-      forcedUpdate: true
-    }
-    scrolled = false;
+      forcedUpdate: 0
+    };
 
-    componentDidMount() {
-      setTimeout(() => {
-        this.setState({forcedUpdate: true});
-      }, 1);
-    }
+    isWhite = isMobile ? true : false;
 
     componentDidUpdate() {
-      if(window.location.pathname !== "/" || this.props.headerScrollPercent > 60) {
-          this.scrolled = true
-      } else {
-          this.scrolled = false;
+      if(!isMobile) {
+        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 60) {
+            this.isWhite = true
+        } else {
+            this.isWhite = false;
+        }
+      }
+    }
+
+    forceUpdate = () => {
+      if(isMobile) {
+        this.isWhite = false;
+        this.setState((prevState) => {
+          return { forcedUpdate: prevState.forceUpdate++ }
+        })
       }
     }
 
     render() {
-        const backgroundColor = this.scrolled ? 'white' : '';
-        const textColor = this.scrolled ? 'black' : 'white';
-        const border = this.scrolled ? '1px solid grey' : '';
-        const height = this.scrolled ? '60px' : '80px';
+        const backgroundColor = this.isWhite ? 'white' : '';
+        const textColor = this.isWhite ? 'black' : 'white';
+        const border = this.isWhite ? '1px solid grey' : '';
+        const height = this.isWhite ? '60px' : '80px';
 
         return (
           <div
+            key={this.state.forcedUpdate}
             className={styles.navbar}
             style={{
               backgroundColor: backgroundColor,
@@ -72,7 +80,7 @@ class Navbar extends Component {
                   </Link>
                 </React.Fragment>
               ) : (
-                <NavLink to="/">
+                <NavLink onClick={() => this.forceUpdate()} to="/">
                   HOME
                 </NavLink>
               )}

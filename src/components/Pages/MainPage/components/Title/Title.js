@@ -1,4 +1,7 @@
 import React from 'react';
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
+
 import Slider from '../../../../Slider';
 import styles from "./Title.module.css";
 
@@ -11,7 +14,7 @@ const Title = ({ bottomOfWindowPixel, title, text }) => {
       </Slider>
 
       <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
-        <div className={styles.divider} />
+        <div className={cn(styles.divider, { [styles.dividerMobile]: isMobile })} />
       </Slider>
 
       <Slider bottomOfWindowPixel={bottomOfWindowPixel}>

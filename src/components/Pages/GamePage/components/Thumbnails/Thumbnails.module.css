@@ -11,6 +11,12 @@
   height: 140px;
   margin: 10px;
   background: lightgray;
+  background-position: center;
   background-size: cover;
   cursor: pointer;
+}
+
+.mobileThumbnail {
+  width: 140px;
+  height: 90px;
 }

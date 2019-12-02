@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { isMobile } from 'react-device-detect';
 
 import Filter from './Filter/Filter';
 import Thumbnail from './Thumbnail/Thumbnail';
@@ -29,7 +30,7 @@ class Selection extends Component {
 
         // only render the filter selection for games
         const renderFilter = () => {
-            return pageName === 'games';
+            return pageName === 'games' && !isMobile;
         };
 
         const thumbNailMaps = {
