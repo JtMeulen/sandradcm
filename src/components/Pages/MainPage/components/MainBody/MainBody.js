@@ -8,14 +8,23 @@ import IconBoxes from '../IconBoxes/IconBoxes';
 import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
 
-import styles from "./MainBody.module.css";
+// import styles from "./MainBody.module.css";
 
 class MainBody extends Component {
   render() {
     const { bottomOfWindowPixel } = this.props;
 
+    const containerStyles = {
+      background: '#FFF'
+    }
+    if (isMobile) {
+      containerStyles.padding = '0 20px'
+    }
+
     return (
-      <div className={cn(styles.mainContainer, { [styles.mobileContainer]: isMobile })}>
+      // FOR SOME WEIRD REASON THE CLASSNAME IS NOT ATTACHED
+        // <div className={cn(styles.mainContainer, { [styles.mobileContainer]: isMobile })}>
+      <div style={containerStyles}>
         <Element id="about-me" name="about-me-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}

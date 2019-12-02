@@ -23,12 +23,12 @@ class Navbar extends Component {
     }
 
     forceUpdate = () => {
-      if(isMobile) {
+      if(!isMobile) {
         this.isWhite = false;
-        this.setState((prevState) => {
-          return { forcedUpdate: prevState.forceUpdate++ }
-        })
       }
+      this.setState((prevState) => {
+        return { forcedUpdate: prevState.forceUpdate++ }
+      })
     }
 
     render() {
