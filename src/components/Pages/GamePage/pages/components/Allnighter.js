@@ -17,31 +17,24 @@ const Allnighter = (props) => {
 		'1u-Zt_RoZChz-OvGHFHzJbfAMH5Wgt1dO'
 	];
 
-  const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
+const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
+const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
 
   return (
 		<Fragment>
 			<Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} />
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"King: Candy Crush Saga"} />
+				<TitleInfo title={"Cartoon Network: All Nighter"} />
 				<p>
-				In September 2015 I started working at King as a game artist on Candy Crush Saga. I have since
-				been active within different parts of the game’s production.
+				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
 				<br /><br />
-				Candy Crush Saga is a free-to-play match-three puzzle game which was first released in 2012.
-				After five years, the game and its sister titles have turned into one of the industry’s most
-				recognizable franchises, with over a billion unique players around the world.
+				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
+				<br />
+				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
+				<br /><br />
+				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
 				</p>
-				{/* TODO: VIDEO TO COME HERE */}
-				<p>
-				I mainly create characters and assets for the game and work with composing 2D environments
-				and UI elements like pop ups. I contribute to the experience and game design of new features,
-				write narrative copy and work on improving the art(ist) function in general.
-				I have done many in-house presentations, varying from showcasing ways of working to seminars
-				on our style guide. I have also done interviews regarding the game production and my industry
-				experience, some of which can be found here:
-				</p>
-				<BigImage googleId={"1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT"} />
+				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 				<p>
 				Other significant learning opportunities I had the fortune of receiving from King were, among
 				others, attending a DISC course, life drawing seminars from Samantha Youssef and THU 2016.
@@ -65,7 +58,7 @@ const Allnighter = (props) => {
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[6,7,8,9,10,11]}/>
 				<p>
-				My designs were featured on worldwide media (such as {BBC_URL}),
+				My designs were featured on worldwide media (such as),
 				in app stores and on social media. King celebrated this with a big campaign – check out the video below!
 				</p>
 				<Video videoId={"D4pCVx6ln3E"} />
