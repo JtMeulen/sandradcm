@@ -4,6 +4,11 @@
     position: relative;
 }
 
+.mobileHeader {
+    background-image: url('https://drive.google.com/uc?id=1ij7FsjfufWuOQ2RiA1YbcluDFYHs9UbN');
+    background-size: cover;
+}
+
 .titleContainer {
     width: 100%;
     height: 100%;
@@ -21,12 +26,26 @@
     background-color: white;
 }
 
+.dividerMobile {
+    width: 300px;
+}
+
 .title {
     font-size: 4em;
 }
 
+.titleMobile {
+    font-size: 2.5em;
+    text-align: center;
+}
+
 .subTitle {
     font-size: 2em;
+}
+
+.subTitleMobile {
+    font-size: 1.5m;
+    text-align: center;
 }
 
 .scrollButtonContainer {

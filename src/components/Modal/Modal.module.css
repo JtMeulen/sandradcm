@@ -14,12 +14,18 @@
 
 .image {
     padding: 50px auto;
-    /* width: 100vw; */
     border-bottom: 60px solid white;
     height: auto;
     max-width: 80vw;
     max-height: 80vh;
     object-fit: contain;
+}
+
+.mobileImage {
+    padding: 20px auto;
+    border-bottom: 0;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 .closeButton {

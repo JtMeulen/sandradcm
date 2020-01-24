@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
 
 import ParalaxHeader from './ParalaxHeader/ParalaxHeader';
 import styles from "./Header.module.css";
@@ -15,18 +17,20 @@ class Header extends Component {
     const { headerScrollPercent } = this.props;
 
     return (
-      <div className={styles.header}>
-        <ParalaxHeader headerScrollPercent={headerScrollPercent} />
+      <div className={cn(styles.header, { [styles.mobileHeader]: isMobile })}>
+        {!isMobile && <ParalaxHeader headerScrollPercent={headerScrollPercent} />}
 
-        <div className={styles.titleContainer} style={{opacity: 1 - (headerScrollPercent / 20)}}>
-          <div className={styles.title}>SANDRA DA CRUZ MARTINS</div>
-          <div className={styles.divider} />
-          <div className={styles.subTitle}>2D GAME ARTIST</div>
+        <div className={styles.titleContainer } style={{opacity: 1 - (headerScrollPercent / 20)}}>
+          <div className={cn(styles.title, { [styles.titleMobile]: isMobile })}>SANDRA DA CRUZ MARTINS</div>
+          <div className={cn(styles.divider, { [styles.dividerMobile]: isMobile })} />
+          <div className={cn(styles.subTitle, { [styles.subTitleMobile]: isMobile })}>2D GAME ARTIST</div>
         </div>
 
-        <div className={styles.scrollButtonContainer}>
-          <div className={styles.scrollButton} onClick={this.scrollClickHandler}></div>
-        </div>
+        {!isMobile && (
+          <div className={styles.scrollButtonContainer}>
+            <div className={styles.scrollButton} onClick={this.scrollClickHandler}></div>
+          </div>
+        )}
       </div>
     );
   }

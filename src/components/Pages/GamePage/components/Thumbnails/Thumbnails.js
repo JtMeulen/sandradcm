@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
 
 import Modal from '../../../../Modal/Modal';
 import styles from './Thumbnails.module.css';
@@ -32,7 +34,7 @@ class Thumbnails extends Component {
       return (
         <div
           key={idx}
-          className={styles.thumbnail}
+          className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile })}
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail}')`}}
           onClick={() => this.handleClick(idx)}
         />

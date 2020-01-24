@@ -3,3 +3,9 @@
   max-width: 990px;
   height: calc(990px / 16 * 9);
 }
+
+.mobileVideo div:first-of-type {
+  margin: 20px auto;
+  width: 340px;
+  height: calc(340px / 16 * 9);
+}

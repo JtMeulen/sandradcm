@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.mobileContent {
+  padding: 0 20px;
+}
+
 .mainContent p {
   margin: 30px 0
 }

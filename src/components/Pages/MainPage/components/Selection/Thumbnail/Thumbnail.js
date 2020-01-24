@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import cn from 'classnames';
+import { isMobile } from 'react-device-detect';
 
 import Modal from '../../../../../Modal/Modal';
 import Slider from '../../../../../Slider';
@@ -49,7 +51,7 @@ class Thumbnail extends Component {
                     <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.allthumbnails} idx={this.props.index} mainpage />
                 }
                 <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel} isThumbnail>
-                    <div className={styles.thumbnail} onClick={this.handleClick}>
+                    <div className={cn(styles.thumbnail, { [styles.thumbnailMobile]: isMobile })} onClick={this.handleClick}>
                         <div className={styles.image} style={backgroundStyle} id={this.props.id}>
                             <div className={styles.overlay}>
                                 <span>{this.props.name}</span>
