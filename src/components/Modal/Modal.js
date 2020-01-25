@@ -72,9 +72,7 @@ class ImageSlider extends Component {
 					</div>
 
 					{this.props.mainpage && !isMobile &&
-						<div className={styles.subtext} onClick={this.doNothingHandler}>
-							{imageDetails.text}
-						</div>
+						<div className={styles.subtext} onClick={this.doNothingHandler} dangerouslySetInnerHTML={{ __html: imageDetails.text }} />
 					}
 				</div>
 			);
