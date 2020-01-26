@@ -34,7 +34,6 @@ class MainBody extends Component {
             text={"I am currently working at King as a game artist for Candy Crush Saga in Stockholm, Sweden."}
           />
           <IconBoxes bottomOfWindowPixel={bottomOfWindowPixel} />
-          <MediaLinks bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 
         <Element id="games" name="games-section">
