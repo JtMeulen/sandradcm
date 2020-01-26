@@ -5,7 +5,12 @@ import MainBody from './components/MainBody/MainBody';
 
 class MainPage extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0)
+    setTimeout(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+      });
+    }, 100);
   }
 
   render() {

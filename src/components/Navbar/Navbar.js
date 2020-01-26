@@ -55,7 +55,7 @@ class Navbar extends Component {
                     to="about-me-section"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={300}
                     activeClass={styles.active}
                   >
                     ABOUT ME
@@ -64,7 +64,7 @@ class Navbar extends Component {
                     to="games-section"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={300}
                     activeClass={styles.active}
                   >
                     GAMES
@@ -73,10 +73,19 @@ class Navbar extends Component {
                     to="art-section"
                     spy={true}
                     smooth={true}
-                    duration={500}
+                    duration={300}
                     activeClass={styles.active}
                   >
                     ART
+                  </Link>
+                  <Link
+                    to="contact-section"
+                    spy={true}
+                    smooth={true}
+                    duration={300}
+                    activeClass={styles.active}
+                  >
+                    CONTACT
                   </Link>
                 </React.Fragment>
               ) : (

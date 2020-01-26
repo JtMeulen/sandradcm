@@ -1,6 +1,6 @@
 .container {
-  min-height: 500px;
-  background-color: lightgray;
+  min-height: 150px;
+  background-color: white;
   margin-top: 30px;
   display: flex;
   flex-flow: column;

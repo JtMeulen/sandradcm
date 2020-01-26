@@ -2,13 +2,14 @@ import React from 'react';
 import Slider from '../../../../Slider';
 import styles from "./MediaLinks.module.css";
 
-const MediaLinks = ({ bottomOfWindowPixel }) => {
+const MediaLinks = ({ bottomOfWindowPixel, type = "social" }) => {
 
   const links = [1,2,3,4,5,6,7,8];
+
   const allLinks = links.map((i) => {
     return (
       <Slider key={i} msDelay="0" bottomOfWindowPixel={bottomOfWindowPixel}>
-        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+        <a href={i} target="_blank" rel="noopener noreferrer">
           <div className={styles.link} />
         </a>
       </Slider>

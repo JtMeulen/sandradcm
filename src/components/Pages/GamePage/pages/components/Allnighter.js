@@ -2,9 +2,7 @@ import React, { Fragment } from 'react';
 import cn from 'classnames';
 import { isMobile } from 'react-device-detect';
 
-import Banner from '../../components/Banner/Banner';
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
-import LinkGroup from '../../components/LinkGroup/LinkGroup';
 import Video from '../../components/Video/Video';
 import BigImage from '../../components/BigImage/BigImage';
 import Thumbnails from '../../components/Thumbnails/Thumbnails';

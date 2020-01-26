@@ -7,6 +7,7 @@ import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
 import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
+import InstagramFeed from '../InstagramFeed/InstagramFeed';
 
 // import styles from "./MainBody.module.css";
 
@@ -15,7 +16,8 @@ class MainBody extends Component {
     const { bottomOfWindowPixel } = this.props;
 
     const containerStyles = {
-      background: '#FFF'
+      background: '#FFF',
+      paddingBottom: "200px"
     }
     if (isMobile) {
       containerStyles.padding = '0 20px'
@@ -32,7 +34,6 @@ class MainBody extends Component {
             text={"I am currently working at King as a game artist for Candy Crush Saga in Stockholm, Sweden."}
           />
           <IconBoxes bottomOfWindowPixel={bottomOfWindowPixel} />
-          <MediaLinks bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 
         <Element id="games" name="games-section">
@@ -51,6 +52,15 @@ class MainBody extends Component {
             text={"Here are more examples of styles I've explored over the years."}
           />
           <Selection bottomOfWindowPixel={bottomOfWindowPixel} pageName={"art"} {...this.props} />
+        </Element>
+
+        <Element id="contact" name="contact-section">
+          <Title
+            bottomOfWindowPixel={bottomOfWindowPixel}
+            title={"Get in Touch"}
+            text={"Reach out to me using the following methods!"}
+          />
+          <InstagramFeed />
         </Element>
 
       </div>
