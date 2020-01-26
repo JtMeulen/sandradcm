@@ -127,13 +127,13 @@ export const artMap = [
         category: 'art',
         image: '14WsHSzDcj37R3JulaR5myW81-asKbK3B',
         backgroundOffset: 'center bottom -30px',
-        text: 'CD cover art (without logo) made for the band Koi Pendant'
+        text: 'CD cover art made for the band Koi Pendant'
     },
     {
         id: 'DigitalPainting',
         name: 'Digital painting',
         category: 'art',
-        image: '1z6g26Rlb7wAlJUMVlCY4vueOPc5FrsRR',
+        image: '1_AD0X52netFjMo0SEsFWce9tJvVcdIaA',
         backgroundOffset: 'center bottom -80px',
         text: 'A digital "still life" of Thranduil from The Hobbit triloy. Work in progress &nbsp;<a href="https://drive.google.com/file/d/1do-O2jx2BrwEVUvwsP1VWpNJx3Py_Dln/view" target="_blank" rel="noopener noreferrer">here</a>'
     },
@@ -159,7 +159,7 @@ export const artMap = [
         category: 'art',
         image: '1beEDcvPW_QRqITkUS0YH4X-GIszWcv66',
         backgroundOffset: 'center top -175px',
-        text: '"Leaves", sketch, 2012'
+        text: '"Leaves", digital sketch, 2012'
     },
     {
         id: 'BirthAnnouncement',

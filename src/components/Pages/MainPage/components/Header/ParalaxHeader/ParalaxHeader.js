@@ -3,11 +3,11 @@ import React, { Fragment } from 'react';
 import styles from './ParalaxHeader.module.css';
 
 const PARALAX_URL = [
-  '1ij7FsjfufWuOQ2RiA1YbcluDFYHs9UbN',
-  '1-YAfMlZiX8iXL6J_7KSY7qBS7hjVXY7W',
-  '1BI3fGbI_cx4zGny-8Fpg7cRliZ_4ANpk',
-  '1LGAPowQHxGwg5fIlrs3wGweQDL_owGzj',
-  '1ORNPFRcnxrVtQ8BeH8ja3ki039zlMKBb'
+  '1XRPHab44WSvpWT-8M2ZHFxMkrM59EUen',
+  '1CdP5ladfhHQ5IQZs4-jcyGjfT13iybwf',
+  '1ogfzLg5iSKJwXNopH_68ddRezJjLC2yG',
+  '1BmbPHunpEcrya06zF4bHUcc1tYi7RjND',
+  '14uYlNDC4FrKhNuJP0y8BUUq26zBho3OG'
 ]
 
 const ParalaxHeader = ({ headerScrollPercent }) => {

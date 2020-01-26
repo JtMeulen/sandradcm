@@ -46,8 +46,8 @@ class MainBody extends Component {
         <Element id="art" name="art-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
-            title={"Art"}
-            text={"Here are some additional pieces showcasing styles I've explored over the years."}
+            title={"Additional Art"}
+            text={"Here are more examples of styles I've explored over the years."}
           />
           <Selection bottomOfWindowPixel={bottomOfWindowPixel} pageName={"art"} {...this.props} />
         </Element>
@@ -55,9 +55,14 @@ class MainBody extends Component {
         <Element id="contact" name="contact-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
-            title={"Get in Touch"}
-            text={"Reach out to me using the following methods!"}
+            title={"Get In Touch"}
+            text={"Thanks for visiting! If you want to contact me, please hit me up via &nbsp;<a href='https://www.linkedin.com/in/sandradacruzmartins/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>."}
           />
+          <p>
+          And if you google me, you will inevitably bump into my other big passion: trying to see as much of the world as possible! 
+          <br />
+          Country flags
+          </p>
           <InstagramFeed bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 
