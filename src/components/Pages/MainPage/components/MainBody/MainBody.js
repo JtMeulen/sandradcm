@@ -15,7 +15,8 @@ class MainBody extends Component {
 
     const containerStyles = {
       background: '#FFF',
-      paddingBottom: "200px"
+      paddingBottom: "200px",
+      paddingTop: "100px"
     }
     if (isMobile) {
       containerStyles.padding = '0 20px'
@@ -28,8 +29,8 @@ class MainBody extends Component {
         <Element id="about-me" name="about-me-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
-            title={"What I Do"}
-            text={"I am currently working at King as a game artist for Candy Crush Saga in Stockholm, Sweden."}
+            title={"Hello!"}
+            text={"My name is Sandra and I currently work at King as a 2D game artist for Candy Crush Saga."}
           />
           <IconBoxes bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
@@ -38,7 +39,7 @@ class MainBody extends Component {
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
             title={"Let’s Get To The Games"}
-            text={"These are the projects I’ve worked on in the past."}
+            text={"These are most of the projects I’ve worked on in the past."}
           />
           <Selection bottomOfWindowPixel={bottomOfWindowPixel} pageName={"games"} {...this.props} />
         </Element>
@@ -57,8 +58,7 @@ class MainBody extends Component {
             bottomOfWindowPixel={bottomOfWindowPixel}
             title={"Get In Touch"}
             text={"Thanks for visiting! If you want to contact me, send me a message on &nbsp;<a href='https://www.linkedin.com/in/sandradacruzmartins/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>."}
-            subText={"And if you're searching for social media, you might bump into my other big passion: trying to see as much of the world as possible!"}
-          />
+            subText={"And if you're searching for social media, you might bump into my other big passion: trying to see as much of the world as possible!"}/>
           <InstagramFeed bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 

@@ -7,7 +7,7 @@ const PARALAX_URL = [
   '1CdP5ladfhHQ5IQZs4-jcyGjfT13iybwf',
   '1ogfzLg5iSKJwXNopH_68ddRezJjLC2yG',
   '1BmbPHunpEcrya06zF4bHUcc1tYi7RjND',
-  '14uYlNDC4FrKhNuJP0y8BUUq26zBho3OG'
+  '130M2MfnZnWK9gdtxYteG0QJypqiw0wEz'
 ]
 
 const ParalaxHeader = ({ headerScrollPercent }) => {
