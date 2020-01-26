@@ -58,7 +58,14 @@ class InstagramFeed extends Component {
 
     return (
       <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel}>
-        <div className={styles.instaContainer}>
+        <div style={{
+          width: "100%",
+          minHeight: "100px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "250px"
+        }}>
           <div className={styles.button} onClick={this.handleScrollRight} />
           <div ref={this.myRef} className={styles.scrollContainer}>
             {thumbnails}
