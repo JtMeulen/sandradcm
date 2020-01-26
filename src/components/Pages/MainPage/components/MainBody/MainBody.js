@@ -47,8 +47,8 @@ class MainBody extends Component {
         <Element id="art" name="art-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
-            title={"Additional Art"}
-            text={"Here are some examples of non-game related pieces I’ve made over the years."}
+            title={"Art"}
+            text={"Here are some additional pieces showcasing styles I've explored over the years."}
           />
           <Selection bottomOfWindowPixel={bottomOfWindowPixel} pageName={"art"} {...this.props} />
         </Element>
