@@ -7,6 +7,7 @@ import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
 import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
+import InstagramFeed from '../InstagramFeed/InstagramFeed';
 
 // import styles from "./MainBody.module.css";
 
@@ -15,7 +16,8 @@ class MainBody extends Component {
     const { bottomOfWindowPixel } = this.props;
 
     const containerStyles = {
-      background: '#FFF'
+      background: '#FFF',
+      paddingBottom: "200px"
     }
     if (isMobile) {
       containerStyles.padding = '0 20px'
@@ -51,6 +53,15 @@ class MainBody extends Component {
             text={"Here are some additional pieces showcasing styles I've explored over the years."}
           />
           <Selection bottomOfWindowPixel={bottomOfWindowPixel} pageName={"art"} {...this.props} />
+        </Element>
+
+        <Element id="contact" name="contact-section">
+          <Title
+            bottomOfWindowPixel={bottomOfWindowPixel}
+            title={"Get in Touch"}
+            text={"Reach out to me using the following methods!"}
+          />
+          <InstagramFeed />
         </Element>
 
       </div>

@@ -1,6 +1,7 @@
 .mainContainer {
     min-height: 100vh;
     background: white;
+    margin-bottom: 300px;
 }
 
 .mobileContainer {
