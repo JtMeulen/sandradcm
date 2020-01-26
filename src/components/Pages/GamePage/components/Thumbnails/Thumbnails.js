@@ -43,12 +43,18 @@ class Thumbnails extends Component {
   }
 
   render() {
+    const containerHeight = {
+      2: "290px",
+      3: "200px",
+      4: "150px"
+    }
+
     return (
       <Fragment >
         {this.state.modal &&
           <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
-        <div className={styles.container}>
+        <div className={styles.container} style={{ height: containerHeight[this.props.positions.length]}}>
           {this.renderThumbnails()}
         </div>
       </Fragment>
