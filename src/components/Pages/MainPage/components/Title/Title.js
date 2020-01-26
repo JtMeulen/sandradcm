@@ -18,7 +18,7 @@ const Title = ({ bottomOfWindowPixel, title, text }) => {
       </Slider>
 
       <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
-        <span className={styles.text}>{text}</span>
+        <div className={styles.text} dangerouslySetInnerHTML={{ __html: text }} />
       </Slider>
 
     </div>

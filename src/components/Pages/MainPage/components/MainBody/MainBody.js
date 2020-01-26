@@ -57,9 +57,14 @@ class MainBody extends Component {
         <Element id="contact" name="contact-section">
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
-            title={"Get in Touch"}
-            text={"Reach out to me using the following methods!"}
+            title={"Get In Touch"}
+            text={"Thanks for visiting! If you want to contact me, please hit me up via &nbsp;<a href='https://www.linkedin.com/in/sandradacruzmartins/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>."}
           />
+          <p>
+          And if you google me, you will inevitably bump into my other big passion: trying to see as much of the world as possible! 
+          <br />
+          Country flags
+          </p>
           <InstagramFeed />
         </Element>
 
