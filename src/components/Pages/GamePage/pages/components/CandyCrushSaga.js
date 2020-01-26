@@ -68,68 +68,76 @@ const CandyCrushSaga = (props) => {
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
 				<TitleInfo title={"King: Candy Crush Saga"} />
 				<p>
-				In September 2015 I started working at King as a game artist on Candy Crush Saga. I have since
-				been active within different parts of the game’s production.
+				In September 2015 I started working at King as a game artist on Candy Crush Saga. I have worked on
+				different parts of the game, with a large focus on content production, live operations and innovating existing
+				art and design.
 				<br /><br />
 				Candy Crush Saga is a free-to-play match-three puzzle game which was first released in 2012.
-				After five years, the game and its sister titles have turned into one of the industry’s most
+				Going strong for over seven years, the game and its sister titles have turned into one of the industry’s most
 				recognizable franchises, with over a billion unique players around the world.
 				</p>
 				{/* TODO: VIDEO TO COME HERE */}
 				<p>
-				I mainly create characters and assets for the game and work with composing 2D environments
-				and UI elements like pop ups. I contribute to the experience and game design of new features,
-				write narrative copy and work on improving the art(ist) function in general.
-				I have done many in-house presentations, varying from showcasing ways of working to seminars
-				on our style guide. I have also done interviews regarding the game production and my industry
-				experience, some of which can be found here:
+				Having been part of one of the longest running live games to date for nearly five years, my contributions
+				have varied greatly. I mainly create 2D characters, environments and assets for the game, the execution of which has varied 
+				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is 
+				comparable to Unity. I have also actively contributed to the game design of new features, designed UI elements like pop-ups
+				and oftend supported the narrative and localization crafts with writing and organizing copy. 
+				I have a strong connection with King's marketing and social media team, bridging the gap between in-game art to promotional 
+				material and events. Some of my designs were also featured in the Candy Crush TV show.
+				<p>
+				I have functioned as a King spokesperson in general by doing interviews and other media features. This varied from in-depth 
+				discussions about the game and its art to topics like women in gaming, most of which which can be found below:
 				</p>
 				<LinkGroup links={links} />
 				<BigImage googleId={"1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT"} />
-				<p>
-				Other significant learning opportunities I had the fortune of receiving from King were, among
-				others, attending a DISC course, life drawing seminars from Samantha Youssef and THU 2016.
+				I also interact regulary with the fans via special events and King's Community forums, with one of the highlights being a 
+				participation in the video thanking the fans for 
 				</p>
-				{/* TODO: BIG IMAGE */}
-				<p>
+				{/* TODO: VIDEO TO COME HERE */}
+				<p>				
 				Following are several of the episodes I made over the years. Episodes are bundles of 15 new
 				levels, released every week, with custom art and narrative on the Saga map and behind the
 				game board.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[0,1,2,3,4,5]}/>
 				<p>
-				For each episode, the team would brainstorm narrative and titles themselves. Episodes are also
-				often compiled of pre-existing assets. In this way, I have contributed to over 50 episodes more.
+				For each episode, the team would brainstorm narrative and titles themselves, no matter how the implementation evolded
+				over the years. I was closely involved in revamping our saga map and our ways of working with episodes over the years,
+				eventually having contributed to hundreds of episodes out of the current 500.
 				</p>
 				{/* TODO: VIDEO TO COME HERE */}
 				<p>
-				A special episode was Bubblegum Bazaar, which contained level 2000. The team decided to
-				depict main characters Tiffi and Yeti in search what would happen after level 2000. The
-				Bubblegum Troll was there to soothe their Y2K scare with a glimpse into the future.
+				An example of a special episode was Bubblegum Bazaar, which contained level 2000. I depicted main characters Tiffi and 
+				Yeti in search what would happen after level 2000. The mischevious Bubblegum Troll was there to soothe their Y2K scare
+				with a glimpse into the future.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[6,7,8,9,10,11]}/>
 				<p>
-				My designs were featured on worldwide media (such as {BBC_URL}),
-				in app stores and on social media. King celebrated this with a big campaign – check out the video below!
+				These designs were featured on worldwide media (such as {BBC_URL}),
+				in app stores and on social media. King celebrated level 2000 with a big campaign – check out the video below!
 				</p>
 				<Video videoId={"D4pCVx6ln3E"} />
-				<p>
-				I have created several characters for the game. One is the witch Caramella, who first sent main
-				character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
-				special set of levels, Caramella would transform in happiness and hand out her treats.
-				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[12,13,14,15,16,17]}/>
-				<p>
-				Other examples are the snowmen Holly and Dale, who often are used in holiday and winter
-				themed episodes and live-ops.
-				</p>
 				{/* TODO: BIG IMAGE */}
 				<p>
-				In my time with the Live Ops team work has been more varied and high-paced. I contribute
-				visually and with technical implementation, but also enjoying partaking in designing new
-				features with the team.
+				When working with live operations, I contributed visually and with technical implementation, sometimes reskinning existing
+				features, but also designing new features and mechanics from time to time. Didi and Rami the Candy Pets were particularly
+				fun to draw and design for.
+				CANDY PET (app store)
+				BOOSTER GARDEN (app store)
+				BEAN STALK
+				pics from CHRISTMAS STOCKING RESKIN AND KEY QUEST
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[18,19,20,21,22,23]}/>
+				<p>
+				Candy Crush Saga has seen a lot of characters over the years. I have worked with existing cast members, strengthening
+				their narrative, giving make-overs where necessary - and adding a few of my own! 
+				My characters have featured mainly with live operations, like Didi and Rami. Others were the witch Caramella, who first 
+				sent main character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
+				special set of levels, Caramella would transform in happiness and hand out her treats. 
+				I also created the snowmen Holly and Dale, who often are used for winter themed promotions.
+				</p>
 				<p>
 				Candy’s first collaboration with an outside brand was on a live ops with the US based Marie
 				Claire magazine. Then Creative Director Nina Garcia designed a Candy level for a spread they did
@@ -140,10 +148,17 @@ const CandyCrushSaga = (props) => {
 				I created the art for a design-themed live ops – and a Candified version of Garcia herself.
 				</p>
 				<p>
-				Next to producing in-game content for Candy Crush I also have had many side projects within
-				King. I often create graphics for internal use: PR and social media, event invitations, office maps,
-				portraits of players and colleagues and more. Some of my designs were also featured in the
-				Candy Crush TV show.
+				Behind the scenes, I have supported the art function in general in different ways. I have done 
+				in-house presentations, hosted workshops centered around learning and ways of working, but also organized offsites and
+				other fun events to promote team bonding. 
+				Other significant learning opportunities were, among others, attending in-house courses centered on management and leadership, 
+				life drawing seminars from Samantha Youssef, sculpting by Andrea Blasich and VFX by Obledo. Over the years I also represented 
+				King at distinguished art conferences such as THU and IAMAG.
+				</p>
+				{/* TODO: BIG IMAGE */}
+				<p>
+				Outside of working with the game teams and art craft, I have had many side projects supporting King as a company. I often create 
+				graphics for internal use such as event invitations, office maps, portraits of players and colleagues and more. 
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[24,25,26,27,28,29,30,31,32]}/>
 			</div>

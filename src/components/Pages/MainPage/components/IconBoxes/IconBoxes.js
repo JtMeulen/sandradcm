@@ -43,7 +43,7 @@ const IconBoxes = ({ bottomOfWindowPixel }) => {
           <h2>I Also Talk A Lot</h2>
           <span className={styles.iconText}>
             I’m an avid public speaker, passionate about sharing knowledge,
-            promoting women in gaming or simply chatting about the industry
+           women in gaming or simply chatting about the industry
             behind the scenes.
           </span>
         </div>
