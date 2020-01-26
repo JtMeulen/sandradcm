@@ -67,6 +67,7 @@ class App extends Component {
         <Fragment>
           <Navbar headerScrollPercent={this.state.headerScrollPercent} />
           {routes}
+          <Footer />
         </Fragment>
       </BrowserRouter>
     );

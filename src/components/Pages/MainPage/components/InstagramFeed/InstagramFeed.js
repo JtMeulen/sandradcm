@@ -3,9 +3,12 @@ import Slider from '../../../../Slider';
 import styles from './InstagramFeed.module.css';
 
 class InstagramFeed extends Component {
-
-  state = {
-    instaImages: []
+  constructor(props) {
+    super(props);
+    this.state = {
+      instaImages: []
+    }
+    this.myRef = React.createRef();
   }
 
   componentDidMount() {
@@ -16,6 +19,24 @@ class InstagramFeed extends Component {
     })
     .catch((err) => {
       console.log(err);
+    })
+  }
+
+  handleScrollLeft = () => {
+    const container = this.myRef.current;
+    container.scrollTo({
+      top: 0,
+      left: container.scrollLeft + 180,
+      behavior: 'smooth'
+    })
+  }
+
+  handleScrollRight = () => {
+    const container = this.myRef.current;
+    container.scrollTo({
+      top: 0,
+      left: container.scrollLeft - 180,
+      behavior: 'smooth'
     })
   }
 
@@ -30,16 +51,27 @@ class InstagramFeed extends Component {
             className={styles.instaThumbnail}
             style={{backgroundImage: `url(${post.link})`}}
           />
-          <span>Go to Instagram</span>
         </div>
       </a>
       ) : null;
-    })
+    });
 
     return (
       <Slider bottomOfWindowPixel={this.props.bottomOfWindowPixel}>
         <div className={styles.instaContainer}>
-          {thumbnails}
+          <div className={styles.button} onClick={this.handleScrollRight} />
+          <div ref={this.myRef} className={styles.scrollContainer}>
+            {thumbnails}
+            {/* Adding a link to instagram directly */}
+            <a href={"https://www.instagram.com/san.and.joe.onthego/"} target="_blank" rel="noopener noreferrer" >
+              <div className={styles.thumbContainer} >
+                <div className={styles.seeMore}>
+                  See More
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className={styles.button} onClick={this.handleScrollLeft} />
         </div>
       </Slider>
     );

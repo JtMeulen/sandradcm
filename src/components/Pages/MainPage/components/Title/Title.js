@@ -5,7 +5,7 @@ import { isMobile } from 'react-device-detect';
 import Slider from '../../../../Slider';
 import styles from "./Title.module.css";
 
-const Title = ({ bottomOfWindowPixel, title, text }) => {
+const Title = ({ bottomOfWindowPixel, title, text, subText = null }) => {
   return (
     <div className={styles.title}>
 
@@ -20,6 +20,12 @@ const Title = ({ bottomOfWindowPixel, title, text }) => {
       <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
         <div className={styles.text} dangerouslySetInnerHTML={{ __html: text }} />
       </Slider>
+
+      {subText && (
+        <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
+          <p>{subText}</p>
+        </Slider>
+      )}
 
     </div>
   );

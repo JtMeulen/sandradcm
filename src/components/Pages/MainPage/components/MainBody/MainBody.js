@@ -56,13 +56,9 @@ class MainBody extends Component {
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
             title={"Get In Touch"}
-            text={"Thanks for visiting! If you want to contact me, please hit me up via &nbsp;<a href='https://www.linkedin.com/in/sandradacruzmartins/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>."}
+            text={"Thanks for visiting! If you want to contact me, send me a message on &nbsp;<a href='https://www.linkedin.com/in/sandradacruzmartins/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>."}
+            subText={"And if you're searching for social media, you might bump into my other big passion: trying to see as much of the world as possible!"}
           />
-          <p>
-          And if you google me, you will inevitably bump into my other big passion: trying to see as much of the world as possible! 
-          <br />
-          Country flags
-          </p>
           <InstagramFeed bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 
