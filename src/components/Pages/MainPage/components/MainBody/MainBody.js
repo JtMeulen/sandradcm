@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Element } from 'react-scroll'
 import { isMobile } from 'react-device-detect';
-import cn from 'classnames';
 
 import Title from '../Title/Title';
 import IconBoxes from '../IconBoxes/IconBoxes';
-import MediaLinks from '../MediaLinks/MediaLinks';
 import Selection from '../Selection/Selection';
 import InstagramFeed from '../InstagramFeed/InstagramFeed';
 
@@ -60,7 +58,7 @@ class MainBody extends Component {
             title={"Get in Touch"}
             text={"Reach out to me using the following methods!"}
           />
-          <InstagramFeed />
+          <InstagramFeed bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>
 
       </div>
