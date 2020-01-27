@@ -14,7 +14,7 @@ class Navbar extends Component {
 
     componentDidUpdate() {
       if(!isMobile) {
-        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 60) {
+        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 80) {
             this.isWhite = true
         } else {
             this.isWhite = false;
@@ -32,20 +32,16 @@ class Navbar extends Component {
     }
 
     render() {
-        const backgroundColor = this.isWhite ? 'white' : '';
-        const textColor = this.isWhite ? 'black' : 'white';
-        const border = this.isWhite ? '1px solid grey' : '';
-        const height = this.isWhite ? '60px' : '80px';
-
         return (
           <div
             key={this.state.forcedUpdate}
             className={styles.navbar}
             style={{
-              backgroundColor: backgroundColor,
-              color: textColor,
-              borderBottom: border,
-              height: height
+              backgroundColor: 'white',
+              color: 'black',
+              borderBottom: '1px solid grey',
+              height: '60px',
+              opacity: this.isWhite ? '1' : '0'
             }}
           >
             <div className={styles.navitems}>
