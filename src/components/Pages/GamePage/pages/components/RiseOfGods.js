@@ -25,53 +25,52 @@ const RiseOfGods = (props) => {
 		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
 	];
 
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
+	const VIMEO = <a href="https://vimeo.com/28084954" target="_blank" rel="noopener noreferrer">here</a>;
 
   return (
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Cartoon Network: All Nighter"} />
+				<TitleInfo title={"Student Project: Analogue Experience"} />
 				<p>
-				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
-				<br /><br />
-				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
+					Analogue Experience is the title of my 2011 graduation project at Utrecht School of the Arts. It is a visual concept for a collectible card game
+					designed by fellow graduates Niels Hansum and Jasper Saaltink.
+					<br /><br />
+					‘Ascendance: Rise of Gods’ is tournament-based and allows players to create personalized card decks. One player battles another with this deck in a playing style of their preference.
+					<br /><br />
+					A video on Vimeo can be found {VIMEO}
 				</p>
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 				<p>
-				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
-				<br />
-				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
-				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
+					For both the book and the cards I made elaborate conceptual illustrations, based on lore of a universe I created myself. This universe is perishing under the influence of a fallen God,
+					of which its three Disciples now battle to take its place.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
 				<p>
-				When Pops’ bug jar fills up, they enter bonus time, which doubles the score. With a higher score, better upgrades can be unlocked.
-				The upgrade screen can be entered after finishing a night. You can make Mordecai paddle faster, have the nights last longer, obtain a 
-				special space boost and a defensive mode for Rigby.
+					The visual design revolves around creatures inhabiting this world and the abilities they can perform. Next to the three God cards, I developed eighteen creature cards and
+					25 ability cards. These Warriors and their abilities were divided in the different playing styles.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
 				<p>
-				I worked with character sheets, episodes, environment designs and direct feedback from the Regular Show staff.
-				By closely emulating the style I incorporated new character designs, matching the gameplay needs.
+					Due to time constraints and the experimental nature of the project, most cards were sketched and served as prototypes.
+					The interface of the cards and the (purposely neutral) Ability cards were fully finished. The bottom decorations of the Warrior cards line up with
+					the top of the Ability cards when they are put in formation on the table.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
 				<p>
-				Some characters, such as the croc and the purple lake monster, were iterations of existing characters from episodes.
-				I edited the background by combining Regular Show’s environment paintings and created all other assets myself.
-				<br />
-				With the help of Cartoon Network style guides, I also made achievement badges for the Cartoon Network website.
+					The project also features a customized player mat on which players place their cards. It functions simultaneously as a health bar during battle, clarifying
+					in-game progress and enabling the player to immerse in the session more easily.
+					<br /><br />
+					Props like these, which aid the analogue battle, are rarely present on the table in mainstream card gaming sessions and were proven valuable additions to the player’s experience.
 				</p>
 				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
 				<p>
-				Not all my designs made it into the game, but it was heaps of fun to work on nevertheless! 
-				<br />
-				According to Cartoon Network, the game performed above average during the launch. While the game is no longer playable on their website, 
-				you can still find many play throughs on YouTube!
+					‘Ascendance: Rise of Gods’ was presented at the 2011 graduation expo of Utrecht School of the Arts. It was an experiment on how to immerse players in gameplay
+					and a game world via analogue art only. This case study was accompanied with a thesis.
+					<br /><br />
+					I aimed to empower the general gaming experience with this visual concept, mainly by incorporating the game design in the art. As a proof of concept, I included a
+					custom playing-and-collecting book in the actual gaming session.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
 				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>

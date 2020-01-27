@@ -3,76 +3,36 @@ import cn from 'classnames';
 import { isMobile } from 'react-device-detect';
 
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
-import Video from '../../components/Video/Video';
 import BigImage from '../../components/BigImage/BigImage';
-import Thumbnails from '../../components/Thumbnails/Thumbnails';
 import styles from './styles.module.css';
 
 const Suez = (props) => {
 
-	const thumbnails = [
-		{image: '15umXCjeAqxMNvb-9c5eQuhdblUf3bVYJ', text: ''}, //0
-		{image: '1WVH_7N1jFcnzk2gUUuzn8CgqmGoPUdW-', text: ''}, //1
-		{image: '1l8DTcNZfK4_pj_H-298_WZTgS4OPnuni', text: ''}, //2
-		{image: '1cnz0nEGUQIZEGNj8FiKaHA28Nj2HmToe', text: ''}, //3
-		{image: '1BnMhcDAh03aBYu3RVIGDVOhuIodhiLMN', text: ''}, //4
-		{image: '14j3kwd9Keg7d6J6uxQEm7sa1w4sGlUIU', text: ''}, //5
-		{image: '1-CW0XOuFIhXhSmFmrAml46htlGApDuUF', text: ''}, //6
-		{image: '1rrcUJtPhomklDP0cCs1tv88v7CzIR4zh', text: ''}, //7
-		{image: '1w-G52cun18JvaINjlOWzpZFVWD3SbaFU', text: ''}, //8
-		{image: '1DN2mY56mo_Ftj5nATuUbCQpZW8lERjQW', text: ''}, //9
-		{image: '11v9JOj4Zd0vqEffZ03V7C-jAHE8OZpA8', text: ''}, //10
-		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
-	];
-
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
+	const FLAVOUR = <a href="https://www.flavour.nl/" target="_blank" rel="noopener noreferrer">Flavour</a>;
 
   return (
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Cartoon Network: All Nighter"} />
+				<TitleInfo title={"GDF Suez: Watt Game"} />
 				<p>
-				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
-				<br /><br />
-				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
+					In my time by {FLAVOUR}, I did the art for the Watt Game, a bubble shooter gamifying the campaign for clean energy by GDF Suez and Electrabel in 2014.
+				</p>
+				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
+				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
+				<p>
+					Levels were spread throughout the in-game world and by upping their scores, players could contribute to a joint effort to win solar panels for their neighborhood.
+					<br /><br />
+					Sharing via social media was encouraged, because collaboration also improved the chance of winning.
 				</p>
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 				<p>
-				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
-				<br />
-				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
-				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
+					The art syle had to abide closely by Electrabel’s minimalist style guide and be mainly calm, ‘clean’ and blue. My first world design for the levels, as posted above,
+					was therefore iterated into the version below.
+					<br /><br />
+					Parallax scrolling and atmospheric animations were the final touch to the design. If you play the game, you can scroll through the map after playing the first level.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
-				<p>
-				When Pops’ bug jar fills up, they enter bonus time, which doubles the score. With a higher score, better upgrades can be unlocked.
-				The upgrade screen can be entered after finishing a night. You can make Mordecai paddle faster, have the nights last longer, obtain a 
-				special space boost and a defensive mode for Rigby.
-				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
-				<p>
-				I worked with character sheets, episodes, environment designs and direct feedback from the Regular Show staff.
-				By closely emulating the style I incorporated new character designs, matching the gameplay needs.
-				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
-				<p>
-				Some characters, such as the croc and the purple lake monster, were iterations of existing characters from episodes.
-				I edited the background by combining Regular Show’s environment paintings and created all other assets myself.
-				<br />
-				With the help of Cartoon Network style guides, I also made achievement badges for the Cartoon Network website.
-				</p>
-				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<p>
-				Not all my designs made it into the game, but it was heaps of fun to work on nevertheless! 
-				<br />
-				According to Cartoon Network, the game performed above average during the launch. While the game is no longer playable on their website, 
-				you can still find many play throughs on YouTube!
-				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
-				<Video videoId={"wJcbFw6u22s"} />
+				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 			</div>
 		</Fragment>
 		)
