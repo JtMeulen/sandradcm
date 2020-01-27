@@ -10,6 +10,10 @@ const PARALAX_URL = [
   '130M2MfnZnWK9gdtxYteG0QJypqiw0wEz'
 ]
 
+const SPINNING_LAYER = [
+  '1XRPHab44WSvpWT-8M2ZHFxMkrM59EUen',
+]
+
 const ParalaxHeader = ({ headerScrollPercent }) => {
   return (
     <Fragment>
@@ -17,6 +21,13 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         className={styles.paralax}
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[0]}')`,
+          position: 'fixed'
+        }}
+      />
+      <div
+        className={styles.spinning}
+        style={{
+          backgroundImage: `url('https://drive.google.com/uc?id=${SPINNING_LAYER[0]}')`,
           position: 'fixed'
         }}
       />
