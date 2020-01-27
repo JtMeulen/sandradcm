@@ -25,39 +25,39 @@ const CandyCrushSaga = (props) => {
   ];
 
   const thumbnails = [
-		'17QYS84EvsMaozZ4xzA7hJFHxmzYUzZWo',
-		'1u-Zt_RoZChz-OvGHFHzJbfAMH5Wgt1dO',
-		'1bY4ba3_M2zUwwRXXljejB3VqDRC4lYMT',
-		'1kN-9r1NqdmpCoz4cdf9qLROwNwO8UAGi',
-		'1RqZVZeKhO0fP2JNJy4ubMhSILrR651v2',
-		'1Y6_NM9Wd1sIjznW3S2y8qHMTRc4kKLPT',
-		'1M0xvyH3lnIrYbNPmpBFplUNLkbRfzwVY',
-		'17RlxeBzcGwFItzy3tkkXgE_WB72_XEMF',
-		'11e-o-63gsk0lQiZ8UWwKrqtV3dPtB-1u',
-		'1xRLIWe8CwkF5c9P2OzLd1rQ2bVLw6U7o',
-		'12lQe0zXZ6gTDa-gCiH8yzwLPgS8nqCa2',
-		'17qvOlOFDn0VtBncPrkdKLaqIlBTDkkhs',
-		'1ZXIRDEdVKLI5UpJ73WffCWPC_1vwXDGb',
-		'19OR-EYoXo_OtF4iWxww9buq_4kh7kg10',
-		'1XW7E2xOSnTLV_cdNcn92HgJLRE9zKhfm',
-		'1o7d70laeEp5wkh5Ds8NPm6Y69QWY_JM8',
-		'19fZiFXHYAns6UdRGSMouiBqin15gB-Xz',
-		'1VrCzxDssHGHqMN8DWKGvC2CJuz2ngvuB',
-		'17lSLJR41RiZwgATLpQXTv7cM3XAvN_tI',
-		'1I_vJBcx3f6DR_B0bjpX9-N38UtNvYExV',
-		'1_H2IaOrsVHsa0tB9m6y0rMMO67XSB4Uk',
-		'1pLYFj-dqDaM6gXxrAwh_v4YSaR1ecHUG',
-		'1IKzRVLK4_0aq-43fYP9-MXZQ1vI6kKaV',
-		'1YqL8ApmMLISAfmU-nq6Fw_ZiIpCJ3azm',
-		'1PN1e4m8nN6kbhyND--WfieEZqKfh8h2P',
-		'1VBazvL2P7ChoAekHmPpEoREoJUWXmSvX',
-		'1M4Mbyxu475whkVxYqmJaIf_01KYI3NWL',
-		'1kTY3LnhRkwQIadxcwyv16kkm-HCK4P7m',
-		'1Nfy0gwZEbvdNWbU8jc7yQ4E8o1O-ZIf-',
-		'11iXMSTpEImCC-MDSAXyGfbjQY8DGCMZG',
-		'14GFsTIy-0JhJZpdNCpTA8QOKfwC-M5tQ',
-		'1PLq_nIxmR-r7iUtK5nL8-Gaf2RivSMbV',
-		'1Y_DbflSYsM0Nk7OD-Fi8PlNS3iV318n9'
+		{image: '17QYS84EvsMaozZ4xzA7hJFHxmzYUzZWo', text: ''},
+		{image: '1u-Zt_RoZChz-OvGHFHzJbfAMH5Wgt1dO', text: ''},
+		{image: '1bY4ba3_M2zUwwRXXljejB3VqDRC4lYMT', text: ''},
+		{image: '1kN-9r1NqdmpCoz4cdf9qLROwNwO8UAGi', text: ''},
+		{image: '1RqZVZeKhO0fP2JNJy4ubMhSILrR651v2', text: ''},
+		{image: '1Y6_NM9Wd1sIjznW3S2y8qHMTRc4kKLPT', text: ''},
+		{image: '1M0xvyH3lnIrYbNPmpBFplUNLkbRfzwVY', text: ''},
+		{image: '17RlxeBzcGwFItzy3tkkXgE_WB72_XEMF', text: ''},
+		{image: '11e-o-63gsk0lQiZ8UWwKrqtV3dPtB-1u', text: ''},
+		{image: '1xRLIWe8CwkF5c9P2OzLd1rQ2bVLw6U7o', text: ''},
+		{image: '12lQe0zXZ6gTDa-gCiH8yzwLPgS8nqCa2', text: ''},
+		{image: '17qvOlOFDn0VtBncPrkdKLaqIlBTDkkhs', text: ''},
+		{image: '1ZXIRDEdVKLI5UpJ73WffCWPC_1vwXDGb', text: ''},
+		{image: '19OR-EYoXo_OtF4iWxww9buq_4kh7kg10', text: ''},
+		{image: '1XW7E2xOSnTLV_cdNcn92HgJLRE9zKhfm', text: ''},
+		{image: '1o7d70laeEp5wkh5Ds8NPm6Y69QWY_JM8', text: ''},
+		{image: '19fZiFXHYAns6UdRGSMouiBqin15gB-Xz', text: ''},
+		{image: '1VrCzxDssHGHqMN8DWKGvC2CJuz2ngvuB', text: ''},
+		{image: '17lSLJR41RiZwgATLpQXTv7cM3XAvN_tI', text: ''},
+		{image: '1I_vJBcx3f6DR_B0bjpX9-N38UtNvYExV', text: ''},
+		{image: '1_H2IaOrsVHsa0tB9m6y0rMMO67XSB4Uk', text: ''},
+		{image: '1pLYFj-dqDaM6gXxrAwh_v4YSaR1ecHUG', text: ''},
+		{image: '1IKzRVLK4_0aq-43fYP9-MXZQ1vI6kKaV', text: ''},
+		{image: '1YqL8ApmMLISAfmU-nq6Fw_ZiIpCJ3azm', text: ''},
+		{image: '1PN1e4m8nN6kbhyND--WfieEZqKfh8h2P', text: ''},
+		{image: '1VBazvL2P7ChoAekHmPpEoREoJUWXmSvX', text: ''},
+		{image: '1M4Mbyxu475whkVxYqmJaIf_01KYI3NWL', text: ''},
+		{image: '1kTY3LnhRkwQIadxcwyv16kkm-HCK4P7m', text: ''},
+		{image: '1Nfy0gwZEbvdNWbU8jc7yQ4E8o1O-ZIf-', text: ''},
+		{image: '11iXMSTpEImCC-MDSAXyGfbjQY8DGCMZG', text: ''},
+		{image: '14GFsTIy-0JhJZpdNCpTA8QOKfwC-M5tQ', text: ''},
+		{image: '1PLq_nIxmR-r7iUtK5nL8-Gaf2RivSMbV', text: ''},
+		{image: '1Y_DbflSYsM0Nk7OD-Fi8PlNS3iV318n9', text: ''}
 	];
 
   const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
@@ -79,23 +79,23 @@ const CandyCrushSaga = (props) => {
 				{/* TODO: VIDEO TO COME HERE */}
 				<p>
 				Having been part of one of the longest running live games to date for nearly five years, my contributions
-				have varied greatly. I mainly create 2D characters, environments and assets for the game, the execution of which has varied 
-				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is 
+				have varied greatly. I mainly create 2D characters, environments and assets for the game, the execution of which has varied
+				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is
 				comparable to Unity. I have also actively contributed to the game design of new features, designed UI elements like pop-ups
-				and oftend supported the narrative and localization crafts with writing and organizing copy. 
-				I have a strong connection with King's marketing and social media team, bridging the gap between in-game art to promotional 
+				and oftend supported the narrative and localization crafts with writing and organizing copy.
+				I have a strong connection with King's marketing and social media team, bridging the gap between in-game art to promotional
 				material and events. Some of my designs were also featured in the Candy Crush TV show.
 				<p>
-				I have functioned as a King spokesperson in general by doing interviews and other media features. This varied from in-depth 
+				I have functioned as a King spokesperson in general by doing interviews and other media features. This varied from in-depth
 				discussions about the game and its art to topics like women in gaming, most of which which can be found below:
 				</p>
 				<LinkGroup links={links} />
 				<BigImage googleId={"1w6zJtElrKhc1Bo9IYp6MmCRruYs9A3eT"} />
-				I also interact regulary with the fans via special events and King's Community forums, with one of the highlights being a 
-				participation in the video thanking the fans for 
+				I also interact regulary with the fans via special events and King's Community forums, with one of the highlights being a
+				participation in the video thanking the fans for
 				</p>
 				{/* TODO: VIDEO TO COME HERE */}
-				<p>				
+				<p>
 				Following are several of the episodes I made over the years. Episodes are bundles of 15 new
 				levels, released every week, with custom art and narrative on the Saga map and behind the
 				game board.
@@ -108,7 +108,7 @@ const CandyCrushSaga = (props) => {
 				</p>
 				{/* TODO: VIDEO TO COME HERE */}
 				<p>
-				An example of a special episode was Bubblegum Bazaar, which contained level 2000. I depicted main characters Tiffi and 
+				An example of a special episode was Bubblegum Bazaar, which contained level 2000. I depicted main characters Tiffi and
 				Yeti in search what would happen after level 2000. The mischevious Bubblegum Troll was there to soothe their Y2K scare
 				with a glimpse into the future.
 				</p>

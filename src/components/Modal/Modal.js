@@ -56,8 +56,7 @@ class ImageSlider extends Component {
 
 	render() {
 		const { allImages, idx } = this.state;
-		const imageUrl = this.props.mainpage ? allImages[idx].image : allImages[idx];
-		const currentImage = `https://drive.google.com/uc?id=${imageUrl}`;
+		const currentImage = `https://drive.google.com/uc?id=${allImages[idx].image}`;
 		const imageDetails = allImages[idx];
 
 		return(
@@ -71,7 +70,7 @@ class ImageSlider extends Component {
 						<img className={cn(styles.image, { [styles.mobileImage]: isMobile })} src={currentImage} alt="" onClick={this.doNothingHandler}/>
 					</div>
 
-					{this.props.mainpage && !isMobile &&
+					{!isMobile &&
 						<div className={styles.subtext} onClick={this.doNothingHandler} dangerouslySetInnerHTML={{ __html: imageDetails.text }} />
 					}
 				</div>

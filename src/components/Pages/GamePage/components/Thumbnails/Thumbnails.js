@@ -35,7 +35,7 @@ class Thumbnails extends Component {
         <div
           key={idx}
           className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile })}
-          style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail}')`}}
+          style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`}}
           onClick={() => this.handleClick(idx)}
         />
       );
