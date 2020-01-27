@@ -14,7 +14,7 @@ class Navbar extends Component {
 
     componentDidUpdate() {
       if(!isMobile) {
-        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 80) {
+        if(window.location.pathname !== "/" || this.props.headerScrollPercent > 65) {
             this.isWhite = true
         } else {
             this.isWhite = false;
