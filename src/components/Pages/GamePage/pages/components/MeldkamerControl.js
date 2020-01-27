@@ -3,7 +3,6 @@ import cn from 'classnames';
 import { isMobile } from 'react-device-detect';
 
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
-import Video from '../../components/Video/Video';
 import BigImage from '../../components/BigImage/BigImage';
 import Thumbnails from '../../components/Thumbnails/Thumbnails';
 import styles from './styles.module.css';
@@ -25,54 +24,51 @@ const MeldkamerControl = (props) => {
 		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
 	];
 
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
+	const FLAVOUR = <a href="https://www.flavour.nl/" target="_blank" rel="noopener noreferrer">Flavour</a>;
 
   return (
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Cartoon Network: All Nighter"} />
+				<TitleInfo title={"Veiligheids- en Gezondheidsregio Gelderland-Midden: Meldkamer Control"} />
 				<p>
-				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
-				<br /><br />
-				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
+					<strong>Dutch Society for Simulation in Health:</strong> Quality Label for Valid Games
+				</p>
+				<p>
+					In my time by {FLAVOUR}, we created <em>Meldkamer Control</em>: a game that teaches control room personnel proper ambulance dispatch techniques.
+					<br /><br />
+					<em>Meldkamer Control</em> is currently in use by the Dutch region Gelderland-Midden to train their dispatchers without endangering human lives.
 				</p>
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
+				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
 				<p>
-				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
-				<br />
-				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
-				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
+					<em>Meldkamer Control</em> is a supplement to the training of these dispatchers. Players need to handle realistic emergency situations through various levels of difficulty, all taking place in real time.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
 				<p>
-				When Pops’ bug jar fills up, they enter bonus time, which doubles the score. With a higher score, better upgrades can be unlocked.
-				The upgrade screen can be entered after finishing a night. You can make Mordecai paddle faster, have the nights last longer, obtain a 
-				special space boost and a defensive mode for Rigby.
+					They are trained in interpreting reports, sustain proper ambulance coverage and execute the logistics of controlling a number of ambulances at once.
+					<br /><br />
+					At the same time, they are challenged to unlock new levels, raise their status and challenge each other.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
 				<p>
-				I worked with character sheets, episodes, environment designs and direct feedback from the Regular Show staff.
-				By closely emulating the style I incorporated new character designs, matching the gameplay needs.
+					Visually, I had to replicate the existing dispatch software and alter it for gamification, while at the same time closing the visual gap with the real system as much as possible.
+					Visual similarity proved to enable the trainees to apply their newly found skills to the actual job more easily.
+					<br /><br />
+					There was more wiggle room with the general interface, but the look of it still had to remain clean and non-distracting.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
 				<p>
-				Some characters, such as the croc and the purple lake monster, were iterations of existing characters from episodes.
-				I edited the background by combining Regular Show’s environment paintings and created all other assets myself.
-				<br />
-				With the help of Cartoon Network style guides, I also made achievement badges for the Cartoon Network website.
+					As quoted by Piet-Hein ten Hacken, head of Control Room Consultation in the Netherlands:
+				</p>
+				<p style={{textAlign: 'center', fontSize: '24px'}}>
+					<strong>
+						“Control room Gelderland Midden had the wish to develop a tool to monitor, improve and uniformly execute the dispatch process at the control room. In 2013 we came into contact with Flavour.
+						Their professional appearance, enthousiasm and knowledge encouraged us to research the possibility of a ‘control room game’. And so it happened!”
+					</strong>
 				</p>
 				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<p>
-				Not all my designs made it into the game, but it was heaps of fun to work on nevertheless! 
-				<br />
-				According to Cartoon Network, the game performed above average during the launch. While the game is no longer playable on their website, 
-				you can still find many play throughs on YouTube!
-				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
-				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>
 		)

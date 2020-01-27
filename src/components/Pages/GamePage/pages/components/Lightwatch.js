@@ -25,54 +25,40 @@ const Lightwatch = (props) => {
 		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
 	];
 
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
+	const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
+	const RESKIN_ALLNIGHTER = <a href="/games/allnighter">reskin the game for their cartoon ‘Regular Show’</a>;
+	const DUTCH_GAME_GARDEN = <a href="https://www.dutchgamegarden.nl/" target="_blank" rel="noopener noreferrer">Dutch Game Garden</a>;
 
   return (
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Cartoon Network: All Nighter"} />
+				<TitleInfo title={"Personal Collaboration: Lightwatch"} />
 				<p>
-				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
-				<br /><br />
-				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
+					Lightwatch is a game developed by {TEAMREPTILE_URL} and myself of which most content, including my art, was created in 2011. The game went up
+					for sale on FGL early 2012 and was later bought and distributed later by Armor Games.
 				</p>
+				<Video videoId={"sNJWeE3Fh0U"} />
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 				<p>
-				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
-				<br />
-				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
-				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
+					In <em>Lightwatch</em>, you play a captain sailing out to sea at night. By shooting stars with a harpoon, you gather stardust to fuel the lighthouse on shore.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
 				<p>
-				When Pops’ bug jar fills up, they enter bonus time, which doubles the score. With a higher score, better upgrades can be unlocked.
-				The upgrade screen can be entered after finishing a night. You can make Mordecai paddle faster, have the nights last longer, obtain a 
-				special space boost and a defensive mode for Rigby.
+					While doing this sailing, enemies such as seagulls, sharks, crabs and more aim for the poor captain and his stardust. If the lighthouse is filled,
+					Rainbownus time grants the player higher scores.
+					<br /><br />
+					During daytime, the player enters an upgrade screen. There, players can trade their score for boosts in playing sessions.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
 				<p>
-				I worked with character sheets, episodes, environment designs and direct feedback from the Regular Show staff.
-				By closely emulating the style I incorporated new character designs, matching the gameplay needs.
+					I visually designed <em>Lightwatch</em> entirely, creating all art assets in the process. Together with creating its structure and gameplay content,
+					I also helped with testing and tweaking the game.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
 				<p>
-				Some characters, such as the croc and the purple lake monster, were iterations of existing characters from episodes.
-				I edited the background by combining Regular Show’s environment paintings and created all other assets myself.
-				<br />
-				With the help of Cartoon Network style guides, I also made achievement badges for the Cartoon Network website.
+					<em>Lightwatch</em> featured at the {DUTCH_GAME_GARDEN} network lunch of March 7th, 2012. Team Reptile and myself were also asked by Cartoon Network to {RESKIN_ALLNIGHTER}.
 				</p>
-				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<p>
-				Not all my designs made it into the game, but it was heaps of fun to work on nevertheless! 
-				<br />
-				According to Cartoon Network, the game performed above average during the launch. While the game is no longer playable on their website, 
-				you can still find many play throughs on YouTube!
-				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
-				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>
 		)
