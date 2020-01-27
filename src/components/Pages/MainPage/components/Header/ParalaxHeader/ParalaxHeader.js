@@ -3,15 +3,13 @@ import React, { Fragment } from 'react';
 import styles from './ParalaxHeader.module.css';
 
 const PARALAX_URL = [
-  '1XRPHab44WSvpWT-8M2ZHFxMkrM59EUen',
-  '1CdP5ladfhHQ5IQZs4-jcyGjfT13iybwf',
-  '1ogfzLg5iSKJwXNopH_68ddRezJjLC2yG',
-  '1BmbPHunpEcrya06zF4bHUcc1tYi7RjND',
-  '130M2MfnZnWK9gdtxYteG0QJypqiw0wEz'
-]
-
-const SPINNING_LAYER = [
-  '1XRPHab44WSvpWT-8M2ZHFxMkrM59EUen',
+  '1M_Csb4gSqI_iYK-Lw0U_IlGXhAg-uDBo',
+  '1HaJO0CjjA1E9YXcohBE9dyeq-leefGyB',
+  '1BfdDAUq8mERjZDOXhSFdubtISXCBmaZk',
+  '1i0VYbDoBprnCU1le_eWUwcPMxstH6KtR',
+  '1KbBfBfSdX3unsx9kf0pxONQmVn77dgeN',
+  '1Zy0_bgf2EK0Rq5mECwEUcnmwzVmq0rlE',
+  '1Ndp5N3xCO_ffuDvRcz9kfdS5KOcYlBmT'
 ]
 
 const ParalaxHeader = ({ headerScrollPercent }) => {
@@ -25,18 +23,11 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         }}
       />
       <div
-        className={styles.spinning}
-        style={{
-          backgroundImage: `url('https://drive.google.com/uc?id=${SPINNING_LAYER[0]}')`,
-          position: 'fixed'
-        }}
-      />
-      <div
         className={styles.paralax}
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[1]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 1}px`
+          top: `-${headerScrollPercent * 2}px`
         }}
       />
       <div
@@ -44,7 +35,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[2]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 2}px`
+          top: `-${headerScrollPercent * 5}px`
         }}
       />
       <div
@@ -56,9 +47,25 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         }}
       />
       <div
+        className={styles.spinningRev}
+        style={{
+          backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[4]}')`,
+          position: 'fixed',
+          top: `-${headerScrollPercent * 5}px`
+        }}
+      />
+      <div
+        className={styles.spinning}
+        style={{
+          backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[5]}')`,
+          position: 'fixed',
+          top: `-${headerScrollPercent * 5}px`
+        }}
+      />
+      <div
         className={styles.paralax}
         style={{
-          backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[4]}')`
+          backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[6]}')`
         }}
       />
     </Fragment>

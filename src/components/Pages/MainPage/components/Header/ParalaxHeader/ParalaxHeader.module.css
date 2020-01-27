@@ -16,7 +16,22 @@
     background-position: center;
 
     animation-name: spin;
-    animation-duration: 80000ms;
+    animation-duration: 600000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.spinningRev {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+
+    animation-name: spinRev;
+    animation-duration: 800000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -26,5 +41,13 @@
         transform: rotate(0deg);
     } to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes spinRev {
+    from {
+        transform: rotate(360deg);
+    } to {
+        transform: rotate(0deg);
     }
 }
