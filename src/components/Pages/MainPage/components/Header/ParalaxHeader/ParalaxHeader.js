@@ -35,7 +35,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[2]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 5}px`
+          top: `-${headerScrollPercent * 4}px`
         }}
       />
       <div
@@ -43,7 +43,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[3]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 5}px`
+          top: `-${headerScrollPercent * 4}px`
         }}
       />
       <div
@@ -51,7 +51,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[4]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 5}px`
+          top: `-${headerScrollPercent * 6}px`
         }}
       />
       <div
@@ -59,7 +59,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[5]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 5}px`
+          top: `-${headerScrollPercent * 6}px`
         }}
       />
       <div
