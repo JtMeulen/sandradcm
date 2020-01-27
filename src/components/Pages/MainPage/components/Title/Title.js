@@ -23,7 +23,7 @@ const Title = ({ bottomOfWindowPixel, title, text, subText = null }) => {
 
       {subText && (
         <Slider bottomOfWindowPixel={bottomOfWindowPixel}>
-          <p>{subText}</p>
+          <div className={styles.subText} dangerouslySetInnerHTML={{ __html: subText }} />
         </Slider>
       )}
 
