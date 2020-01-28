@@ -143,7 +143,7 @@ export const artMap = [
         category: 'art',
         image: '1S-coRq0KcEJr5tUaUsKx_hTmhM-3scdJ',
         backgroundOffset: 'center bottom -30px',
-        text: 'Illustration for the analog game &nbsp;<a href="https://drive.google.com/file/d/1do-O2jx2BrwEVUvwsP1VWpNJx3Py_Dln/view" target="_blank" rel="noopener noreferrer">Ascendance: Rise of Gods</a>'
+        text: 'Illustration for the analog game &nbsp;<a href="http://localhost:3000/games/rise-of-gods" target="_blank" rel="noopener noreferrer">Ascendance: Rise of Gods</a>'
     },
     {
         id: 'Illustration',
