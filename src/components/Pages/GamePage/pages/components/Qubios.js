@@ -64,13 +64,13 @@ const Qubios = (props) => {
 					<br /><br />
 					The backgrounds needed spacing on the right for the grid of another player in multiplayer mode. The bars above and below each grid functioned as boost meters.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3,]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[4,5,]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={294} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[2,3]} height={294} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[4,5]} height={294} marginBottom={0}/>
 				<p>
 					We also made a a soccer-themed game for the same platform. These games were accompanied by achievement icons and, of course, various interface elements.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6,7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[6,7,8]} height={197} marginBottom={0}/>
 				<p>
 					For this soccer game I made a character creator in which players could combine different heads, hairstyles and shoes. I created dozens of different styles for each,
 					making sure they could all fit together. Players could also color these assets to their liking.
@@ -80,10 +80,10 @@ const Qubios = (props) => {
 					I created a large set of themed soccer fields, leaving room free on the bottom for the interface. These background were animated in-game; for example,
 					the boats in the ocean version would sail by, the concert and stadium version had flashing cameras, and so forth.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[11,12,]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[13,14,]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[15,16,]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10]} height={268} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[11,12]} height={268} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[13,14]} height={268} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[15,16]} height={268} marginBottom={0}/>
 				</div>
 		</Fragment>
 		)
