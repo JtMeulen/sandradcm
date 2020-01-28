@@ -38,8 +38,7 @@ class Thumbnails extends Component {
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`}}
           onClick={() => this.handleClick(idx)}
         >
-          {/* <p className={styles.description} >yoyoyoy asdfklj lkasdfklj lkjasdflkj lkjlkqweriisdioh </p> */}
-          {/* {thumbnail.text.length > 0 && <p className={styles.description}>{thumbnail.text}</p>} */}
+          {thumbnail.text.length > 0 && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
         </div>
       );
     });

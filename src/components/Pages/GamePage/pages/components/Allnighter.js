@@ -46,7 +46,7 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
 				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={200} />
 				<p>
 				When Pops’ bug jar fills up, they enter bonus time, which doubles the score. With a higher score, better upgrades can be unlocked.
 				The upgrade screen can be entered after finishing a night. You can make Mordecai paddle faster, have the nights last longer, obtain a 
@@ -57,7 +57,7 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 				I worked with character sheets, episodes, environment designs and direct feedback from the Regular Show staff.
 				By closely emulating the style I incorporated new character designs, matching the gameplay needs.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={294}/>
 				<p>
 				Some characters, such as the croc and the purple lake monster, were iterations of existing characters from episodes.
 				I edited the background by combining Regular Show’s environment paintings and created all other assets myself.
@@ -71,7 +71,7 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 				According to Cartoon Network, the game performed above average during the launch. While the game is no longer playable on their website, 
 				you can still find many play throughs on YouTube!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={197}/>
 				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>
