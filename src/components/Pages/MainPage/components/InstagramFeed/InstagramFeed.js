@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Slider from '../../../../Slider';
+import { isMobile } from 'react-device-detect';
 import styles from './InstagramFeed.module.css';
 
 class InstagramFeed extends Component {
@@ -26,7 +27,7 @@ class InstagramFeed extends Component {
     const container = this.myRef.current;
     container.scrollTo({
       top: 0,
-      left: container.scrollLeft + 180,
+      left: container.scrollLeft + 280,
       behavior: 'smooth'
     })
   }
@@ -35,7 +36,7 @@ class InstagramFeed extends Component {
     const container = this.myRef.current;
     container.scrollTo({
       top: 0,
-      left: container.scrollLeft - 180,
+      left: container.scrollLeft - 280,
       behavior: 'smooth'
     })
   }
@@ -64,9 +65,9 @@ class InstagramFeed extends Component {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginBottom: "250px"
+          marginBottom: "100px"
         }}>
-          <div className={styles.button} onClick={this.handleScrollRight} />
+          {!isMobile && <div className={styles.buttonLeft} onClick={this.handleScrollRight} />}
           <div ref={this.myRef} className={styles.scrollContainer}>
             {thumbnails}
             {/* Adding a link to instagram directly */}
@@ -78,7 +79,7 @@ class InstagramFeed extends Component {
               </div>
             </a>
           </div>
-          <div className={styles.button} onClick={this.handleScrollLeft} />
+          {!isMobile && <div className={styles.buttonRight} onClick={this.handleScrollLeft} />}
         </div>
       </Slider>
     );
