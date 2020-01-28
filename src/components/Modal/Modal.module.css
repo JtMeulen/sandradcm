@@ -14,11 +14,14 @@
 
 .image {
     padding: 50px auto;
-    border-bottom: 60px solid white;
     height: auto;
     max-width: 80vw;
     max-height: 80vh;
     object-fit: contain;
+}
+
+.textArea {
+    border-bottom: 60px solid white;
 }
 
 .mobileImage {

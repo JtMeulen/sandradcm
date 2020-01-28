@@ -37,24 +37,20 @@ class Thumbnails extends Component {
           className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile })}
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`}}
           onClick={() => this.handleClick(idx)}
-        />
+        >
+          {thumbnail.text.length > 0 && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
+        </div>
       );
     });
   }
 
   render() {
-    const containerHeight = {
-      2: "290px",
-      3: "200px",
-      4: "150px"
-    }
-
     return (
       <Fragment >
         {this.state.modal &&
           <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
-        <div className={styles.container} style={{ height: containerHeight[this.props.positions.length]}}>
+        <div className={styles.container} style={{ height: `${this.props.height || 150}px`}}>
           {this.renderThumbnails()}
         </div>
       </Fragment>

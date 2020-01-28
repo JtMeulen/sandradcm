@@ -1,6 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .thumbnail {
@@ -15,4 +16,9 @@
 .mobileThumbnail {
   width: 140px;
   height: 90px;
+}
+
+.description {
+  text-align: center;
+  font-size: 0.9em;
 }
