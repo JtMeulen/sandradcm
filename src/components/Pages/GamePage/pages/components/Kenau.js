@@ -41,7 +41,7 @@ const Kenau = (props) => {
 				Via social media, interactive trailers and an online game, hundreds of women played the game and collected money. The campaign gathered about €67,000 in six weeks
 				time and reached around three million people.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={248} marginBottom={0}/>
 				<p>
 				Flavour and myself were partly responsible for this concept and created the game in which women could occupy four parts of the world.
 				<br /><br />

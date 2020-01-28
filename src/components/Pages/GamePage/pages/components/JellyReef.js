@@ -51,7 +51,7 @@ const JellyReef = (props) => {
 				This game was stationed in the waiting area of the {DUTCH_GAME_GARDEN} building, a shared office space for game developers,
 				where it can be played by both visitors and residents.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={263} marginBottom={0}/>
 				<p>
 				In <em>The Jelly Reef</em>, one or multiple players swipe across the touchscreen of the Surface with their fingers to guide as many jellyfish
 				possible safely to the end of eight themed levels.
@@ -59,7 +59,7 @@ const JellyReef = (props) => {
 				You can also use a Dutch Game Garden ‘tag’ – a 3D printed statue of their logo – to regroup your jellies when they
 				drift too far apart, as well as display information about Dutch Game Garden residents.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]} height={198} marginBottom={0}/>
 				<p>
 				In-game text rotates to accommodate multiple players, or uses the Microsoft Surface’s ability to recognize finger orientation.
 				<br />Upon touch, text automatically turns into the direction of the player. 
@@ -72,28 +72,28 @@ const JellyReef = (props) => {
 				My role was of the lead, concept, character, environmental and UI artist. I created three themed worlds: the bright reefs for the easy mode,
 				a pirate bay and other sunken ships for medium and as a finale, a sunken city – Dutch style!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[5,6,7]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[5,6,7]} height={198} marginBottom={0}/>
 				<p>
 				With the help of my own style guides, I coordinated my fellow artists (Sherida Halatoe, Tim Hengeveld, Bas Kersten and Tim Scheel) in making their designs for levels, line art and coloring.
 				<br/><br/>
 				Production-wise, I myself was in charge of characters, object design and assisted in coloring and polishing as well.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[8,9,10]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[8,9,10]} height={198} marginBottom={0}/>
 				<p>
 				Next to designing and painting these characters, objects and environments, I was also in charge of the general interface. I worked with a composer and sound
 				designers for fitting audio and I assisted on project coordination as well.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[11,12,13]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[11,12,13]} height={198} marginBottom={0}/>
 				<p>
 				The first prototype was available for play at Game in the City 2010. The Jelly Reef was introduced to the Dutch Game Garden during its network lunch of March 2011.
 				<br/><br/>
 				A special demo of three levels was created to feature on the first presentation of the Microsoft Surface v2.0, which was exhibited at the Microsoft MIX 2011 in Las Vegas.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[14,15]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[14,15]} height={538} marginBottom={33}/>
 				<p>
 				The Jelly Reef was also showcased at Indigo 2011 and Cinekid 2011, the Netherlands, as it was nominated for their New Media Award.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[16,17,18]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[16,17,18]} height={205} marginBottom={67}/>
 			</div>
 		</Fragment>
 		)
