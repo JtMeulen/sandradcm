@@ -40,3 +40,7 @@
 .thumbnail:active .overlay {
     opacity: 1;
 }
+
+.titleText {
+    padding: 40px;
+}
