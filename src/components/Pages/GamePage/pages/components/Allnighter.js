@@ -34,14 +34,14 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
 				<TitleInfo title={"Cartoon Network: All Nighter"} />
 				<p>
-				All Nighter is an online game developed by {TEAMREPTILE_URL} and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game Lightwatch, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
+				<em>All Nighter</em> is an online game developed by current members of Team Reptile and myself in 2012, produced by Cartoon Network. When Cartoon Network 
+				discovered our previous collaboration game <em>Lightwatch</em>, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
 				<br /><br />
-				Because Cartoon Network liked the visual design of Lightwatch, I got to do the art for All Nighter myself.
+				Because Cartoon Network liked the visual design of <em>Lightwatch</em>, I got to do the art for <em>All Nighter</em> myself.
 				</p>
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 				<p>
-				In All Nighter, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
+				In <em>All Nighter</em>, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
 				<br />
 				By launching Rigby from a rented paddle boat, they go out at night to gather as much fireflies possible before they get fired by their 
 				moody manager Benson. Enemies such as bats, crocs and other angry lake monsters make long nights out of it!
