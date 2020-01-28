@@ -28,18 +28,11 @@ export const gamesMap = [
         image: '1Yv056xcVRmnsNwDZTBZiVL3fo9c5cIwd'
     },
     {
-        id: 'Kenau',
-        name: 'Flavour: Kenau',
+        id: 'JellyReef',
+        name: 'Student project: The Jelly Reef',
         category: 'casual',
-        link: '/games/kenau',
-        image: '1gskQCHwDGDdoWGJfdgoLno5tJNKVC-qI'
-    },
-    {
-        id: 'Vogels',
-        name: 'School project: Vogels',
-        category: 'serious',
-        link: '/games/vogels',
-        image: '1c8txzna17bXuye6GN3hFRAcOmIay4Rum'
+        link: '/games/jellyreef',
+        image: '1bFsCUgZoKzGR_n3rw7Y_MuhVe5ifDJRr'
     },
     {
         id: 'Catch22',
@@ -49,50 +42,57 @@ export const gamesMap = [
         image: '1fLGHRzLL8gVx7D058uDnRvzZbcKO8SaP'
     },
     {
+        id: 'Vogels',
+        name: 'Student project: Vogels',
+        category: 'serious',
+        link: '/games/vogels',
+        image: '1c8txzna17bXuye6GN3hFRAcOmIay4Rum'
+    },
+    {
         id: 'MediaMasters',
-        name: 'Flavour: MediaMasters 2013',
+        name: 'Mediawijzer.net: MediaMasters 2013',
         category: 'serious',
         link: '/games/mediamasters',
         image: '1U8DJovR9v1NwMwl5zg2-Waq7AT4eNRH_'
     },
     {
-        id: 'JellyReef',
-        name: 'School project: The Jelly Reef',
+        id: 'Kenau',
+        name: "Plan Nederland: Kenau's Army of Women",
         category: 'casual',
-        link: '/games/jellyreef',
-        image: '1bFsCUgZoKzGR_n3rw7Y_MuhVe5ifDJRr'
-    },
-    {
-        id: 'BlokBlok',
-        name: 'Indie: BlokBlok',
-        category: 'casual',
-        link: '/games/blokblok',
-        image: '1DOYO4loPMmcN7ct4IRoznl5dOoiEMIJo'
-    },
-    {
-        id: 'RiseOfGods',
-        name: 'School project: Analogue Experience',
-        category: 'casual',
-        link: '/games/rise-of-gods',
-        image: '1JOM20-kehYr8WAZxaUb645cbHwsaQtos'
+        link: '/games/kenau',
+        image: '1gskQCHwDGDdoWGJfdgoLno5tJNKVC-qI'
     },
     {
         id: 'Suez',
-        name: 'Flavour: GDF Suez',
+        name: 'GDF Suez: Watt Game',
         category: 'casual',
         link: '/games/suez',
         image: '1jxxE5eBN9-TSQ2g7M0uL1pjF4OqxV-XV'
     },
     {
+        id: 'RiseOfGods',
+        name: 'Student project: Analogue Experience',
+        category: 'casual',
+        link: '/games/rise-of-gods',
+        image: '1JOM20-kehYr8WAZxaUb645cbHwsaQtos'
+    },
+    {
+        id: 'BlokBlok',
+        name: 'Indie game: BlokBlok',
+        category: 'casual',
+        link: '/games/blokblok',
+        image: '1DOYO4loPMmcN7ct4IRoznl5dOoiEMIJo'
+    },
+    {
         id: 'LightWatch',
-        name: 'Indie: LightWatch',
+        name: 'Indie game: LightWatch',
         category: 'casual',
         link: '/games/lightwatch',
         image: '1O7Fe2WiJYMK7bGptZBuoAjqgINt7jiDf'
     },
     {
         id: 'SpeedRunner',
-        name: 'Flavour: Disney XD Speed Runner',
+        name: 'Disney XD: Speed Runner',
         category: 'casual',
         link: '/games/speed-runner',
         image: '1lbdkXoIvg-vYssNrnbV6P_awWtiia-qZ'
@@ -106,14 +106,14 @@ export const gamesMap = [
     },
     {
         id: 'SuperHelden',
-        name: 'Flavour: Ziggo Security',
+        name: 'Ziggo: Superheldenspel',
         category: 'serious',
         link: '/games/superhelden',
         image: '19vYonqhsux-j95GSA3mXnZ4j_oOG17b9'
     },
     {
         id: 'MeldKamer',
-        name: 'Flavour: Meldkamer Control',
+        name: 'Veiligheids- en Gezondheidsregio Gelderland-Midden: Meldkamer Control',
         category: 'serious',
         link: '/games/meldkamer-control',
         image: '1glE1kTqWdfFuquyfu1jntdel0-tkeZJu'

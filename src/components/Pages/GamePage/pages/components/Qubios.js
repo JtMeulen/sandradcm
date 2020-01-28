@@ -39,9 +39,10 @@ const Qubios = (props) => {
 				<p>
 					Over the years I have delivered miscalleanous game assets that were only online for a short time - or sometimes, not even at all!
 					<br /><br />
-					In 2014, I delivered puffer fish designs for <em>Jelly Reef</em>, a mobile sequel developed by Game Oven, based on our student project. 
+					In 2014, I delivered puffer fish, corals and other aquatic concept art for <em>Jelly Reef</em>, a mobile sequel developed by Game Oven, based on our student project. 
 				</p>
 				<BigImage googleId={"1HMbWYqOtbh0WLgixnVX9RIBVFhhSSBt6"}/>
+				<BigImage googleId={"1bUrYywebsMCFq7OMud3uU5XZJG55ze5n"}/>
 				<p>
 				Other one-off assets for an indie company were splash screens and a custom font for the game jam project <em>Squeak Squad</em> by Team Reptile.
 				</p>

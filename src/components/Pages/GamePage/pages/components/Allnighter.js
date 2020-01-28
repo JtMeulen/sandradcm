@@ -12,21 +12,21 @@ const Allnighter = (props) => {
 
 	const thumbnails = [
 		{image: '15umXCjeAqxMNvb-9c5eQuhdblUf3bVYJ', text: ''}, //0
-		{image: '1WVH_7N1jFcnzk2gUUuzn8CgqmGoPUdW-', text: ''}, //1
+		{image: '1WVH_7N1jFcnzk2gUUuzn8CgqmGoPUdW-', text: 'The introduction and tutorial'}, //1
 		{image: '1l8DTcNZfK4_pj_H-298_WZTgS4OPnuni', text: ''}, //2
 		{image: '1cnz0nEGUQIZEGNj8FiKaHA28Nj2HmToe', text: ''}, //3
 		{image: '1BnMhcDAh03aBYu3RVIGDVOhuIodhiLMN', text: ''}, //4
 		{image: '14j3kwd9Keg7d6J6uxQEm7sa1w4sGlUIU', text: ''}, //5
 		{image: '1-CW0XOuFIhXhSmFmrAml46htlGApDuUF', text: ''}, //6
-		{image: '1rrcUJtPhomklDP0cCs1tv88v7CzIR4zh', text: ''}, //7
-		{image: '1w-G52cun18JvaINjlOWzpZFVWD3SbaFU', text: ''}, //8
-		{image: '1DN2mY56mo_Ftj5nATuUbCQpZW8lERjQW', text: ''}, //9
-		{image: '11v9JOj4Zd0vqEffZ03V7C-jAHE8OZpA8', text: ''}, //10
-		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
+		{image: '1rrcUJtPhomklDP0cCs1tv88v7CzIR4zh', text: 'Introducing the final boss..'}, //7
+		{image: '1w-G52cun18JvaINjlOWzpZFVWD3SbaFU', text: '.. and many more monsters!'}, //8
+		{image: '1DN2mY56mo_Ftj5nATuUbCQpZW8lERjQW', text: 'Unused designs'}, //9
+		{image: '11v9JOj4Zd0vqEffZ03V7C-jAHE8OZpA8', text: 'The credits'}, //10
+		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: 'Website featuring'} //11
 	];
 
 const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">All Nighter</a>;
+const REGULARSHOWIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">Regular Show</a>;
 
   return (
 		<Fragment>
@@ -35,11 +35,11 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 				<TitleInfo title={"Cartoon Network: All Nighter"} />
 				<p>
 				<em>All Nighter</em> is an online game developed by current members of Team Reptile and myself in 2012, produced by Cartoon Network. When Cartoon Network 
-				discovered our previous collaboration game <em>Lightwatch</em>, they decided their cartoon series {ALLNIGHTERIMDB_URL} could use a game just like it!
+				discovered our previous collaboration game <em>Lightwatch</em>, they decided their cartoon series {REGULARSHOWIMDB_URL} could use a game just like it!
 				<br /><br />
 				Because Cartoon Network liked the visual design of <em>Lightwatch</em>, I got to do the art for <em>All Nighter</em> myself.
 				</p>
-				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
+				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} text={"The menu screen"}/>
 				<p>
 				In <em>All Nighter</em>, Regular Show’s main stars Mordecai and Rigby have accidentally set loose old man Pop’s firefly collection.
 				<br />
@@ -72,6 +72,7 @@ const ALLNIGHTERIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targe
 				you can still find many play throughs on YouTube!
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={197} marginBottom={0}/>
+				<br /><br />
 				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>
