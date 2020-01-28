@@ -47,7 +47,7 @@ class App extends Component {
         <Route path="/games/suez" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/superhelden" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/mediamasters" exact render={(props) => <GamePage {...props} />} />
-        <Route path="/games/qubios" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/gameassets" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/catch22" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/allnighter" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/lightwatch" exact render={(props) => <GamePage {...props} />} />
