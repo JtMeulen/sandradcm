@@ -80,7 +80,7 @@ const Warchild = (props) => {
 					this fun and effective learning tool.<br /> 
 					They were additionally supported by UNICEF International and the Dutch Ministry of Foreign Affairs.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={200}/>
 				<p>
 					During this project 600 Sudanese children in nineteen Sudanese villages, without access to schools or teachers, learned mathematics on sponsored tablets, powered by donated solar panels.
 					<br /><br />
@@ -109,36 +109,36 @@ const Warchild = (props) => {
 					<br /><br />
 					Their vision and wishes greatly aided me in developing a style suitable to not only entertain them, but boost the learning process as well.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4]} height={230} marginBottom={50}/>
 				<p>
 					The balance between realism and colorful decoration was a hard one to find, but feedback from Sudan over the year mentioned improvement of the visual design had
 					greatly motivated children to try even harder to complete their in-game village.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[5,6]} height={230} marginBottom={33}/>
 				<p>
 					In the game, the children build this village by playing educative mini-games.
 					<br /><br />
 					These parts of the curriculum (adding and subtracting numbers, recognizing and naming shapes, counting by abacus and so on) are accompanied by an in-game character with a certain profession.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8,9]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8,9]} height={115} marginBottom={0}/>
+				<Thumbnails thumbnails={thumbnails} positions={[10,11]} height={166} marginBottom={0}/>
 				<p>
 					Every profession comes with a settlement, which is built in various stages children have to play through.
 					<br /><br />
 					Once all stages are completed, a finished building decorates the village and produces shop items when mini-games are repeated.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[12,13]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[14,15]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[16,17,18]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[12,13]} height={230} marginBottom={33}/>
+				<Thumbnails thumbnails={thumbnails} positions={[14,15]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[16,17,18]} height={156} marginBottom={33}/>
 				<p>
 					The professions are based on actual functions people hold in Sudanese rural villages, such as animal owners, farmers, teachers and tea ladies.
 					<br /><br />
 					I worked with pictures and videos provided by the research team to visualize all of this as realistically and fun as possible.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[19,20]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[21,22]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[23,24]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[25,26]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[19,20]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[21,22]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[23,24]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[25,26]} height={230} marginBottom={33} />
 				<p>
 					The shop items these settlements eventually produce correlate with the profession; the brick maker  will give you bricks, the doctor gives bandages, the cooking station gives pancakes – and so on.
 				</p>
@@ -154,7 +154,7 @@ const Warchild = (props) => {
 					<br /><br />
 					These videos are also presented by children, who explain new numbers and mathematical concepts.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[27,28,29]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[27,28,29]} height={186} marginBottom={0}/>
 				<p>
 					Players can relate to these presenters and sometimes even see them as role models. “She is like my big sister,” said one child in the first pilot, “if she can do it, I can as well.”
 				</p>
@@ -165,10 +165,10 @@ const Warchild = (props) => {
 					<br /><br />
 					Below are some examples of the vast number of exercises we created with them:
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[30,31]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[32,33]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[34,35]}/>
-				<Thumbnails thumbnails={thumbnails} positions={[36,37]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[30,31]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[32,33]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[34,35]} height={230} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[36,37]} height={230} marginBottom={33} />
 				<p>
 					The huge potential of the project to transform the way that education in emergencies is delivered has been recognized by UNICEF, which has chosen eLearning Sudan as a {SHOWCASE} in their
 					Innovations in Education programme – out of a 160 entries worldwide at the time.
@@ -177,7 +177,7 @@ const Warchild = (props) => {
 				<p>
 					The project also received attention in the media, varying from {HUFFINGTON} to several Dutch Newspapers. It was nominated Best Serious Game and Best Co-Production for the 2015 Dutch Game Awards.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[38,39,40,41]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[38,39,40,41]} height={250} marginBottom={0}/>
 				<p>
 					This project has scope to benefit huge numbers of children. The open software can be shared.
 					<br /><br />

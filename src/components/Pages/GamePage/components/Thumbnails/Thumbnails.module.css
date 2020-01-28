@@ -1,11 +1,9 @@
 .container {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 .thumbnail {
-  flex-grow: 1;
   margin: 10px;
   background: lightgray;
   background-position: center;

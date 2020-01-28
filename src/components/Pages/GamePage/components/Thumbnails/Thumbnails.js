@@ -31,11 +31,19 @@ class Thumbnails extends Component {
         return null;
       }
 
+      const widthMap = {
+        2: '365px',
+        3: '236px',
+        4: '172px'
+      }
+
+      const width = isMobile ? '100%' : widthMap[this.props.positions.length];
+
       return (
         <div
           key={idx}
           className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile })}
-          style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`}}
+          style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`, width: width }}
           onClick={() => this.handleClick(idx)}
         >
           {thumbnail.text.length > 0 && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
@@ -45,12 +53,14 @@ class Thumbnails extends Component {
   }
 
   render() {
+    const { marginBottom = 0 } = this.props;
+
     return (
       <Fragment >
         {this.state.modal &&
           <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
-        <div className={styles.container} style={{ height: `${this.props.height || 150}px`}}>
+        <div className={styles.container} style={{ height: `${this.props.height || 150}px`, marginBottom: `${marginBottom}px`}}>
           {this.renderThumbnails()}
         </div>
       </Fragment>
