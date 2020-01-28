@@ -20,6 +20,7 @@ class BigImage extends Component {
           className={styles.image}
           onLoad={() => this.setState({loading: false})}
         />
+        {this.props.text && <p className={styles.description}>{this.props.text}</p>}
       </div>
     );
   }
