@@ -58,6 +58,7 @@ class ImageSlider extends Component {
 		const { allImages, idx } = this.state;
 		const currentImage = `https://drive.google.com/uc?id=${allImages[idx].image}`;
 		const imageDetails = allImages[idx];
+		const hasText = !isMobile && imageDetails.text && imageDetails.text.length > 0;
 
 		return(
 			<div className={styles.modalBackground} onClick={this.closeModalHandler}>
@@ -67,7 +68,7 @@ class ImageSlider extends Component {
 
 					<div>
 						<div className={styles.closeButton} onClick={this.closeModalHandler}>X</div>
-						<img className={cn(styles.image, { [styles.mobileImage]: isMobile })} src={currentImage} alt="" onClick={this.doNothingHandler}/>
+						<img className={cn(styles.image, { [styles.mobileImage]: isMobile, [styles.textArea]: hasText })} src={currentImage} alt="" onClick={this.doNothingHandler}/>
 					</div>
 
 					{!isMobile &&
