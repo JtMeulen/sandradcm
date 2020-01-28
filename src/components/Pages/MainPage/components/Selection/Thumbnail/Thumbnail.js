@@ -54,7 +54,7 @@ class Thumbnail extends Component {
                     <div className={cn(styles.thumbnail, { [styles.thumbnailMobile]: isMobile })} onClick={this.handleClick}>
                         <div className={styles.image} style={backgroundStyle} id={this.props.id}>
                             <div className={styles.overlay}>
-                                <span>{this.props.name}</span>
+                                <span className={styles.titleText}>{this.props.name}</span>
                             </div>
                         </div>
                     </div>
