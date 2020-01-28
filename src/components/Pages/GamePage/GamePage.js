@@ -31,7 +31,7 @@ class GamePage extends Component {
         "suez": <Suez {...this.props} />,
         "superhelden": <Superhelden {...this.props} />,
         "mediamasters": <Mediamasters {...this.props} />,
-        "qubios": <Qubios {...this.props} />,
+        "gameassets": <Qubios {...this.props} />,
         "catch22": <Catch22 {...this.props} />,
         "allnighter": <Allnighter {...this.props} />,
         "lightwatch": <Lightwatch {...this.props} />,
