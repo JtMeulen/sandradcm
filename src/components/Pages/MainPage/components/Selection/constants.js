@@ -135,7 +135,7 @@ export const artMap = [
         category: 'art',
         image: '1_AD0X52netFjMo0SEsFWce9tJvVcdIaA',
         backgroundOffset: 'center bottom -80px',
-        text: 'A digital "still life" of Thranduil from The Hobbit triloy. Work in progress &nbsp;<a href="https://drive.google.com/file/d/1do-O2jx2BrwEVUvwsP1VWpNJx3Py_Dln/view" target="_blank" rel="noopener noreferrer">here</a>'
+        text: 'A digital "still life" of Thranduil from The Hobbit trilogy. Work in progress&nbsp;<a class="anchor" href="https://drive.google.com/file/d/1do-O2jx2BrwEVUvwsP1VWpNJx3Py_Dln/view" target="_blank" rel="noopener noreferrer">here</a>'
     },
     {
         id: 'PlayingCardIllustration',
@@ -143,7 +143,7 @@ export const artMap = [
         category: 'art',
         image: '1S-coRq0KcEJr5tUaUsKx_hTmhM-3scdJ',
         backgroundOffset: 'center bottom -30px',
-        text: 'Illustration for the analog game &nbsp;<a href="http://localhost:3000/games/rise-of-gods" target="_blank" rel="noopener noreferrer">Ascendance: Rise of Gods</a>'
+        text: 'Illustration for the analog game&nbsp;<a class="anchor" href="/games/rise-of-gods" target="_blank" rel="noopener noreferrer">Ascendance: Rise of Gods</a>'
     },
     {
         id: 'Illustration',
