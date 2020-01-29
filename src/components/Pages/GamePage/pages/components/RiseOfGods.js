@@ -3,7 +3,6 @@ import cn from 'classnames';
 import { isMobile } from 'react-device-detect';
 
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
-import Video from '../../components/Video/Video';
 import BigImage from '../../components/BigImage/BigImage';
 import Thumbnails from '../../components/Thumbnails/Thumbnails';
 import styles from './styles.module.css';
@@ -11,14 +10,13 @@ import styles from './styles.module.css';
 const RiseOfGods = (props) => {
 
 	const thumbnails = [
-		{image: '10qV8Uv0-mwE27CzLTWhClcO4uzMfR6pA', text: 'Hadrian is the Discipple of the Aggressive playing style'}, //0
-		{image: '1CooJBQkYV06fW_j0MAM07j6SMF-vb90O', text: 'Messina is the Discipple of the Adaptive playing style'}, //1
-		{image: '15vW8VZfpbEyNCG8sNu0XNHa3IQ-YVzKZ', text: 'Balint is the Discipple of the Defensive playing style'}, //2
-		{image: '1ykTcQjisNjD7ZrRH-PjfSxzz89eIYMQ6', text: 'Example of a fully finished Warrior Card'}, //3
-		{image: '1jt8uy2f7U00oLC5T4WCEZGVKQ7TwhvXJ', text: 'Example of a fully finished Ability Card'}, //4
-		{image: '1nZ2g2PpopxF4QokAtJA2bkai1UvWgMtl', text: 'Example of the back of the cards'} //5
-		
-		];
+		{image: '1ykTcQjisNjD7ZrRH-PjfSxzz89eIYMQ6', text: 'Example of a fully finished Warrior Card'}, //0
+		{image: '1jt8uy2f7U00oLC5T4WCEZGVKQ7TwhvXJ', text: 'Example of a fully finished Ability Card'}, //1
+		{image: '1nZ2g2PpopxF4QokAtJA2bkai1UvWgMtl', text: 'Example of the back of the cards'}, //2
+		{image: '10qV8Uv0-mwE27CzLTWhClcO4uzMfR6pA', text: 'Hadrian is the Discipple of the Aggressive playing style'}, //3
+		{image: '1CooJBQkYV06fW_j0MAM07j6SMF-vb90O', text: 'Messina is the Discipple of the Adaptive playing style'}, //4
+		{image: '15vW8VZfpbEyNCG8sNu0XNHa3IQ-YVzKZ', text: 'Balint is the Discipple of the Defensive playing style'} //5
+	];
 
 	const VIMEO = <a href="https://vimeo.com/28084954" target="_blank" rel="noopener noreferrer">here</a>;
 
@@ -35,7 +33,7 @@ const RiseOfGods = (props) => {
 					<br /><br />
 					A video on Vimeo containing all card graphics and the accompanying playing book can be found {VIMEO}!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={348} marginBottom={50} />
 				<p>
 					For both the book and the cards I made elaborate conceptual illustrations, based on lore of a universe I created myself. This universe is perishing under the influence of a fallen God,
 					of which its three Disciples now battle to take its place.
@@ -45,7 +43,7 @@ const RiseOfGods = (props) => {
 					The visual design revolves around creatures inhabiting this world and the abilities they can perform. Next to the three God cards, I developed eighteen creature cards and
 					25 ability cards. These Warriors and their abilities were divided in the different playing styles.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={348} marginBottom={50} />
 				<p>
 					Due to time constraints and the experimental nature of the project, most cards were sketched and served as prototypes.
 					The interface of the cards and the (purposely neutral) Ability cards were fully finished. <br />

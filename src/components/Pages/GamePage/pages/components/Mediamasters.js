@@ -40,7 +40,7 @@ const Mediamasters = (props) => {
 					Flavour produces it annually together with Mediawijzer.net, NTR, the Issuemakers, Bleck and the Dutch Institute for Audiovisuals.<br/>
 					It was rewarded in 2015 with the fourth	Evens Prize for Media Education at the Media Meets Literacy festival in Poland.
 				</p>	
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={264} marginBottom={0} />
 				<p>
 					Every year, the game challenges schoolchildren throughout the Netherlands with a media mystery story line they have to solve in the course of a week, dubbed ‘the week of Media Wisdom’.
 				<br /><br />
@@ -52,13 +52,13 @@ const Mediamasters = (props) => {
 				<br /><br />
 					For the 2012 version, I created characters based on the actors in the videos guiding the children through the course material.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[2,3]} height={264} marginBottom={0} />
 				<p>
 					For the 2013 edition, I created characters for the new actors again, but also designed and produced the entire 2D interface of the game; mainly background screens for pop-ups and, of course, buttons.
 					<br /><br />
 					This interface was reused in 2014.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[4,5]} height={264} marginBottom={0} />
 				<p>
 				Watch one of the trailers below to see some of the characters in real life!
 				</p>

@@ -59,7 +59,7 @@ const JURY_REPORT = <a href="https://scienceguide.nl/media/585026/jury%20report%
 					<br /><br />
 					For each new game, the patient calibrates the game to fit the level of impairment of the patient.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={200}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={300} marginBottom={33}/>
 				<p>
 					In-game, the patient flies, following a path, through various parts of the world and collecting birds, as can be seen {VIMEO}.
 					<br /><br />
@@ -68,28 +68,28 @@ const JURY_REPORT = <a href="https://scienceguide.nl/media/585026/jury%20report%
 					<br /><br />
 					The characters and environment also had to enable immersion by being recognizable, but still more exciting and vibrant than real life.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3]} height={248} marginBottom={0} />
-				<Thumbnails thumbnails={thumbnails} positions={[4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[2,3]} height={294} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[4,5]} height={294} marginBottom={0} />
 				<p>
 					The main character faced the challenge of having to contrast with the environment and be as compact as possible, to better keep the attention of our players.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6,7,8]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[6,7,8]} height={318} marginBottom={33} />
 				<p>
 					With the help of my designs and style guide, the world and character modeling was done by teammates Ronald Houtermans and Tim Remmers.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={198} marginBottom={33} />
 				<p>
 					<em>Vogels!</em> and its entire installation was featured on behalf of iZovator and Indigo at Game in the City 2010, as well as iZovator’s Cross Care Café 2010,
 					Support 2010 and the Festival of Games 2010, where it won the Diamond Trophy for being voted Best of Show.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[12,13]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[12,13]} height={480} marginBottom={33} />
 				<p>
 					Next to winning and being nominated for Dutch prizes, <em>Vogels!</em> was one of the final three nominees for the prestigious Wozzie Award of 2010, named after and handed
 					over by Steve Wozniak, co-founder of Apple. Click to {JURY_REPORT} the official jury report online.
 					<br /><br />
 					<em>Vogels!</em> was also invited to the FILE festival of 2011 in Rio de Janeiro, Brazil.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[14,15]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[14,15]} height={300} marginBottom={33} />
 				<p>
 					<em>Vogels!</em> now serves as a proof of concept for FOCAL. Documentation created during the project was handed over to them.
 					<br /><br />

@@ -35,13 +35,13 @@ const Superhelden = (props) => {
 					<em>Ziggo: Zuperhelden</em> is a battle between colleagues and internal departments. In several mini quizzes, grid games and animated problematic scenarios,
 					players were challenged to learn all about Ziggo’s regulatory compliance.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={306} marginBottom={0} />
 				<p>
 					The generated player data gave Ziggo’s management insight in their staff’s compliance knowledge. Mainly due to the battle element, increased engagement improved these statistics.
 					<br /><br />
 					I created supplementary pieces for this game in the shape of several of the quiz interface elements (such as the menu shown above) and various scenario panels.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]} height={204} marginBottom={0} />
 			</div>
 		</Fragment>
 		)

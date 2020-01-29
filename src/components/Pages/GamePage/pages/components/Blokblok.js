@@ -17,8 +17,7 @@ const Blokblok = (props) => {
 		{image: '1_SSsKMqF0N9TnezOmQ6AN4duA31BWjTL', text: ''} //4 BlokBlok_Credits
 	];
 
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
-const BLOKBLOK = <a href="https://www.newgrounds.com/portal/view/590273" target="_blank" rel="noopener noreferrer">play for free</a>;
+	const BLOKBLOK = <a href="https://www.newgrounds.com/portal/view/590273" target="_blank" rel="noopener noreferrer">play for free</a>;
 
   return (
 		<Fragment>
@@ -28,7 +27,7 @@ const BLOKBLOK = <a href="https://www.newgrounds.com/portal/view/590273" target=
 				<p>
 				<em>BlokBlok!</em> is a little puzzle game developed by current members of Team Reptile and myself in one week. I created the art in 2011 and it went online to {BLOKBLOK} in 2012.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1]} height={294} marginBottom={0} />
 				<p>
 				In <em>BlokBlok!</em> you flip tiles in patterns to recreate an image by selecting your desired pattern and clicking.
 				In the main menu, the player can select different levels to play. When a puzzle is solved, the next unlocks. The solving speed is rewarded with stars.
@@ -39,7 +38,7 @@ const BLOKBLOK = <a href="https://www.newgrounds.com/portal/view/590273" target=
 				<br /><br />
 				The design in general, however, remains strongly focused on gameplay and was simplified because of the time constraints.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[2,3,4]} height={197} marginBottom={0} />
 				</div>
 		</Fragment>
 		)

@@ -24,7 +24,7 @@ const Catch22 = (props) => {
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
 				<TitleInfo title={"Mango Down!: Catch-22 (2013)"} />
 				<p>
-				<strong>Nomination:</strong><br /> 
+				<strong>Nomination:</strong><br />
 				Casual Connect 2014 , IndiePrize: <em>Best Innovative Game</em>
 				</p>
 				<Video videoId={"cxMjkNp3YME"} />
@@ -42,7 +42,7 @@ const Catch22 = (props) => {
 				<p>
 				I created the textures for all orbs and UI/menu designs and worked together with {ROEL_BARTSTRA} to implement the features in Unity, where I provided feedback on spherical effects.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2,3]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={256} marginBottom={33} />
 				<p>
 				Catch-22 was created by team Mango Down!, winning the Global Gamejam 2012 Amsterdam, as well as ‘De Kleine Uil’ of the Global Game Jam 2012 – The Netherlands.
 				<br /><br />
