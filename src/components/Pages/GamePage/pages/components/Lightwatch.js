@@ -19,7 +19,6 @@ const Lightwatch = (props) => {
 		{image: '1nEIhoIQDR7a9GuliXVByv8M3ruS9O-f_', text: 'A glimpse of the final boss'} //5
 	];
 
-	const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
 	const RESKIN_ALLNIGHTER = <a href="/games/allnighter" target="_blank">reskin the game for their cartoon ‘Regular Show’</a>;
 	const DUTCH_GAME_GARDEN = <a href="https://www.dutchgamegarden.nl/" target="_blank" rel="noopener noreferrer">Dutch Game Garden</a>;
 
@@ -29,28 +28,28 @@ const Lightwatch = (props) => {
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
 				<TitleInfo title={"Indie game: Lightwatch (2011)"} />
 				<p>
-					Lightwatch is a game developed by current members of Team Reptile and myself. Most content, including my art, was created in 2011. 
+					Lightwatch is a game developed by current members of Team Reptile and myself. Most content, including my art, was created in 2011.
 					<br />
 					The game went up for sale on FGL early 2012 and was later bought and distributed later by Armor Games.
 				</p>
 				<Video videoId={"sNJWeE3Fh0U"} />
 				<p>
 					In <em>Lightwatch</em>, you play a captain sailing out to sea at night. By shooting stars with a harpoon, you gather stardust to fuel the lighthouse on shore.
-					<br />While doing this sailing, enemies such as seagulls, sharks, crabs and more aim for the poor captain and his stardust. 
+					<br />While doing this sailing, enemies such as seagulls, sharks, crabs and more aim for the poor captain and his stardust.
 				</p>
 				<BigImage googleId={"1PdNk7HnwEzB0ncBRBgvPTyfkH9Br7_8D"} text={"The tutorial screen"} />
-				<p>	
+				<p>
 				If the lighthouse is filled, Rainbownus time grants the player higher scores.
 				<br />During daytime, the player enters an upgrade screen. There, players can trade their score for boosts in playing sessions.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={197} marginBottom={33} />
 				<p>
 					I visually designed <em>Lightwatch</em> entirely, creating all art assets in the process. Together with creating its structure and gameplay content,
 					I also helped with testing and tweaking the game.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={197} marginBottom={33} />
 				<p>
-					<em>Lightwatch</em> featured at the {DUTCH_GAME_GARDEN} network lunch of March 7th, 2012. 
+					<em>Lightwatch</em> featured at the {DUTCH_GAME_GARDEN} network lunch of March 7th, 2012.
 					<br />We were also asked by Cartoon Network to {RESKIN_ALLNIGHTER}.
 				</p>
 				<BigImage googleId={"19kADXJv81bJzJXukfgJ-k5FCtGAltHct"} />

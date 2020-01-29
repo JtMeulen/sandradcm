@@ -51,7 +51,7 @@ const Noisia = (props) => {
 					I gained my first experience in producing for long-running projects and with client communication, as the band was very involved in the process.
 					<br /><br />
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={168} marginBottom={0} />
 				<p>
 					<em>Noisia Infection</em> went on to win the Golden SpinAward for Best Gaming Concept during the SpinAwards of 2010-2011. It was also one of the three nominees for the 2010 Dutch Game Award: Best Online Game.
 				</p>
