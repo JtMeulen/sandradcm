@@ -30,12 +30,14 @@
 }
 
 .title {
-    font-size: 4em;
+    font-size: 3.6em;
     text-align: center;
+    font-weight: 700;
 }
 
 .titleMobile {
-    font-size: 2.5em;
+    font-size: 2.2em;
+    font-weight: 700;
     text-align: center;
 }
 

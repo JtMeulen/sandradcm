@@ -46,7 +46,7 @@ class Thumbnails extends Component {
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`, width: width }}
           onClick={() => this.handleClick(idx)}
         >
-          {thumbnail.text.length > 0 && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
+          {thumbnail.text.length > 0 && !isMobile && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
         </div>
       );
     });
@@ -60,7 +60,7 @@ class Thumbnails extends Component {
         {this.state.modal &&
           <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
-        <div className={styles.container} style={{ height: `${this.props.height || 150}px`, marginBottom: `${marginBottom}px`}}>
+        <div className={styles.container} style={{ height: `${isMobile ? 100 : this.props.height}px`, marginBottom: `${isMobile ? 0 : marginBottom}px`}}>
           {this.renderThumbnails()}
         </div>
       </Fragment>
