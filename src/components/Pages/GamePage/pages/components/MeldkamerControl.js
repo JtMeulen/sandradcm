@@ -44,20 +44,20 @@ const MeldkamerControl = (props) => {
 				<p>
 					<em>Meldkamer Control</em> is a supplement to the training of these dispatchers. Players need to handle realistic emergency situations through various levels of difficulty, all taking place in real time.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 					They are trained in interpreting reports, sustain proper ambulance coverage and execute the logistics of controlling a number of ambulances at once.
 					<br /><br />
 					At the same time, they are challenged to unlock new levels, raise their status and challenge each other.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<p>
 					Visually, I had to replicate the existing dispatch software and alter it for gamification, while at the same time closing the visual gap with the real system as much as possible.
 					Visual similarity proved to enable the trainees to apply their newly found skills to the actual job more easily.
 					<br /><br />
 					There was more wiggle room with the general interface, but the look of it still had to remain clean and non-distracting.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					As quoted by Piet-Hein ten Hacken, head of Control Room Consultation in the Netherlands:
 				</p>
@@ -68,7 +68,7 @@ const MeldkamerControl = (props) => {
 					</strong>
 				</p>
 				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 			</div>
 		</Fragment>
 		)

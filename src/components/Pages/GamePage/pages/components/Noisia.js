@@ -54,7 +54,7 @@ const Noisia = (props) => {
 					<br /><br />
 					Successfully finishing the tracks brings you to Boss fights – end battles set to a Noisia remix by other famous artists.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					I helped set the tone for the gritty interface structure and the environmental atmosphere. I also worked on theme worlds and game assets,
 					such as the Jungle environment and the Canine Cannons shown above.
@@ -63,7 +63,7 @@ const Noisia = (props) => {
 					<br /><br />
 					Noisia Infection won the Golden SpinAward for Best Gaming Concept during the SpinAwards of 2010-2011. It was also one of the three nominees for the 2010 Dutch Game Award: Best Online Game.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 				<Video videoId={"wJcbFw6u22s"} />
 			</div>
 		</Fragment>

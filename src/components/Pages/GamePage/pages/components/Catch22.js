@@ -40,27 +40,27 @@ const Catch22 = (props) => {
 				<p>
 				<em>Catch-22</em> is a one-button high-score game about the paradox of avoiding problems – while creating other problems instead.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 				The goal of the game is to pick up orbs with the active player and to avoid the inactive player (who is your ghost). 
 				<br /><br />
 				If you collect all three orbs, you switch to the ghost and your previous self becomes the new ghost, repeating the actions you did before the switch. 
 				This process is infinite until you crash into yourself.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<p>
 				Catch-22 was created by team Mango Down!, winning the Global Gamejam 2012 Amsterdam, as well as ‘De Kleine Uil’ of the Global Game Jam 2012 – The Netherlands.
 				<br /><br />
 				They were a finalist in the SpinAwards of 2012 and selected for the PAX 10 and IndieCade Selection of 2012 as well.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 				I worked on the version released for iOs in 2013, which would eventually be nominated for the IndiePrize at Casual Connect 2014: Best Innovative Game.
 				<br /><br />
 				I created the textures for all orbs and UI/menu designs and worked together with {ROEL_BARTSTRA} to implement the features in Unity, where I provided feedback on spherical effects.
 				</p>
 				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 			</div>
 		</Fragment>
 		)

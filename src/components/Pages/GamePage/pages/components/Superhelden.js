@@ -42,13 +42,13 @@ const Superhelden = (props) => {
 					<em>Superheldenspel</em> is an exciting battle between colleagues and internal departments. In several mini quizzes, grid games and animated problematic scenarios,
 					players are challenged to learn all about Ziggo’s regulatory compliance.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 					The generated player data gave Ziggo’s management insight in their staff’s compliance knowledge. The extra motivation, mainly due to the battle element of the game, improved these statistics.
 					<br /><br />
 					I created several of the quiz interface elements, such as the menu shown above, and various scenario panels as well.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 			</div>
 		</Fragment>
 		)

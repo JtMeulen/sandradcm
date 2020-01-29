@@ -44,23 +44,23 @@ const Mediamasters = (props) => {
 					<br /><br />
 					Every year, the game challenges schoolchildren throughout the Netherlands with a media mystery story line they have to solve in the course of a week, dubbed ‘the week of Media Wisdom’.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 					Classes play together on the digital school board, online via social media, in libraries and at home to earn theirclass points.
 					<br /><br />
 					These points boost them in the quiz on the finale day, which all classes in the Netherlands take simultaneously. The class solving the mystery and the quiz first and best, wins the battle.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<p>
 					For the 2012 version, I created characters based on the actors in the videos guiding the children through the course material.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					For the 2013 edition, I created characters for the new actors again, but also designed and produced the entire 2D interface of the game; mainly background screens for pop-ups and, of course, buttons.
 					<br /><br />
 					This interface was reused in 2014.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 				<BigImage googleId={"1w5HxnB7EylZFFjnujA-OGt4XN28zMZlV"} />
 			</div>
 		</Fragment>

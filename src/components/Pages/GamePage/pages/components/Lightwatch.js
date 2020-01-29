@@ -43,19 +43,19 @@ const Lightwatch = (props) => {
 				<p>
 					In <em>Lightwatch</em>, you play a captain sailing out to sea at night. By shooting stars with a harpoon, you gather stardust to fuel the lighthouse on shore.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 					While doing this sailing, enemies such as seagulls, sharks, crabs and more aim for the poor captain and his stardust. If the lighthouse is filled,
 					Rainbownus time grants the player higher scores.
 					<br /><br />
 					During daytime, the player enters an upgrade screen. There, players can trade their score for boosts in playing sessions.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<p>
 					I visually designed <em>Lightwatch</em> entirely, creating all art assets in the process. Together with creating its structure and gameplay content,
 					I also helped with testing and tweaking the game.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					<em>Lightwatch</em> featured at the {DUTCH_GAME_GARDEN} network lunch of March 7th, 2012. Team Reptile and myself were also asked by Cartoon Network to {RESKIN_ALLNIGHTER}.
 				</p>

@@ -45,18 +45,18 @@ const RiseOfGods = (props) => {
 					For both the book and the cards I made elaborate conceptual illustrations, based on lore of a universe I created myself. This universe is perishing under the influence of a fallen God,
 					of which its three Disciples now battle to take its place.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 					The visual design revolves around creatures inhabiting this world and the abilities they can perform. Next to the three God cards, I developed eighteen creature cards and
 					25 ability cards. These Warriors and their abilities were divided in the different playing styles.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<p>
 					Due to time constraints and the experimental nature of the project, most cards were sketched and served as prototypes.
 					The interface of the cards and the (purposely neutral) Ability cards were fully finished. The bottom decorations of the Warrior cards line up with
 					the top of the Ability cards when they are put in formation on the table.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					The project also features a customized player mat on which players place their cards. It functions simultaneously as a health bar during battle, clarifying
 					in-game progress and enabling the player to immerse in the session more easily.

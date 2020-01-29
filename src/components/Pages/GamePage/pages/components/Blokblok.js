@@ -40,13 +40,13 @@ const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="
 				In BlokBlok! you flip tiles in patterns to recreate an image by selecting your desired pattern and clicking.
 				In the main menu, the player can select different levels to play. When a puzzle is solved, the next unlocks. The solving speed is rewarded with stars.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
 				<p>
 				I created a simple overview where a player can easily view this progress. I also created the BlokBloks; sprites which accompany the player in-game as a little extra.
 				<br /><br />
 				The design in general, however, remains strongly focused on gameplay and was simplified because of the time constraints.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5,6]} height={248} marginBottom={0} />
 				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
 			</div>
 		</Fragment>

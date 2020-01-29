@@ -64,22 +64,22 @@ const JURY_REPORT = <a href="https://scienceguide.nl/media/585026/jury%20report%
 					<br /><br />
 					The characters and environment also had to enable immersion by being recognizable, but still more exciting ans vibrant than real life.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					Above are concept sketches for different environments to guide players through. Below, ideas for birds fitting these environments.
 					<br /><br />
 					The main character faced the challenge of having to contrast with the environment and be as compact as possible, to better keep the attention of our players.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
 				<p>
 					By my designs and style guides, the world and character modelling was then done by teammates Ronald Houtermans and Tim Remmers.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 				<p>
 					<em>Vogels!</em> and its entire installation was featured on behalf of iZovator and Indigo at Game in the City 2010, as well as iZovator’s Cross Care Café 2010,
 					Support 2010 and the Festival of Games 2010, where it won the Diamond Trophy for being voted Best of Show.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
 				<p>
 					Next to winning and being nominated for Dutch prizes, <em>Vogels!</em> was one of the final three nominees for the prestigious Wozzie Award of 2010, named after and handed
 					over by Steve Wozniak, co-founder of Apple. Click to {JURY_REPORT} the official jury report online.

@@ -100,7 +100,7 @@ const CandyCrushSaga = (props) => {
 				levels, released every week, with custom art and narrative on the Saga map and behind the
 				game board.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2,3,4,5]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2,3,4,5]} height={248} marginBottom={0} />
 				<p>
 				For each episode, the team would brainstorm narrative and titles themselves, no matter how the implementation evolded
 				over the years. I was closely involved in revamping our saga map and our ways of working with episodes over the years,
@@ -112,13 +112,13 @@ const CandyCrushSaga = (props) => {
 				Yeti in search what would happen after level 2000. The mischevious Bubblegum Troll was there to soothe their Y2K scare
 				with a glimpse into the future.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6,7,8,9,10,11]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[6,7,8,9,10,11]} height={248} marginBottom={0} />
 				<p>
 				These designs were featured on worldwide media (such as {BBC_URL}),
 				in app stores and on social media. King celebrated level 2000 with a big campaign – check out the video below!
 				</p>
 				<Video videoId={"D4pCVx6ln3E"} />
-				<Thumbnails thumbnails={thumbnails} positions={[12,13,14,15,16,17]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[12,13,14,15,16,17]} height={248} marginBottom={0} />
 				{/* TODO: BIG IMAGE */}
 				<p>
 				When working with live operations, I contributed visually and with technical implementation, sometimes reskinning existing
@@ -129,7 +129,7 @@ const CandyCrushSaga = (props) => {
 				BEAN STALK
 				pics from CHRISTMAS STOCKING RESKIN AND KEY QUEST
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[18,19,20,21,22,23]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[18,19,20,21,22,23]} height={248} marginBottom={0} />
 				<p>
 				Candy Crush Saga has seen a lot of characters over the years. I have worked with existing cast members, strengthening
 				their narrative, giving make-overs where necessary - and adding a few of my own! 
@@ -160,7 +160,7 @@ const CandyCrushSaga = (props) => {
 				Outside of working with the game teams and art craft, I have had many side projects supporting King as a company. I often create 
 				graphics for internal use such as event invitations, office maps, portraits of players and colleagues and more. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[24,25,26,27,28,29,30,31,32]}/>
+				<Thumbnails thumbnails={thumbnails} positions={[24,25,26,27,28,29,30,31,32]} height={248} marginBottom={0} />
 			</div>
 		</Fragment>
 		)
