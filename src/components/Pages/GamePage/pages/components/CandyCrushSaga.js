@@ -66,7 +66,7 @@ const CandyCrushSaga = (props) => {
 		<Fragment>
 			<Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} />
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"King: Candy Crush Saga"} />
+				<TitleInfo title={"King: Candy Crush Saga (2015-now)"} />
 				<p>
 				In September 2015 I started working at King as a game artist on Candy Crush Saga. I have worked on
 				different parts of the game, with a large focus on content production, live operations and innovating existing

@@ -32,9 +32,9 @@ const REGULARSHOWIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" targ
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Cartoon Network: All Nighter"} />
+				<TitleInfo title={"Cartoon Network: All Nighter (2012)"} />
 				<p>
-				<em>All Nighter</em> is an online game developed by current members of Team Reptile and myself in 2012, produced by Cartoon Network. When Cartoon Network 
+				<em>All Nighter</em> is an online game developed by the current members of Team Reptile and myself in 2012, produced by Cartoon Network. When Cartoon Network 
 				discovered our previous collaboration game <em>Lightwatch</em>, they decided their cartoon series {REGULARSHOWIMDB_URL} could use a game just like it!
 				<br /><br />
 				Because Cartoon Network liked the visual design of <em>Lightwatch</em>, I got to do the art for <em>All Nighter</em> myself.

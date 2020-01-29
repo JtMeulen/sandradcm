@@ -23,9 +23,9 @@ const Kenau = (props) => {
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Plan Nederland: Kenau's Army Of Women"} />
+				<TitleInfo title={"Fu Works: Kenau's Army Of Women (2014)"} />
 				<p>
-				In my time with {FLAVOUR}, I worked on a media campaign made possible by a massive collaboration of Dutch companies. Together with FuWorks, Spektor and Plan Nederland,
+				In my time with {FLAVOUR}, I worked on a media campaign made possible by a massive collaboration of Dutch companies. Together with Fu Works, Spektor and Plan Nederland,
 				Flavour realised <em>Kenau’s Army of Women</em>.
 				</p>
 				<Video videoId={"Kcrv569IQZY"} />

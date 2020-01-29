@@ -11,18 +11,9 @@ import styles from './styles.module.css';
 const Noisia = (props) => {
 
 	const thumbnails = [
-		{image: '15umXCjeAqxMNvb-9c5eQuhdblUf3bVYJ', text: ''}, //0
-		{image: '1WVH_7N1jFcnzk2gUUuzn8CgqmGoPUdW-', text: ''}, //1
-		{image: '1l8DTcNZfK4_pj_H-298_WZTgS4OPnuni', text: ''}, //2
-		{image: '1cnz0nEGUQIZEGNj8FiKaHA28Nj2HmToe', text: ''}, //3
-		{image: '1BnMhcDAh03aBYu3RVIGDVOhuIodhiLMN', text: ''}, //4
-		{image: '14j3kwd9Keg7d6J6uxQEm7sa1w4sGlUIU', text: ''}, //5
-		{image: '1-CW0XOuFIhXhSmFmrAml46htlGApDuUF', text: ''}, //6
-		{image: '1rrcUJtPhomklDP0cCs1tv88v7CzIR4zh', text: ''}, //7
-		{image: '1w-G52cun18JvaINjlOWzpZFVWD3SbaFU', text: ''}, //8
-		{image: '1DN2mY56mo_Ftj5nATuUbCQpZW8lERjQW', text: ''}, //9
-		{image: '11v9JOj4Zd0vqEffZ03V7C-jAHE8OZpA8', text: ''}, //10
-		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: ''} //11
+		{image: '1KHBNkdVseQ1ACgHm16gkJQ4YWc0Oiy8y', text: ''}, //0 Noisia1
+		{image: '1nrrc5B_IzkAj8lH2uPaRzcgEijvxPyiO', text: ''}, //1 Noisia2
+		{image: '1wFnd_XJI4RT6qS2R6ddsYTnCdHgvye3d', text: ''} //2 Noisia5
 	];
 
 	const FLAVOUR = <a href="https://www.flavour.nl/" target="_blank" rel="noopener noreferrer">Flavour</a>;
@@ -31,41 +22,40 @@ const Noisia = (props) => {
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Noisia: Infection"} />
+				<TitleInfo title={"Noisia: Infection (2010)"} />
 				<p>
-					<strong>Golden SpinAward 2010-2011:</strong> Best Gaming Concept
-				</p>
-				<p>
-					<strong>Nomination: Dutch Game Awards:</strong> Best Online Game
+					<strong>Award:</strong><br />
+					Golden SpinAward 2010-2011:<em> Best Gaming Concept</em>
+				<br /><br />
+					<strong>Nomination:</strong><br /> 
+					Dutch Game Awards:<em> Best Online Game</em>
 				</p>
 				<Video videoId={"wcYFShfyNao"} />
 				<p>
 					<em>Noisia Infection</em> is a game I worked on during my 2009-2010 internship at {FLAVOUR}.
 					Dutch electronic music trio Noisia worked together with the company to promote the release of their ‘Split the Atom’ album.
 				</p>
-				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
+				<BigImage googleId={"1Fdb3CfWzgLj4VIqGOq2ZUSdlSpxQJN54"} />
 				<p>
 					The player has to shoot enemies in accordance to the beat in the world of an album track. The better your rhythm, the higher you score.
-				</p>
-				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<BigImage googleId={"1JQJ8pMg2g3vLmybBbu7PdH405TDjhK2X"} />
-				<p>
+					<br />
 					During the levels, the soundtrack shifts gears and becomes more complex. The movement of the music lines changes and new lines give players an opportunity to navigate between them.
 					<br /><br />
 					Successfully finishing the tracks brings you to Boss fights – end battles set to a Noisia remix by other famous artists.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8]} height={248} marginBottom={0} />
+				<BigImage googleId={"1oyfu8yyM79s0IKtVh4VquOSFFyTNrkbR"} />
 				<p>
-					I helped set the tone for the gritty interface structure and the environmental atmosphere. I also worked on theme worlds and game assets,
+				    I helped set the tone for the gritty interface structure and the environmental atmosphere. I also worked on theme worlds and game assets,
 					such as the Jungle environment and the Canine Cannons shown above.
 					<br /><br />
-					I gained experience in producing for long-running projects and with client communication, as the band was very involved in the process.
+					I gained my first experience in producing for long-running projects and with client communication, as the band was very involved in the process.
 					<br /><br />
-					Noisia Infection won the Golden SpinAward for Best Gaming Concept during the SpinAwards of 2010-2011. It was also one of the three nominees for the 2010 Dutch Game Award: Best Online Game.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[9,10,11]} height={248} marginBottom={0} />
-				<Video videoId={"wJcbFw6u22s"} />
-			</div>
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={248} marginBottom={0} />
+				<p>
+					<em>Noisia Infection</em> went on to win the Golden SpinAward for Best Gaming Concept during the SpinAwards of 2010-2011. It was also one of the three nominees for the 2010 Dutch Game Award: Best Online Game.
+				</p>
+				</div>
 		</Fragment>
 		)
 	}

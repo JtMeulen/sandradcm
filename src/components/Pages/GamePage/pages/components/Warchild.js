@@ -63,7 +63,7 @@ const Warchild = (props) => {
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"War Child Holland: e-Learning Sudan"} />
+				<TitleInfo title={"War Child Holland: e-Learning Sudan (2015)"} />
 				<p>
 					<strong>Awards:</strong><br />
 					UNICEF:<em> Innovation in Education Showcase Programme 2014</em><br />

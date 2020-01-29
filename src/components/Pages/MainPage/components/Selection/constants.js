@@ -57,17 +57,17 @@ export const gamesMap = [
     },
     {
         id: 'Kenau',
-        name: "Plan Nederland: Kenau's Army of Women",
+        name: "Fu Works: Kenau's Army of Women",
         category: 'casual',
         link: '/games/kenau',
         image: '1gskQCHwDGDdoWGJfdgoLno5tJNKVC-qI'
     },
     {
-        id: 'Suez',
-        name: 'GDF Suez: Watt Game',
+        id: 'LightWatch',
+        name: 'Indie game: LightWatch',
         category: 'casual',
-        link: '/games/suez',
-        image: '1jxxE5eBN9-TSQ2g7M0uL1pjF4OqxV-XV'
+        link: '/games/lightwatch',
+        image: '1O7Fe2WiJYMK7bGptZBuoAjqgINt7jiDf'
     },
     {
         id: 'RiseOfGods',
@@ -77,18 +77,18 @@ export const gamesMap = [
         image: '1JOM20-kehYr8WAZxaUb645cbHwsaQtos'
     },
     {
+        id: 'Suez',
+        name: 'GDF Suez: Watt Game',
+        category: 'casual',
+        link: '/games/suez',
+        image: '1jxxE5eBN9-TSQ2g7M0uL1pjF4OqxV-XV'
+    },
+    {
         id: 'BlokBlok',
         name: 'Indie game: BlokBlok',
         category: 'casual',
         link: '/games/blokblok',
         image: '1DOYO4loPMmcN7ct4IRoznl5dOoiEMIJo'
-    },
-    {
-        id: 'LightWatch',
-        name: 'Indie game: LightWatch',
-        category: 'casual',
-        link: '/games/lightwatch',
-        image: '1O7Fe2WiJYMK7bGptZBuoAjqgINt7jiDf'
     },
     {
         id: 'SpeedRunner',
@@ -106,7 +106,7 @@ export const gamesMap = [
     },
     {
         id: 'SuperHelden',
-        name: 'Ziggo: Superheldenspel',
+        name: 'Ziggo: Zuperhelden',
         category: 'serious',
         link: '/games/superhelden',
         image: '19vYonqhsux-j95GSA3mXnZ4j_oOG17b9'

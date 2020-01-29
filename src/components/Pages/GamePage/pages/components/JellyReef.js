@@ -37,7 +37,7 @@ const JellyReef = (props) => {
 		<Fragment>
 			{/* <Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"Student Project: The Jelly Reef"} />
+				<TitleInfo title={"Student Project: The Jelly Reef (2011)"} />
 				<p>
 				<strong>Nominations:</strong><br />
 				Cinekid 2012: <em>New Media Award</em> <br />
