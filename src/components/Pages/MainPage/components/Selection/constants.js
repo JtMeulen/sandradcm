@@ -43,7 +43,7 @@ export const gamesMap = [
     },
     {
         id: 'Vogels',
-        name: 'Student project: Vogels',
+        name: 'Student project: Vogels!',
         category: 'serious',
         link: '/games/vogels',
         image: '1c8txzna17bXuye6GN3hFRAcOmIay4Rum'

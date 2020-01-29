@@ -30,19 +30,20 @@
 }
 
 .title {
-    font-size: 3.6em;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 5.5em;
     text-align: center;
-    font-weight: 700;
+    color: white;
 }
 
 .titleMobile {
     font-size: 2.2em;
-    font-weight: 700;
     text-align: center;
 }
 
 .subTitle {
-    font-size: 2em;
+    font-size: 3em;
+    font-family: 'Staatliches', sans-serif;
 }
 
 .subTitleMobile {

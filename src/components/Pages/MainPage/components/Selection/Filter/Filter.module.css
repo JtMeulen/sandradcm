@@ -4,13 +4,13 @@
     height: 45px;
     width: 625px;
     margin-bottom: 30px;
-    color: #73d9fa;
+    color: #5ec9f1;
     font-size: 1.4em;
 }
 
 .filterBar div {
     width: 200px;
-    border: 2px solid #73d9fa;
+    border: 2px solid #5ec9f1;
     text-align: center;
     display: flex;
     flex-flow: column;
@@ -23,6 +23,6 @@
 .filterBar div:active,
 .active {
     color: white;
-    background-color: #73d9fa;
+    background-color: #5ec9f1;
     font-weight: 700;
 }
