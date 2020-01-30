@@ -33,7 +33,7 @@ const RiseOfGods = (props) => {
 					<br /><br />
 					A video on Vimeo containing all card graphics and the accompanying playing book can be found {VIMEO}!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={348} marginBottom={50} />
+				<Thumbnails thumbnails={thumbnails} positions={[0,1,2]} height={348} marginBottom={50} isSmall/>
 				<p>
 					For both the book and the cards I made elaborate conceptual illustrations, based on lore of a universe I created myself. This universe is perishing under the influence of a fallen God,
 					of which its three Disciples now battle to take its place.
@@ -43,7 +43,7 @@ const RiseOfGods = (props) => {
 					The visual design revolves around creatures inhabiting this world and the abilities they can perform. Next to the three God cards, I developed eighteen creature cards and
 					25 ability cards. These Warriors and their abilities were divided in the different playing styles.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={348} marginBottom={50} />
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={348} marginBottom={50} isSmall/>
 				<p>
 					Due to time constraints and the experimental nature of the project, most cards were sketched and served as prototypes.
 					The interface of the cards and the (purposely neutral) Ability cards were fully finished. <br />

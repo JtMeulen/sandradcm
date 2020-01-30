@@ -52,6 +52,11 @@
     text-align: center;
 }
 
+.subtextSmall {
+    transform: translateY(-52px) !important;
+    max-width: 268px !important;
+}
+
 .leftButton, .rightButton {
     position: absolute;
     background: grey;
