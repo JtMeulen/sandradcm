@@ -2,10 +2,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .LinkGroup a {
     margin: 0 20px;
+}
+
+.LinkGroup div:last-of-type span {
+    display: none;
 }

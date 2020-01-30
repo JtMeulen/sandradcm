@@ -46,7 +46,7 @@ class Thumbnails extends Component {
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`, width: width }}
           onClick={() => this.handleClick(idx)}
         >
-          {thumbnail.text.length > 0 && !isMobile && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }}>{thumbnail.text}</p>}
+          {thumbnail.text.length > 0 && !isMobile && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }} dangerouslySetInnerHTML={{ __html: thumbnail.text }}/>}
         </div>
       );
     });
