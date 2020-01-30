@@ -53,12 +53,12 @@ class Thumbnails extends Component {
   }
 
   render() {
-    const { marginBottom = 0 } = this.props;
+    const { marginBottom = 0, isSmall = false } = this.props;
 
     return (
       <Fragment >
         {this.state.modal &&
-          <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
+          <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} isSmall={isSmall}/>
         }
         <div className={styles.container} style={{ height: `${isMobile ? 100 : this.props.height}px`, marginBottom: `${isMobile ? 0 : marginBottom}px`}}>
           {this.renderThumbnails()}
