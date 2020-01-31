@@ -11,6 +11,13 @@
   cursor: pointer;
 }
 
+.whiteBG {
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .mobileThumbnail {
   width: 140px;
   height: 90px;

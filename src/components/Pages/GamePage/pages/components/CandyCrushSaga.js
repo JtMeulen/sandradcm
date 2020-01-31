@@ -121,13 +121,13 @@ const CandyCrushSaga = (props) => {
 				I have contributed actively to the game design of new features, designed UI elements like pop-ups
 				and oftend supported the narrative and localization crafts with writing and organizing copy.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={337} marginBottom={33} />
 				<p>
 				<em>Candy Crush Saga</em> has seen a lot of characters over the years. I have had a lot fun working with existing cast members, strengthening
 				their narrative, giving make-overs and fresh outfits where necessary - and adding a few of my own to boot!<br /><br /> 
 				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6,7]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[6,7]} height={400} marginBottom={33} whiteBG/>
 				<p>
 				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend.<br />
 				I got to work on both the game design and art for Candy Pet, trying to design baby versions of existing <em>Candy</em> characters - it was a blast!
@@ -155,9 +155,9 @@ const CandyCrushSaga = (props) => {
 				Episodes are bundles of 15 new levels, released every week, with custom art and narrative on the Saga map and behind the game board. 
 				Here are some examples of mine!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[12,13,14]} height={248} marginBottom={0} />
-				<Thumbnails thumbnails={thumbnails} positions={[15,16,17]} height={248} marginBottom={0} />
-				<Thumbnails thumbnails={thumbnails} positions={[18,19,20]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[12,13,14]} height={248} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[15,16,17]} height={248} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[18,19,20]} height={248} marginBottom={33} />
 				<p>
 				At one point in time, <em>Candy</em> made the switch from a 2D to a 3D map. Now, episode art was shown more elaborately near the player's progress, 
 				rather than flat images behind the game board. 

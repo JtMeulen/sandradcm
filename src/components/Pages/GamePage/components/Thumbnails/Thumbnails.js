@@ -38,11 +38,12 @@ class Thumbnails extends Component {
       }
 
       const width = isMobile ? '100%' : widthMap[this.props.positions.length];
+      const { whiteBG = false } = this.props;
 
       return (
         <div
           key={idx}
-          className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile })}
+          className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile, [styles.whiteBG]: whiteBG })}
           style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`, width: width }}
           onClick={() => this.handleClick(idx)}
         >
