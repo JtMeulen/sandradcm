@@ -59,7 +59,7 @@ class ImageSlider extends Component {
 		const currentImage = `https://drive.google.com/uc?id=${allImages[idx].image}`;
 		const imageDetails = allImages[idx];
 		const hasText = !isMobile && imageDetails.text && imageDetails.text.length > 0;
-
+		const whiteBG = imageDetails.options && imageDetails.options === 'whiteBG';
 		const isSmall = this.props.isSmall || false;
 
 		return(
@@ -68,7 +68,7 @@ class ImageSlider extends Component {
 				{!isMobile && <div className={styles.leftButton} onClick={this.previousImageHandler}>&lt;</div>}
 				{!isMobile && <div className={styles.rightButton} onClick={this.nextImageHandler}>&gt;</div>}
 
-					<div>
+					<div style={{backgroundColor: whiteBG ? 'white' : ''}}>
 						<div className={styles.closeButton} onClick={this.closeModalHandler}>X</div>
 						<img className={cn(styles.image, { [styles.mobileImage]: isMobile, [styles.textArea]: hasText })} src={currentImage} alt="" onClick={this.doNothingHandler}/>
 					</div>

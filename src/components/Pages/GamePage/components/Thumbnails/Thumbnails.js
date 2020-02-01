@@ -32,6 +32,7 @@ class Thumbnails extends Component {
       }
 
       const widthMap = {
+        1: '366px',
         2: '365px',
         3: '236px',
         4: '172px'
