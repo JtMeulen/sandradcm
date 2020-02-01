@@ -122,13 +122,13 @@ const CandyCrushSaga = (props) => {
 				I have contributed actively to the game design of new features, designed UI elements like pop-ups
 				and oftend supported the narrative and localization crafts with writing and organizing copy.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={337} marginBottom={33} />
 				<p>
 				<em>Candy Crush Saga</em> has seen a lot of characters over the years. I have had a lot fun working with existing cast members, strengthening
 				their narrative, giving make-overs and fresh outfits where necessary - and adding a few of my own to boot!<br /><br /> 
 				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[6]} height={248} marginBottom={0} whiteBG/>
 				<p>
 				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend.<br />
 				I got to work on both the game design and art for Candy Pet, trying to design baby versions of existing <em>Candy</em> characters - it was a blast!
