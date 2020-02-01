@@ -20,7 +20,7 @@
 
 .divider {
     width: 400px;
-    height: 2px;
+    height: 3px;
     margin: 50px 0 20px;
     background-color: white;
 }
@@ -34,6 +34,7 @@
     font-size: 5.5em;
     text-align: center;
     color: white;
+    text-shadow: rgba(101,190,234,0.4) 0px 3px 4px;
 }
 
 .titleMobile {

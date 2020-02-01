@@ -25,7 +25,6 @@ const Allnighter = (props) => {
 		{image: '15zvuwBoyhSZCwzCtel03UayXnQ6Sfkvy', text: 'Website featuring'} //11
 	];
 
-const TEAMREPTILE_URL = <a href="http://team-reptile.com/" target="_blank" rel="noopener noreferrer">Team Reptile</a>;
 const REGULARSHOWIMDB_URL = <a href="https://www.imdb.com/title/tt1710308/" target="_blank" rel="noopener noreferrer">Regular Show</a>;
 
   return (

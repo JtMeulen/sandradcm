@@ -27,7 +27,7 @@ const ParalaxHeader = ({ headerScrollPercent }) => {
         style={{
           backgroundImage: `url('https://drive.google.com/uc?id=${PARALAX_URL[1]}')`,
           position: 'fixed',
-          top: `-${headerScrollPercent * 2}px`
+          top: `-${headerScrollPercent * 1}px`
         }}
       />
       <div
