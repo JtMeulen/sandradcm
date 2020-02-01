@@ -36,7 +36,7 @@ const CandyCrushSaga = (props) => {
 	{text: "ONE37pm", url:  "https://www.one37pm.com/culture/gaming/candy-crush-king-interviews-future-new-levels-popularity-stats?fbclid=IwAR1EDnQur8zofNVXPvym-aVMdzCkJANezUdZd9cuLXKDHp5zn0MUt1S8tSU"},
 	{text: "CityAM", url: "https://germanylatest.com/2017/11/14/candy-crushing-it-kings-jewel-in-the-crown-turns-five/"},
     {text: "The Ladders", url: "https://www.theladders.com/career-advice/4-ways-formulaic-good-way"},
-	{text: "Stylist", url: "https://drive.google.com/open?id=1r2z9UdBSubSxOrGHYug4EkPOWtX2E0_c"},
+	{text: "Stylist", url: "1r2z9UdBSubSxOrGHYug4EkPOWtX2E0_c"},
 	{text: "the King Community", url: "https://community.king.com/en/candy-crush-saga/discussion/246667/the-art-of-candy-crush-saga"}
   ];
 
@@ -69,18 +69,18 @@ const CandyCrushSaga = (props) => {
 		{image: '15FpN-a4-A2AcqzEiJWiUCBk12r2wfOta', text: 'Icing Islands'}, //18 EP7
 		{image: '1ayWJJbARzuASCtqWfr4NHJUTjkML1x4Z', text: 'Pastry Peaks'}, //19 EP8
 		{image: '1KtrOuKqV77e58Ax4BDC8NH_5OullTnoq', text: 'Delicate Dale'}, //20 EP9
-		{image: '1pLYFj-dqDaM6gXxrAwh_v4YSaR1ecHUG', text: ''}, 
-		{image: '1IKzRVLK4_0aq-43fYP9-MXZQ1vI6kKaV', text: ''},
-		{image: '1YqL8ApmMLISAfmU-nq6Fw_ZiIpCJ3azm', text: ''},
-		{image: '1PN1e4m8nN6kbhyND--WfieEZqKfh8h2P', text: ''},
-		{image: '1VBazvL2P7ChoAekHmPpEoREoJUWXmSvX', text: ''},
-		{image: '1M4Mbyxu475whkVxYqmJaIf_01KYI3NWL', text: ''},
-		{image: '1kTY3LnhRkwQIadxcwyv16kkm-HCK4P7m', text: ''},
-		{image: '1Nfy0gwZEbvdNWbU8jc7yQ4E8o1O-ZIf-', text: ''},
-		{image: '11iXMSTpEImCC-MDSAXyGfbjQY8DGCMZG', text: ''},
-		{image: '14GFsTIy-0JhJZpdNCpTA8QOKfwC-M5tQ', text: ''},
-		{image: '1PLq_nIxmR-r7iUtK5nL8-Gaf2RivSMbV', text: ''},
-		{image: '1Y_DbflSYsM0Nk7OD-Fi8PlNS3iV318n9', text: ''}
+		{image: '1IO9DhVrysOaq9UwzlTPGohybQsOPcOnd', text: 'Candied Cluster'}, //21 3DEP1
+		{image: '1qooOXjv8sR1jFKOBqrPrX99Kh5ReXTHw', text: 'Sweet Stadium'}, //22 3DEP2
+		{image: '146HFhfHo6FHwqdqd7mXxfPZAHCYQNBxC', text: 'Popsicle'}, //23 3DEP3
+		{image: '1EljKggq42yR5_14kcr2s_rV3dR8xOrlN', text: 'Lovely Lagoon'}, //24 3DEP4
+		{image: '1c3v0H-QuULayxd3_g7g7bLFykY1I4S4W', text: 'Breezy Bedroom'}, //25 3DEP5
+		{image: '1CE4ClDD6yEiarr-3czBvYgPObSnCwpnH', text: 'Honey Hives'}, //26 3DEP6
+		{image: '1J1y9Q-Tk-hAkBmQpCeoiU58hQqPk-JyP', text: 'Orderly Office'}, //27 3DEP7
+		{image: '1gp_sIg7iYet-3MSzHUan7dYIC9z8urlk', text: 'Licorice Lane'}, //28 3DEP8
+		{image: '15Iv4hXylUb47WV8IDEAILC3WVd83OSV_', text: 'Glittery Gala'}, //29 3DEP9
+		{image: '1DX1WnGmEhO9aEWwAtSw-QKAZORymu3N1', text: 'Lucky Lawn'}, //30 3DEP10
+		{image: '1DRHQpot7lH4BXjibzHdDqRKO1-jc7XVh', text: 'Munchy Meteor'}, //31 3DEP11
+		{image: '1u0oCDCU89-zBoHzbqMXzjdMJb46pbf9u', text: 'Bounty Bush'} //32 3DEP12
 	];
 
   const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
@@ -135,14 +135,14 @@ const CandyCrushSaga = (props) => {
 				<Thumbnails thumbnails={thumbnails} positions={[8,8,8]} height={248} marginBottom={0} />
 				<p>
 				Another character I created was the witch Caramella, who first sent main character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
-				special set of levels, Caramella would transform in happiness and hand out her treats. 
+				special set of levels, Caramella would transform in happiness and hand out her treats.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[8,8,8]} height={248} marginBottom={0} />
+				<BigImage googleId={"1kBZx5QtW8Xv02aDX8zmXHRRiUKz2snD9"} />
 				<p>
 				I further made the snowmen Holly and Dale, who are sometimes used for winter themed promotions. Coincidentally enough, I also created the holiday themed stockings for the
 				live event 'Season's Stockings'! 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[8,8,8]} height={248} marginBottom={0} />
+				<BigImage googleId={"1WvdHr4wYMs0Zurtm_IvVlNp4dhYUtIdR"} />
 				<p>
 				Other live events I participated in producing were the aforementioned Booster Garden, the Beanstalk Challenge, Yeti's Lost Keys and a challenge for New Year's Eve 2015.
 				<br /><br />
@@ -165,7 +165,8 @@ const CandyCrushSaga = (props) => {
 				It was an exciting challenge to both rework our old episodes into this new format and then see
 				where the opportunities for new ways of showing stories could take us.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[8,8,8]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[21,22,23]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[24,25,26]} height={248} marginBottom={0} />
 				<p>
 				For each episode, the team would brainstorm narrative and titles themselves, no matter how the look and feel evolded
 				over the years. 
@@ -174,7 +175,8 @@ const CandyCrushSaga = (props) => {
 				our ways of working continuously as well, tackling unique challenges like maintaining a decent app size for a game that's filling up 
 				with years worth of content!
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[8,8,8]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[27,28,29]} height={248} marginBottom={0} />
+				<Thumbnails thumbnails={thumbnails} positions={[30,31,32]} height={248} marginBottom={0} />
 				<p>
 				I have eventually created over 50 episodes and helped out with dozens more.<br /><br />
 				Needless to say, it has been really special being a part of a live game for so long. 
