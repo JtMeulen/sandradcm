@@ -22,12 +22,11 @@
     text-decoration: none;
     margin: 10px;
     transition: 0.2s;
-    color: inherit;
     cursor: pointer;
+    color: #5ec9f1;
 }
 
 .active,
-.navitems a:hover,
 .navitems a:active {
-    color: #5ec9f1 !important;
+    color: black !important;
 }
