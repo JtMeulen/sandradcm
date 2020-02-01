@@ -56,7 +56,7 @@ const CandyCrushSaga = (props) => {
 		{image: '1Ua6wFDyi1Q5XalOyBR5Z_tyPcKcks6rt', text: ''}, //5 CCS_SnappysGarden3
 		{image: '1SXbIVOORTr0cEe7fBdG33wO9Ay_L2MGH', text: 'Didi the dragon', options: 'whiteBG'}, //6 Didi
 		{image: '1xGSHFkDQFpTMKoHy6ugKN8TYqIfx4p35', text: 'Didi featured a lot across all types of media'}, //7 CandyPet_Featuring
-		{image: '1-DmS4T4Y0lo_E7hZkGY0YBDvcRCkiDIl', text: 'Rami the sheep and my remake of existing character Ramsey, on whom Rami was based'}, //8 CandyPet_Rami
+		{image: '1-DmS4T4Y0lo_E7hZkGY0YBDvcRCkiDIl', text: 'Rami the sheep and my remake of existing character Ramsey, on whom Rami was based', options: 'isMedium' }, //8 CandyPet_Rami
 		{image: '1aoX-_eAYLRZY9hB9QPsySBf55Sl03KTO', text: 'Crispy Clearing'}, //9 EP1
 		{image: '1RAeVOhoDtv3OTJ_ns4mV__QILSdyPKbc', text: 'Treacle Retreat'}, //10 EP2
 		{image: '1RhkKcagVgcqH-Tjtg1fguLihN8KYdh5r', text: 'Cobweb Canopy'}, //11 EP3
@@ -128,7 +128,7 @@ const CandyCrushSaga = (props) => {
 				their narrative, giving make-overs and fresh outfits where necessary - and adding a few of my own to boot!<br /><br /> 
 				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6]} height={490} marginBottom={33} whiteBG/>
+				<Thumbnails thumbnails={thumbnails} positions={[6]} height={490} marginBottom={33} />
 				<p>
 				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend.<br />
 				I got to work on both the game design and art for Candy Pet, trying to design baby versions of existing <em>Candy</em> characters - it was a blast!

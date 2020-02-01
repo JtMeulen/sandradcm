@@ -39,7 +39,7 @@ class Thumbnails extends Component {
       }
 
       const width = isMobile ? '100%' : widthMap[this.props.positions.length];
-      const { whiteBG = false } = this.props;
+      const whiteBG = thumbnail.options && thumbnail.options === 'whiteBG';
 
       return (
         <div
@@ -55,12 +55,12 @@ class Thumbnails extends Component {
   }
 
   render() {
-    const { marginBottom = 0, isSmall = false } = this.props;
+    const { marginBottom = 0 } = this.props;
 
     return (
       <Fragment >
         {this.state.modal &&
-          <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} isSmall={isSmall}/>
+          <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
         <div className={styles.container} style={{ height: `${isMobile ? 100 : this.props.height}px`, marginBottom: `${isMobile ? 0 : marginBottom}px`}}>
           {this.renderThumbnails()}

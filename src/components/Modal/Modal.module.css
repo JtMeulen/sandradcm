@@ -46,7 +46,7 @@
     justify-content: space-between;
     background:white;
     margin: 0;
-    transform: translateY(-40px);
+    transform: translateY(-44px);
     max-width: 80vw;
     height: 30px;
     text-align: center;
@@ -55,6 +55,11 @@
 .subtextSmall {
     transform: translateY(-52px) !important;
     max-width: 268px !important;
+}
+
+.subtextMedium {
+    transform: translateY(-52px) !important;
+    max-width: 440px !important;
 }
 
 .leftButton, .rightButton {

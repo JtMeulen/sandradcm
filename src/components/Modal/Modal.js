@@ -60,7 +60,8 @@ class ImageSlider extends Component {
 		const imageDetails = allImages[idx];
 		const hasText = !isMobile && imageDetails.text && imageDetails.text.length > 0;
 		const whiteBG = imageDetails.options && imageDetails.options === 'whiteBG';
-		const isSmall = this.props.isSmall || false;
+		const isSmall = imageDetails.options && imageDetails.options === 'isSmall';
+		const isMedium = imageDetails.options && imageDetails.options === 'isMedium';
 
 		return(
 			<div className={styles.modalBackground} onClick={this.closeModalHandler}>
@@ -74,7 +75,7 @@ class ImageSlider extends Component {
 					</div>
 
 					{!isMobile &&
-						<div className={cn(styles.subtext, { [styles.subtextSmall]: isSmall })} onClick={this.doNothingHandler} dangerouslySetInnerHTML={{ __html: imageDetails.text }} />
+						<div className={cn(styles.subtext, { [styles.subtextSmall]: isSmall, [styles.subtextMedium]: isMedium })} onClick={this.doNothingHandler} dangerouslySetInnerHTML={{ __html: imageDetails.text }} />
 					}
 				</div>
 			);
