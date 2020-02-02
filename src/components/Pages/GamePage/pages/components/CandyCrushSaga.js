@@ -209,7 +209,7 @@ const CandyCrushSaga = (props) => {
 				<p>
 				I was part of the team working on this temporary feature by designing both the office setting and of course a Candified version of Nina Garcia!
 				</p>
-				<Video videoId={"xVzDu_g8-vY"} />
+				<Video videoId={"xVzDu_g8-vY"} hasThumbnail={'1OYFDlb7lbOwoTRmF49CgA_b-mG6g2t9I'}/>
 				<p>
 				Behind the scenes, I have done my best to support the art function in different ways. I've done quite some in-house presentations, 
 				hosted workshops centered around learning and ways of working and had a lot of fun organizing offsites and other events to promote team bonding.

@@ -2,10 +2,62 @@
   margin: 20px auto;
   max-width: 990px;
   height: calc(990px / 16 * 9);
+  background-color: black;
 }
 
 .mobileVideo div:first-of-type {
   margin: 20px auto;
   width: 340px;
   height: calc(340px / 16 * 9);
+  background-color: black;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play {
+  background-color: grey !important;
+  border-radius: 50% / 10%;
+  color: #FFFFFF;
+  font-size: 1em;
+  height: 3em !important;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-indent: 0.1em;
+  transition: all 100ms ease-out;
+  width: 4em;
+}
+
+.thumbnail:hover .play {
+  background-color: red !important;
+}
+
+.play:before {
+  background: inherit;
+  border-radius: 5% / 50%;
+  bottom: 9%;
+  content: "";
+  left: -5%;
+  position: absolute;
+  right: -5%;
+  top: 9%;
+}
+
+.play:after {
+  border-style: solid;
+  border-width: 1em 0 1em 1.732em;
+  border-color: transparent transparent transparent white;
+  content: ' ';
+  font-size: 0.75em;
+  height: 0;
+  margin: -1em 0 0 -0.75em;
+  top: 50%;
+  position: absolute;
+  width: 0;
 }
