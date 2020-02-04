@@ -51,10 +51,10 @@ const CandyCrushSaga = (props) => {
 		{image: '10swdUyY35PzkbHV_FxBSIJXwcVweOxrN', text: ''}, //0 CCS_Media1
 		{image: '1Jwb-Xh0Z0tKd6ZiIdB0gQ7fvM-nqSZ-R', text: ''}, //1 CCS_Media2
 		{image: '10RhoC8cU-VnvMIaXPCc8V1hLeyvt3e28', text: ''}, //2 CCS_Media3
-		{image: '1QGcxyEEq96QnfWF10mZeOaqQU-WGCwML', text: ''}, //3 CCS_SnappysGarden1
-		{image: '1r1YgRktTWdAIlbHSa3zB9DtbHK7V1Mrw', text: "Design for Mr. Snappy's Garden"}, //4 CCS_SnappysGarden2
-		{image: '1Ua6wFDyi1Q5XalOyBR5Z_tyPcKcks6rt', text: ''}, //5 CCS_SnappysGarden3
-		{image: '1SXbIVOORTr0cEe7fBdG33wO9Ay_L2MGH', text: 'Didi the dragon', options: 'whiteBG'}, //6 Didi
+		{image: '1SXbIVOORTr0cEe7fBdG33wO9Ay_L2MGH', text: 'Didi the dragon', options: 'whiteBG'}, //3 Didi
+		{image: '1nJ9tLv59UgC5rhOLFqELfdaqrkR5VHgR', text: 'Encountering a Pet capsule on the level pin'}, //4 CandyPet_1
+		{image: '1d6L4qCdormqiZIsTu6rZU6GSx1nvT2_L', text: 'Collect candies in-game to bake treats'}, //5 CandyPet_2
+		{image: '1aiBu9T10VQVgN1eiXhX959SR1GAzJxHL', text: 'Didi featured a lot across all types of media'}, //6 CCandyPet_3
 		{image: '1-SQnVu1RhwijzPjxEIjmLR2oPAEGjbuT', text: 'Collect candies in-game to bake treats'}, //7 CandyPet_Screenshot
 		{image: '1xGSHFkDQFpTMKoHy6ugKN8TYqIfx4p35', text: 'Didi featured a lot across all types of media'}, //8 CandyPet_Featuring
 		{image: '1-DmS4T4Y0lo_E7hZkGY0YBDvcRCkiDIl', text: 'Pet Rami, based on my remake of existing character Ramsey', options: 'isMedium' }, //9 CandyPet_Rami
@@ -83,13 +83,12 @@ const CandyCrushSaga = (props) => {
 		{image: '1DRHQpot7lH4BXjibzHdDqRKO1-jc7XVh', text: 'Munchy Meteor'}, //32 3DEP11
 		{image: '1u0oCDCU89-zBoHzbqMXzjdMJb46pbf9u', text: 'Bounty Bush'}, //33 3DEP12
 		{image: '1J8LYXYOAMy7PpRQBTsaAFnYRFBvI17ah', text: ''}, //34 BubblegumBazaar1
-		{image: '1GSAWRTS4c3u9z7Ti1X3OmEmCUAerct_-', text: ''}, //35 BubblegumBazaar1
-		{image: '1_lDnWgHihN7nIUxyeoIrF_I-HF_Bt2Ge', text: ''}, //36 BubblegumBazaar1
-		{image: '1yZKbBVAxfDMvY5YHh-LQmUL8vgC2Ejzm', text: ''} //37 Placeholder
+		{image: '1GSAWRTS4c3u9z7Ti1X3OmEmCUAerct_-', text: ''}, //35 BubblegumBazaar2
+		{image: '1_lDnWgHihN7nIUxyeoIrF_I-HF_Bt2Ge', text: ''} //36 BubblegumBazaar3
 	];
 
   const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
-  const DIDI_URL = <a href="https://www.facebook.com/candycrushsaga/videos/1616662648431556/" target="_blank" rel="noopener noreferrer">Watch her introduction here!</a>;
+  const DIDI_URL = <a href="https://www.facebook.com/candycrushsaga/videos/1616662648431556/" target="_blank" rel="noopener noreferrer">Watch Didi's introduction here!</a>;
 
   return (
 		<Fragment>
@@ -122,26 +121,29 @@ const CandyCrushSaga = (props) => {
 				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is
 				comparable to Unity. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[37,37,37]} height={248} marginBottom={0} />
+				<BigImage googleId={"1Gxv-GnBARWeDUD_j_9o_yOf8p1bNHagw"} />
 				<p>
 				I have contributed actively to the game design of new features, designed UI elements like pop-ups
 				and oftend supported the narrative and localization crafts with writing and organizing copy.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3,4,5]} height={337} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[3]} height={350} marginBottom={33} />
 				<p styles={{marginBottom: "0"}}>
 				<em>Candy Crush Saga</em> has seen a lot of characters over the years. I have had a lot fun working with existing cast members, strengthening
 				their narrative, giving make-overs and fresh outfits where necessary - and adding a few of my own to boot!<br /><br /> 
-				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets. 
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[6]} height={350} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[4,5,6]} height={438} marginBottom={50} />
 				<p>
-				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend. {DIDI_URL}<br /><br />
-				I got to work on both the game design and art for Candy Pet, trying to design baby versions of existing <em>Candy</em> characters - it was a blast.
+				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets.<br /><br />
+				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend. {DIDI_URL}
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[7,8,9]} height={325} marginBottom={50} />
+				<BigImage googleId={"1C7a3AERzQUIHLO2tzSepBkSgfZuxp_Nr"} text={"Candy Pet Rami"} />
 				<p>
-				Another character I created was the witch Caramella, who first sent main character Tiffi out hunting for potion ingredients at Halloween 2015. After a player finished a
-				special set of levels, Caramella would transform in happiness and hand out her treats.
+				I got to work on both the game design and art for Candy Pet. For Pet designs, we tried creating baby versions of existing <em>Candy</em> characters - and revamping classic ones to fit the <em>Candy</em> style more closely, as shown below.
+				</p>
+				<BigImage googleId={"1SCv3EptzrBXjWSZEfbBMxtSoqbX187Wl"} />
+				<p>
+				Another character I created was the witch Caramella, who first sent main character Tiffi out hunting for potion ingredients at Halloween 2015.<br /><br />
+				After a player finished a special set of levels, Caramella would transform in happiness and hand out her treats.
 				</p>
 				<BigImage googleId={"1kBZx5QtW8Xv02aDX8zmXHRRiUKz2snD9"} />
 				<p>
@@ -151,7 +153,9 @@ const CandyCrushSaga = (props) => {
 				<BigImage googleId={"1WvdHr4wYMs0Zurtm_IvVlNp4dhYUtIdR"} />
 				<p>
 				Other live events I participated in producing were the aforementioned Booster Garden, the Beanstalk Challenge, Yeti's Lost Keys and a challenge for New Year's Eve 2015.
-				<br /><br />
+				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[7,8,9]} height={438} marginBottom={50} />
+				<p>
 				When working with these features, I contributed visually, with game design suggestions and with technical implementation. Sometimes I simply reskinned existing
 				features as well.
 				</p>
@@ -215,14 +219,14 @@ const CandyCrushSaga = (props) => {
 				Behind the scenes, I have done my best to support the art function in different ways. I've done quite some in-house presentations, 
 				hosted workshops centered around learning and ways of working and had a lot of fun organizing offsites and other events to promote team bonding.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[37,37,37]} height={248} marginBottom={0} />
+				<BigImage googleId={"1ucQgUvuuQyLz1zXfdluRD7x5HiwiYy6U"} text={"From tools to skyscrapers to sandwich material - a sample of assets I created over the years"} />
 				<p>
 				Additional significant learning opportunities were, among others, attending in-house courses centered on management and leadership, 
 				life drawing seminars from Samantha Youssef, sculpting by Andrea Blasich and VFX by Francisco García-Obledo. <br /><br />
 				Over the years I also represented 
 				King at distinguished art conferences like THU and the IAMAG Master Classes.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[37,37,37]} height={248} marginBottom={0} />
+				<BigImage googleId={"1JWieYZ7l9H2NEtpNfJijoJ9_Ph6StTeu"} text={"Fitting custom outfits on existing characters"} />
 				<p>
 				Outside of working with the game team and art craft, I have had many side projects supporting King as a company. I have created 
 				graphics for internal use such as event invitations, office maps, portraits of players and colleagues and more. 
