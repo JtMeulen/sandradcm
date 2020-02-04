@@ -103,8 +103,8 @@ const CandyCrushSaga = (props) => {
 				In September 2015, I joined King to work as a game artist on <em>Candy Crush Saga</em>. During this time I have largely focused 
 				on content production, live operations and innovating existing art and designs.
 				<br /><br />
-				For more information on the game and my time working with it, please check out these awesome opportunities I've had so far of 
-				representing King as a spokesperson!
+				For more information on the game and my time working with it, please check out these awesome opportunities I've had 
+				representing King as a spokesperson by clicking the links below!
 				</p>
 				<LinkGroup links={links} />
 				<LinkGroup links={links2} />
@@ -127,7 +127,7 @@ const CandyCrushSaga = (props) => {
 				<BigImage googleId={"1Gxv-GnBARWeDUD_j_9o_yOf8p1bNHagw"} />
 				<p>
 				I have contributed actively to the game design of new features, designed UI elements like pop-ups
-				and oftend supported the narrative and localization crafts with writing and organizing copy.
+				and often supported the narrative and localization crafts with writing and organizing copy.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3]} height={350} marginBottom={33} />
 				<p styles={{marginBottom: "0"}}>
@@ -201,7 +201,7 @@ const CandyCrushSaga = (props) => {
 				<p>
 				One great milestone was reaching level 2000 at the time, around which King also launched a great campaign. I got to work on the episode Bubblegum Bazaar, 
 				featuring this special level.<br /><br /> 
-				I depicted main characters Tiffi and Yeti in search what would happen after level 2000. The mischevious Bubblegum Troll was there to soothe their Y2K scare
+				I depicted main characters Tiffi and Yeti in search what would happen after level 2000. The mischievous Bubblegum Troll was there to soothe their Y2K scare
 				with a glimpse into the future.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[37,38,39]} height={248} marginBottom={0} />
@@ -210,7 +210,7 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Video videoId={"D4pCVx6ln3E"} hasThumbnail={'1raXQnJo5wJvxvaIN-JWQJYJ2NkMbPrP8'} />
 				<p>
-				Another great memory was Candy’s first collaboration with an outside brand.<br /><br />
+				Another great memory was <em>Candy</em>'s first collaboration with an outside brand.<br /><br />
 				Creative Director Nina Garcia of the US based magazine Marie Claire worked with King to design a <em>Candy</em> level herself. 
 				<br /><br />
 				The magazine did a big spread on game design and <em>Candy</em> couldn't stay behind - in the game, we launched an event where you work your way through an editor's room.
