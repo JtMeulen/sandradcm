@@ -2,7 +2,6 @@ import React, { Fragment, useEffect } from 'react';
 import cn from 'classnames';
 import { isMobile } from 'react-device-detect';
 
-import Banner from '../../components/Banner/Banner';
 import TitleInfo from '../../components/TitleInfo/TitleInfo';
 import LinkGroup from '../../components/LinkGroup/LinkGroup';
 import Video from '../../components/Video/Video';
@@ -92,6 +91,8 @@ const CandyCrushSaga = (props) => {
 
   const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
   const DIDI_URL = <a href="https://www.facebook.com/candycrushsaga/videos/1616662648431556/" target="_blank" rel="noopener noreferrer">Watch Didi's introduction here!</a>;
+  const WWD_URL = <a href="https://wwd.com/business-news/media/marie-claire-tech-issue-nina-garcia-candy-crush-10297484/" target="_blank" rel="noopener noreferrer">WWD</a>;
+  const FASHIONISTA_URL = <a href="https://fashionista.com/2015/12/marie-claire-candy-crush" target="_blank" rel="noopener noreferrer">Fashionista</a>;
 
   return (
 		<Fragment>
@@ -217,14 +218,15 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<BigImage googleId={"1FwmrOrI-Ird3vqjt26ArY6dLPS1mCv0W"} />
 				<p>
-				I was part of the team working on this temporary feature by designing both the office setting and of course a Candified version of Nina Garcia!
+				I was part of the team working on this in-game event by designing both the office setting and of course a Candified version of Nina Garcia! <br /><br />
+				Outside of the game, the art was featured widely online in the fashion sphere, with articles on the likes of {FASHIONISTA_URL} and {WWD_URL} - and of course many, many tweets!
 				</p>
 				<Video videoId={"xVzDu_g8-vY"} hasThumbnail={'1cKa0YUHFQw-M5uI9FJrVBsm4uuVQXQNX'}/>
 				<p>
 				Behind the scenes, I have done my best to support the art function in different ways. I've done quite some in-house presentations, 
 				hosted workshops centered around learning and ways of working and had a lot of fun organizing offsites and other events to promote team bonding.
 				</p>
-				<BigImage googleId={"1ucQgUvuuQyLz1zXfdluRD7x5HiwiYy6U"} text={"From tools to skyscrapers to sandwich material - a sample of assets I created over the years"} />
+				<BigImage googleId={"1ucQgUvuuQyLz1zXfdluRD7x5HiwiYy6U"} text={"From tools to skyscrapers to sandwich material - a sample of the hundreds assets I created over the years"} />
 				<p>
 				Additional significant learning opportunities were, among others, attending in-house courses centered on management and leadership, 
 				life drawing seminars from Samantha Youssef, sculpting by Andrea Blasich and VFX by Francisco García-Obledo. <br /><br />
