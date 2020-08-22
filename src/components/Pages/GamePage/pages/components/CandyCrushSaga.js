@@ -12,17 +12,17 @@ import styles from './styles.module.css';
 const CandyCrushSaga = (props) => {
 	useEffect(() => {
 		const script = document.createElement('script');
-	
+
 		script.src = "//delivery.vidible.tv/jsonp/pid=5688f66de4b040e17d991226/vid=5d2663997a51ca347a260b3c/5688f5c1e4b0f2c97f395156.js";
 		script.async = true;
-	
+
 		document.body.appendChild(script);
-	
+
 		return () => {
 		  document.body.removeChild(script);
 		}
 	  }, []);
-	
+
 	const links = [
 	{text: "Forbes", url: "https://www.forbes.com/sites/isisbriones/2019/07/02/candy-crush-level-5000-launch/?fbclid=IwAR00Q0ttWxAqZja3PS-S_shZJSWft3b4eBxGywZ-QZdiRObVvje491j3KOo#c66ab4f24ac3"},
 	{text: "the Daily Mirror", url: "https://www.mirror.co.uk/tech/woman-who-creates-candy-crush-11517549"},
@@ -63,30 +63,42 @@ const CandyCrushSaga = (props) => {
 		{image: '1-efSeFOtDJ84sBBlCXpaL4Wg3f09q2Dn', text: 'Experimenting with tiling vector art for the Beanstalk Challenge'}, //13 CCS_Beanstalk1
 		{image: '19o9rD9FoeCj6sQpuIhibbEgextHvQkju', text: 'Working on the look and feel with custom outfits for Tiffi'}, //14 CCS_Beanstalk2
 		{image: '1vS0CCvAvoK-KjmNTUQILAC3VoXpR3d1m', text: 'A shot of the final stalk growing in-game'}, //15 CCS_Beanstalk3
-		{image: '1aoX-_eAYLRZY9hB9QPsySBf55Sl03KTO', text: 'Crispy Clearing'}, //13 EP1
-		{image: '1RAeVOhoDtv3OTJ_ns4mV__QILSdyPKbc', text: 'Treacle Retreat'}, //14 EP2
-		{image: '1RhkKcagVgcqH-Tjtg1fguLihN8KYdh5r', text: 'Cobweb Canopy'}, //15 EP3
-		{image: '1SJaAGDk967J1AY9oqnIGnq56HkOqgd2K', text: 'Swirly Steppes'}, //16 EP4
-		{image: '1X9Q5Cf1TBIYoICo_VXoamLV7sIPfnDah', text: 'Smiley Seas'}, //17 EP5
-		{image: '1TpB-z5nkl20HcMjfnVuuY2N69whXGxeQ', text: 'Popsicle Plateau'}, //18 EP6
-		{image: '15FpN-a4-A2AcqzEiJWiUCBk12r2wfOta', text: 'Icing Islands'}, //19 EP7
-		{image: '1ayWJJbARzuASCtqWfr4NHJUTjkML1x4Z', text: 'Pastry Peaks'}, //20 EP8
-		{image: '1KtrOuKqV77e58Ax4BDC8NH_5OullTnoq', text: 'Delicate Dale'}, //21 EP9
-		{image: '1IO9DhVrysOaq9UwzlTPGohybQsOPcOnd', text: 'Candied Cluster'}, //22 3DEP1
-		{image: '1qooOXjv8sR1jFKOBqrPrX99Kh5ReXTHw', text: 'Sweet Stadium'}, //23 3DEP2
-		{image: '146HFhfHo6FHwqdqd7mXxfPZAHCYQNBxC', text: 'Popsicle'}, //24 3DEP3
-		{image: '1EljKggq42yR5_14kcr2s_rV3dR8xOrlN', text: 'Lovely Lagoon'}, //25 3DEP4
-		{image: '1CE4ClDD6yEiarr-3czBvYgPObSnCwpnH', text: 'Honey Hives'}, //26 3DEP6
-		{image: '1c3v0H-QuULayxd3_g7g7bLFykY1I4S4W', text: 'Breezy Bedroom'}, //27 3DEP5
-		{image: '1J1y9Q-Tk-hAkBmQpCeoiU58hQqPk-JyP', text: 'Orderly Office'}, //28 3DEP7
-		{image: '1gp_sIg7iYet-3MSzHUan7dYIC9z8urlk', text: 'Licorice Lane'}, //29 3DEP8
-		{image: '15Iv4hXylUb47WV8IDEAILC3WVd83OSV_', text: 'Glittery Gala'}, //30 3DEP9
-		{image: '1DX1WnGmEhO9aEWwAtSw-QKAZORymu3N1', text: 'Lucky Lawn'}, //31 3DEP10
-		{image: '1DRHQpot7lH4BXjibzHdDqRKO1-jc7XVh', text: 'Munchy Meteor'}, //32 3DEP11
-		{image: '1u0oCDCU89-zBoHzbqMXzjdMJb46pbf9u', text: 'Bounty Bush'}, //33 3DEP12
-		{image: '1J8LYXYOAMy7PpRQBTsaAFnYRFBvI17ah', text: ''}, //34 BubblegumBazaar1
-		{image: '1GSAWRTS4c3u9z7Ti1X3OmEmCUAerct_-', text: ''}, //35 BubblegumBazaar2
-		{image: '1_lDnWgHihN7nIUxyeoIrF_I-HF_Bt2Ge', text: ''} //36 BubblegumBazaar3
+		{image: '1aoX-_eAYLRZY9hB9QPsySBf55Sl03KTO', text: 'Crispy Clearing'}, //16 EP1
+		{image: '1RAeVOhoDtv3OTJ_ns4mV__QILSdyPKbc', text: 'Treacle Retreat'}, //17 EP2
+		{image: '1RhkKcagVgcqH-Tjtg1fguLihN8KYdh5r', text: 'Cobweb Canopy'}, //18 EP3
+		{image: '1SJaAGDk967J1AY9oqnIGnq56HkOqgd2K', text: 'Swirly Steppes'}, //19 EP4
+		{image: '1X9Q5Cf1TBIYoICo_VXoamLV7sIPfnDah', text: 'Smiley Seas'}, //20 EP5
+		{image: '1TpB-z5nkl20HcMjfnVuuY2N69whXGxeQ', text: 'Popsicle Plateau'}, //21 EP6
+		{image: '15FpN-a4-A2AcqzEiJWiUCBk12r2wfOta', text: 'Icing Islands'}, //22 EP7
+		{image: '1ayWJJbARzuASCtqWfr4NHJUTjkML1x4Z', text: 'Pastry Peaks'}, //23 EP8
+		{image: '1KtrOuKqV77e58Ax4BDC8NH_5OullTnoq', text: 'Delicate Dale'}, //24 EP9
+		{image: '1IO9DhVrysOaq9UwzlTPGohybQsOPcOnd', text: 'Candied Cluster'}, //25 3DEP1
+		{image: '1qooOXjv8sR1jFKOBqrPrX99Kh5ReXTHw', text: 'Sweet Stadium'}, //26 3DEP2
+		{image: '146HFhfHo6FHwqdqd7mXxfPZAHCYQNBxC', text: 'Popsicle'}, //27 DEP3
+		{image: '1EljKggq42yR5_14kcr2s_rV3dR8xOrlN', text: 'Lovely Lagoon'}, //28 3DEP4
+		{image: '1CE4ClDD6yEiarr-3czBvYgPObSnCwpnH', text: 'Honey Hives'}, //29 3DEP6
+		{image: '1c3v0H-QuULayxd3_g7g7bLFykY1I4S4W', text: 'Breezy Bedroom'}, //30 3DEP5
+		{image: '1J1y9Q-Tk-hAkBmQpCeoiU58hQqPk-JyP', text: 'Orderly Office'}, //31 3DEP7
+		{image: '1gp_sIg7iYet-3MSzHUan7dYIC9z8urlk', text: 'Licorice Lane'}, //32 3DEP8
+		{image: '15Iv4hXylUb47WV8IDEAILC3WVd83OSV_', text: 'Glittery Gala'}, //33 3DEP9
+		{image: '1DX1WnGmEhO9aEWwAtSw-QKAZORymu3N1', text: 'Lucky Lawn'}, //34 3DEP10
+		{image: '1DRHQpot7lH4BXjibzHdDqRKO1-jc7XVh', text: 'Munchy Meteor'}, //35 3DEP11
+		{image: '1u0oCDCU89-zBoHzbqMXzjdMJb46pbf9u', text: 'Bounty Bush'}, //36 3DEP12
+		{image: '1J8LYXYOAMy7PpRQBTsaAFnYRFBvI17ah', text: ''}, //37 BubblegumBazaar1
+		{image: '1GSAWRTS4c3u9z7Ti1X3OmEmCUAerct_-', text: ''}, //38 BubblegumBazaar2
+		{image: '1_lDnWgHihN7nIUxyeoIrF_I-HF_Bt2Ge', text: ''}, //39 BubblegumBazaar3
+		{image: '1HgCBgDGdkvCM4hpjWaZgtbDc65IMtxHj', text: 'Rami the cotton candy sheep'}, //40 Rami
+		{image: '15EayuL6y_GrIyiGxQrEzE1y-QWSiw0Gb', text: 'Casey the Conductor'}, //41 Casey
+		{image: '1TqojvVaAqOcOR5u5IZQM9MF1sOZPEckp', text: ''}, //42 Casey Sketch
+		{image: '1xvQTgKPyW2ovT7bLhSsXnzB_8kh8exDZ', text: ''}, //43 Samsung portrait
+		{image: '13zfRQLT9qkJSQT01jJD_FsYFLoliBpiH', text: ''}, //44 Microsoft portrait
+		{image: '1mIyF2U2og_uBldwd17MNCXhKV5SdtCMv', text: ''}, //45 Breyers portrait
+		{image: '1qW5fZVXHTNQonnBSyituN12c96X3xZvk', text: ''}, //46 Samsung landscape
+		{image: '1qKCDe9Xr8PRUrguJtFG2eTH9cLqk9F51', text: ''}, //47 Microsoft landscape
+		{image: '1CmhiFBw1JsTPu-EOYi33SKVARUNCoK65', text: ''}, //48 Breyers landscape
+		{image: '16yIn3V4wr5SLhgCPxGXC-ASAeiuaLwGv', text: ''}, //49 Samsung popup
+		{image: '1iS5OuNhe9jdEVtlD7Vx9SSO9uP-fWVpo', text: ''}, //50 Microsoft popup
+		{image: '1aB_mVUgNNu0yjNrKLqJrsHsDBswCb76f', text: ''} //51 Breyers popup
 	];
 
   const BBC_URL = <a href="https://www.bbc.com/news/technology-37484114" target="_blank" rel="noopener noreferrer">the BBC</a>;
@@ -130,20 +142,20 @@ const CandyCrushSaga = (props) => {
 				I have contributed actively to the game design of new features, designed UI elements like pop-ups
 				and often supported the narrative and localization crafts with writing and organizing copy.
 				</p>
-				<Thumbnails thumbnails={thumbnails} positions={[3]} height={350} marginBottom={33} />
+				<Thumbnails thumbnails={thumbnails} positions={[41]} height={444} marginBottom={33} />
+				<BigImage googleId={"1TqojvVaAqOcOR5u5IZQM9MF1sOZPEckp"} />
 				<p styles={{marginBottom: "0"}}>
 				<em>Candy Crush Saga</em> has seen a lot of characters over the years. I have had a lot fun working with existing cast members, strengthening
-				their narrative, giving make-overs and fresh outfits where necessary - and adding a few of my own to boot!<br /><br /> 
+				their narrative, giving make-overs and fresh outfits where necessary - and adding a few to boot!<br /><br /> 
+				Next to Casey the Conductor being a permanent fixture on the rotating map built in 2020, my characters have featured mainly with live operations; the most well known are probably Didi and Rami the Candy Pets.<br /><br />
 				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[3]} height={298} marginBottom={33} />
+				<p>
+				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend. {DIDI_URL} <br /><br /> 
 				<Thumbnails thumbnails={thumbnails} positions={[4,5,6]} height={438} marginBottom={50} />
-				<p>
-				My characters have featured mainly with live operations, with the most well known probably being Didi and Rami the Candy Pets.<br /><br />
-				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend. {DIDI_URL}
-				</p>
-				<BigImage googleId={"1C7a3AERzQUIHLO2tzSepBkSgfZuxp_Nr"} text={"Candy Pet Rami"} />
-				<p>
 				I got to work on both the game design and art for Candy Pet. For Pet designs, we tried creating baby versions of existing <em>Candy</em> characters - and revamping classic ones to fit the <em>Candy</em> style more closely, as shown below.
 				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[40]} height={275} marginBottom={33} />
 				<BigImage googleId={"1SCv3EptzrBXjWSZEfbBMxtSoqbX187Wl"} />
 				<p>
 				Another character I created was the witch Caramella, who first sent main character Tiffi out hunting for potion ingredients at Halloween 2015.<br /><br />
@@ -194,9 +206,25 @@ const CandyCrushSaga = (props) => {
 				<Thumbnails thumbnails={thumbnails} positions={[31,32,33]} height={298} marginBottom={33} />
 				<Thumbnails thumbnails={thumbnails} positions={[34,35,36]} height={298} marginBottom={33} />
 				<p>
-				I have eventually created over 50 episodes and helped out with dozens more.<br /><br />
+				I have eventually created over 50 episodes and helped out with dozens more. Even in later years it has never become a routine; in 2020 for example, representing existing
+				art from external brands in the Candy Kingdom became a fresh new challenge.
+				<br /><br />
+				I have worked with several iconic brands such as Microsoft, Samsung and Breyers ice cream to incorporate their image in an innovative way, like reskinning Candy's main menu entirely.
+				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[43,44,45]} height={459} marginBottom={33} />
+				<p>
+				As always in mobile gaming, the art has to work in landscape mode as well:
+				</p>
+				<BigImage googleId={"1qW5fZVXHTNQonnBSyituN12c96X3xZvk"} />
+				<BigImage googleId={"1qKCDe9Xr8PRUrguJtFG2eTH9cLqk9F51"} />
+				<BigImage googleId={"1CmhiFBw1JsTPu-EOYi33SKVARUNCoK65"} />
+				<p>
+				And let's not forget pop-ups!
+				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[49,50,51]} height={360} marginBottom={33} />
+				<p>
 				Needless to say, it has been really special being a part of a live game for so long. 
-				We celebrated many milestones in mobile gaming together, with an example shown below!
+				We celebrated many more milestones in mobile gaming together, with an example shown below!
 				</p>
 				<Video videoId={"vU9W3EWRrHQ"} hasThumbnail={'1OYFDlb7lbOwoTRmF49CgA_b-mG6g2t9I'} />
 				<p>

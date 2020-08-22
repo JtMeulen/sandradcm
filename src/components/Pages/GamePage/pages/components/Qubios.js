@@ -26,7 +26,8 @@ const Qubios = (props) => {
 		{image: '161sOvcFtAfKY7kUIBGMEMey0FyFXCNI7', text: ''}, //13 BackgroundBeach
 		{image: '1PB8jHnck4T8Vp2JhsnkHTI4ND4clAaaV', text: ''}, //14 BackgroundCamping
 		{image: '1CKMWadFF-VgfypC6-WSpgWDZlm3lEa3l', text: ''}, //15 BackgroundConcert
-		{image: '1JvDscsHwD2XBblmyb7DwX9S8Xpcjd6UL', text: ''} //16 BackgroundTron
+		{image: '1JvDscsHwD2XBblmyb7DwX9S8Xpcjd6UL', text: ''}, //16 BackgroundTron
+		{image: '1pn0MMee5DtrmMMFC4zBiBkUZ_yyCrdEr', text: ''} //17 Running mouse
 	];
 
 	const FLAVOUR = <a href="https://www.flavour.nl/" target="_blank" rel="noopener noreferrer">Flavour</a>;
@@ -52,6 +53,10 @@ const Qubios = (props) => {
 					For an app that would feature little creatures getting tickled on their bellies, I designed Katie the Koala. It unfortunately never went live!
 				</p>
 				<BigImage googleId={"1ird58vOzmLPe99uPj07irma8vhTtwmvl"}/>
+				<p>
+					Animating characters was just as fun. For example, I created this little mouse for a friend's side-scrolling lab escape game.
+				</p>
+				<Thumbnails thumbnails={thumbnails} positions={[17]} height={229} marginBottom={0}/>
 				<p>
 					During a few months in 2012 and 2013 in my time with {FLAVOUR}, I worked on making game assets for simple browser games for an online game portal. 
 					<br />

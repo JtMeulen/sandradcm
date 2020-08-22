@@ -18,15 +18,16 @@ class Video extends React.Component {
   render(){
     const { startVideo } = this.state;
     const { hasThumbnail = false } = this.props;
+    const showThumnail = hasThumbnail && !isMobile;
 
     return (
       <div className={cn(styles.video, { [styles.mobileVideo]: isMobile })}>
-        {!startVideo && hasThumbnail && (
+        {!startVideo && showThumnail && (
           <div onClick={this.play} className={styles.thumbnail} style={{backgroundImage: `url('https://drive.google.com/uc?id=${hasThumbnail}')`}}>
             <div className={styles.play} />
           </div>
         )}
-        {startVideo && hasThumbnail && (
+        {startVideo && showThumnail && (
           <YouTube
             videoId={this.props.videoId}
             opts={{
@@ -40,7 +41,7 @@ class Video extends React.Component {
           />
         )}
 
-        {!hasThumbnail && (
+        {!showThumnail && (
           <YouTube
           videoId={this.props.videoId}
           opts={{
