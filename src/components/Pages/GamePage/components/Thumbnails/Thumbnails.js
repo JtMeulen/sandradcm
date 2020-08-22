@@ -38,14 +38,19 @@ class Thumbnails extends Component {
         4: '172px'
       }
 
-      const width = isMobile ? '100%' : widthMap[this.props.positions.length];
-      const whiteBG = thumbnail.options && thumbnail.options === 'whiteBG';
+      const width = isMobile ? 'auto' : widthMap[this.props.positions.length];
+      const whiteBG = thumbnail.options && thumbnail.options === 'whiteBG' || isMobile;
 
       return (
         <div
           key={idx}
-          className={cn(styles.thumbnail, { [styles.mobileThumbnail]: isMobile, [styles.whiteBG]: whiteBG })}
-          style={{backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`, width: width }}
+          className={cn(styles.thumbnail, { [styles.whiteBG]: whiteBG })}
+          style={{
+            backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`,
+            width: width,
+            height: isMobile ? this.props.height : 'auto',
+            backgroundSize: whiteBG ? 'contain' : 'cover'
+          }}
           onClick={() => this.handleClick(idx)}
         >
           {thumbnail.text.length > 0 && !isMobile && <p className={styles.description} style={{ marginTop: `${this.props.height - 15 || 135}px` }} dangerouslySetInnerHTML={{ __html: thumbnail.text }}/>}
@@ -56,13 +61,17 @@ class Thumbnails extends Component {
 
   render() {
     const { marginBottom = 0 } = this.props;
+    const containerHeight = isMobile ? 'auto' : `${this.props.height}px`;
 
     return (
       <Fragment >
         {this.state.modal &&
           <Modal closeModalHandler={this.closeModalHandler} allImages={this.props.thumbnails} idx={this.state.clickedIndex} />
         }
-        <div className={styles.container} style={{ height: `${isMobile ? 100 : this.props.height}px`, marginBottom: `${isMobile ? 0 : marginBottom}px`}}>
+        <div
+          className={cn(styles.container, { [styles.mobileContainer]: isMobile })}
+          style={{ height: containerHeight, marginBottom: `${isMobile ? 0 : marginBottom}px`}}
+        >
           {this.renderThumbnails()}
         </div>
       </Fragment>
