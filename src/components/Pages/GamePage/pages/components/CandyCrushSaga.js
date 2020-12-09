@@ -133,7 +133,7 @@ const CandyCrushSaga = (props) => {
 				<p>
 				Having been part of one of the longest running live games to date for nearly five years, my contributions
 				have varied greatly.<br /><br /> 
-				I mainly create 2D characters, environments and assets for the game, the execution of which has varied
+				I mainly created 2D characters, environments and assets for the game, the execution of which varied
 				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is
 				comparable to Unity. 
 				</p>
@@ -151,7 +151,7 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3]} height={298} marginBottom={33} />
 				<p>
-				When the Candy Pet feature is active, playing levels provides candy to bake into snacks for your little hungry friend. {DIDI_URL} <br /><br /> 
+				When the Candy Pet feature was active, playing levels provided candy to bake into snacks for your little hungry friend. {DIDI_URL} <br /><br /> 
 				<Thumbnails thumbnails={thumbnails} positions={[4,5,6]} height={438} marginBottom={50} />
 				I got to work on both the game design and art for Candy Pet. For Pet designs, we tried creating baby versions of existing <em>Candy</em> characters - and revamping classic ones to fit the <em>Candy</em> style more closely, as shown below.
 				</p>
@@ -251,7 +251,7 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Video videoId={"xVzDu_g8-vY"} hasThumbnail={'1cKa0YUHFQw-M5uI9FJrVBsm4uuVQXQNX'}/>
 				<p>
-				Behind the scenes, I have done my best to support the art function in different ways. I've done quite some in-house presentations, 
+				Behind the scenes, I always did my best to support the art function in different ways. I've done quite some in-house presentations, 
 				hosted workshops centered around learning and ways of working and had a lot of fun organizing offsites and other events to promote team bonding.
 				</p>
 				<BigImage googleId={"1ucQgUvuuQyLz1zXfdluRD7x5HiwiYy6U"} text={"From tools to skyscrapers to sandwich material - a sample of the hundreds assets I created over the years"} />
@@ -268,9 +268,9 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<BigImage googleId={"1hsCnMqKDz3ZSxI6s0UVl8s6ZDC6XIxec"} />
 				<p>
-				I sometimes work closely with King's marketing and social media team, bridging the gap between in-game art to promotional
+				I sometimes worked closely with King's marketing and social media team, bridging the gap between in-game art to promotional
 				material and events. Some of my designs were also featured in the Candy Crush TV show.<br /><br />
-				As mentioned before, I also function as a King spokesperson at times by doing interviews and other media features. This has varied from in-depth
+				As mentioned before, I also functioned as a King spokesperson at times by doing interviews and other media features. This has varied from in-depth
 				discussions about the game and its art to topics like women in gaming - most of which feature at the top of this page.
 				</p>
 				<p>
@@ -281,7 +281,7 @@ const CandyCrushSaga = (props) => {
 				/>
 				</p>
 				<p>
-				Last but not least, I love to interact with the fans via special events and King's Community forums, with one of the highlights being a
+				Last but not least, I loved to interact with the fans via special events and King's Community forums, with one of the highlights being a
 				participation in the video thanking the fans for playing all the way to 5000 levels.<br /><br />
 				That being said - new levels are still coming every week!
 				</p>
