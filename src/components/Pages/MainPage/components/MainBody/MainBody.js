@@ -30,7 +30,7 @@ class MainBody extends Component {
           <Title
             bottomOfWindowPixel={bottomOfWindowPixel}
             title={"Hello!"}
-            text={"My name is Sandra and I currently work at King as a 2D game artist for Candy Crush Saga."}
+            text={"My name is Sandra and I currently work at Omnidrone as a senior ingame artist."}
           />
           <IconBoxes bottomOfWindowPixel={bottomOfWindowPixel} />
         </Element>

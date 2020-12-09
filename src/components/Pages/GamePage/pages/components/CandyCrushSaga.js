@@ -21,7 +21,7 @@ const CandyCrushSaga = (props) => {
 		return () => {
 		  document.body.removeChild(script);
 		}
-	  }, []);
+	}, []);
 
 	const links = [
 	{text: "Forbes", url: "https://www.forbes.com/sites/isisbriones/2019/07/02/candy-crush-level-5000-launch/?fbclid=IwAR00Q0ttWxAqZja3PS-S_shZJSWft3b4eBxGywZ-QZdiRObVvje491j3KOo#c66ab4f24ac3"},
@@ -110,7 +110,7 @@ const CandyCrushSaga = (props) => {
 		<Fragment>
 			{/*<Banner googleId={"1_aY98Lk6FHivqEKBSv92O42_9QT4LgGT"} /> */}
 			<div className={cn(styles.mainContent, { [styles.mobileContent]: isMobile })}>
-				<TitleInfo title={"King: Candy Crush Saga (2015-now)"} />
+				<TitleInfo title={"King: Candy Crush Saga (2015-2020)"} />
 				<BigImage googleId={"11tRpftYm0UfrJvjvb6cme4KPW--9mEd3"} />
 				<p>
 				In September 2015, I joined King to work as a game artist on <em>Candy Crush Saga</em>. During this time I have largely focused 
