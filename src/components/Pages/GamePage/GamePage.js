@@ -19,7 +19,8 @@ import {
     JellyReef,
     Vogels,
     Noisia,
-    SpeedRunner
+    SpeedRunner,
+    Yahtzee,
  } from './pages';
 
 class GamePage extends Component {
@@ -40,7 +41,8 @@ class GamePage extends Component {
         "jellyreef": <JellyReef {...this.props} />,
         "vogels": <Vogels {...this.props} />,
         "noisia": <Noisia {...this.props} />,
-        "speed-runner": <SpeedRunner {...this.props} />
+        "speed-runner": <SpeedRunner {...this.props} />,
+        "yahtzee": <Yahtzee {...this.props} />,
     }
 
     componentDidMount() {

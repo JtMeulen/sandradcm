@@ -11,7 +11,6 @@ class Video extends React.Component {
   }
 
   play = () => {
-    console.log('play')
     this.setState({ startVideo: true })
   }
 

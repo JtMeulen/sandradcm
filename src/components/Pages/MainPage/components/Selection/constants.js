@@ -1,5 +1,12 @@
 export const gamesMap = [
     {
+        id: 'Yahtzee',
+        name: 'Yahtzee',
+        category: 'casual',
+        link: '/games/yahtzee',
+        image: '1Vy4NrpZ4UCGDIUlqUE-vXCEovGzjrE7z'
+    },
+    {
         id: 'CandyCrushSaga',
         name: 'King: Candy Crush Saga',
         category: 'casual',

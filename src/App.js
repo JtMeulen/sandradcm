@@ -58,6 +58,7 @@ class App extends Component {
         <Route path="/games/vogels" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/noisia" exact render={(props) => <GamePage {...props} />} />
         <Route path="/games/speed-runner" exact render={(props) => <GamePage {...props} />} />
+        <Route path="/games/yahtzee" exact render={(props) => <GamePage {...props} />} />
 
         <Redirect to="/" />
       </Switch>

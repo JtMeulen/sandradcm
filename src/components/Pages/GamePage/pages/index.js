@@ -15,3 +15,4 @@ export { default as JellyReef } from './components/JellyReef';
 export { default as Vogels } from './components/Vogels';
 export { default as Noisia } from './components/Noisia';
 export { default as SpeedRunner } from './components/SpeedRunner';
+export { default as Yahtzee } from './components/Yahtzee';
