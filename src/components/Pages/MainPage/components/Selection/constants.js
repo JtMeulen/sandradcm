@@ -1,10 +1,10 @@
 export const gamesMap = [
     {
         id: 'Yahtzee',
-        name: 'Yahtzee',
+        name: 'YAHTZEE® With Buddies!',
         category: 'casual',
         link: '/games/yahtzee',
-        image: '1Vy4NrpZ4UCGDIUlqUE-vXCEovGzjrE7z'
+        image: '1mB60vJU01sMH15wFNBc6nxQH_xl3r6bi'
     },
     {
         id: 'CandyCrushSaga',

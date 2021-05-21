@@ -27,7 +27,7 @@ const CandyCrushSaga = (props) => {
 	{text: "Forbes", url: "https://www.forbes.com/sites/isisbriones/2019/07/02/candy-crush-level-5000-launch/?fbclid=IwAR00Q0ttWxAqZja3PS-S_shZJSWft3b4eBxGywZ-QZdiRObVvje491j3KOo#c66ab4f24ac3"},
 	{text: "the Daily Mirror", url: "https://www.mirror.co.uk/tech/woman-who-creates-candy-crush-11517549"},
 	{text: "Marie Claire UK", url: "https://www.marieclaire.co.uk/entertainment/technology/women-in-gaming-566922"},
-	{text: "Shacknews", url: "https://www.shacknews.com/article/112780/interview-how-candy-crush-sagas-art-has-evolved?fbclid=IwAR3__Q23EGG4ol0LLZU_7fMkgBDvyHKdVK-O2qOXRhwGzx113VSg49ERs0g"}, 
+	{text: "Shacknews", url: "https://www.shacknews.com/article/112780/interview-how-candy-crush-sagas-art-has-evolved?fbclid=IwAR3__Q23EGG4ol0LLZU_7fMkgBDvyHKdVK-O2qOXRhwGzx113VSg49ERs0g"},
 	{text: "The Knockturnal", url: "https://theknockturnal.com/a-sit-down-with-candy-crush-game-artist-sandra-da-cruz-martins/?fbclid=IwAR0CM6w2kjS7dxyDJ_CKtwOBsVi9mfoeyxS4KgD10S5uSmpBuY_VHwx_tTg"}
   ];
 
@@ -113,10 +113,10 @@ const CandyCrushSaga = (props) => {
 				<TitleInfo title={"King: Candy Crush Saga (2015-2020)"} />
 				<BigImage googleId={"11tRpftYm0UfrJvjvb6cme4KPW--9mEd3"} />
 				<p>
-				In September 2015, I joined King to work as a game artist on <em>Candy Crush Saga</em>. During this time I have largely focused 
+				In September 2015, I joined King to work as a game artist on <em>Candy Crush Saga</em>. During this time I have largely focused
 				on content production, live operations and innovating existing art and designs.
 				<br /><br />
-				For more information on the game and my time working with it, please check out these awesome opportunities I've had 
+				For more information on the game and my time working with it, please check out these awesome opportunities I've had
 				representing King as a spokesperson by clicking the links below!
 				</p>
 				<LinkGroup links={links} />
@@ -132,10 +132,10 @@ const CandyCrushSaga = (props) => {
 				<BigImage googleId={"1xxbnPOLAPc9bIhN9_CFAc7nSzh1Br1K7"} />
 				<p>
 				Having been part of one of the longest running live games to date for nearly five years, my contributions
-				have varied greatly.<br /><br /> 
+				have varied greatly.<br /><br />
 				I mainly created 2D characters, environments and assets for the game, the execution of which varied
 				from composing images to implementing and animating sprites in a 3D environment via King's in-house editor, which is
-				comparable to Unity. 
+				comparable to Unity.
 				</p>
 				<BigImage googleId={"1Gxv-GnBARWeDUD_j_9o_yOf8p1bNHagw"} />
 				<p>
@@ -146,12 +146,12 @@ const CandyCrushSaga = (props) => {
 				<BigImage googleId={"1TqojvVaAqOcOR5u5IZQM9MF1sOZPEckp"} />
 				<p styles={{marginBottom: "0"}}>
 				<em>Candy Crush Saga</em> has seen a lot of characters over the years. I have had a lot fun working with existing cast members, strengthening
-				their narrative, giving make-overs and fresh outfits where necessary - and adding a few to boot!<br /><br /> 
+				their narrative, giving make-overs and fresh outfits where necessary - and adding a few to boot!<br /><br />
 				Next to Casey the Conductor being a permanent fixture on the rotating map built in 2020, my characters have featured mainly with live operations; the most well known are probably Didi and Rami the Candy Pets.<br /><br />
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[3]} height={298} marginBottom={33} />
 				<p>
-				When the Candy Pet feature was active, playing levels provided candy to bake into snacks for your little hungry friend. {DIDI_URL} <br /><br /> 
+				When the Candy Pet feature was active, playing levels provided candy to bake into snacks for your little hungry friend. {DIDI_URL} <br /><br />
 				<Thumbnails thumbnails={thumbnails} positions={[4,5,6]} height={438} marginBottom={50} />
 				I got to work on both the game design and art for Candy Pet. For Pet designs, we tried creating baby versions of existing <em>Candy</em> characters - and revamping classic ones to fit the <em>Candy</em> style more closely, as shown below.
 				</p>
@@ -164,7 +164,7 @@ const CandyCrushSaga = (props) => {
 				<BigImage googleId={"1kBZx5QtW8Xv02aDX8zmXHRRiUKz2snD9"} />
 				<p>
 				I further made the snowmen Holly and Dale, who are sometimes used for winter themed promotions. Coincidentally enough, I also created the holiday themed stockings for the
-				live event 'Season's Stockings'! 
+				live event 'Season's Stockings'!
 				</p>
 				<BigImage googleId={"1WvdHr4wYMs0Zurtm_IvVlNp4dhYUtIdR"} />
 				<p>
@@ -173,22 +173,22 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[7,8,9]} height={337} marginBottom={33} />
 				<p>
-				Developing these timed event features was always fun as it involved technical implementation of the art, combined with animation and slight VFX work.<br /><br /> 
+				Developing these timed event features was always fun as it involved technical implementation of the art, combined with animation and slight VFX work.<br /><br />
 				That being said, sometimes existing features were simply reskinned to offer the player more relevant experiences.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[10,11,12]} height={374} marginBottom={33} />
 				<Thumbnails thumbnails={thumbnails} positions={[13,14,15]} height={256} marginBottom={50} />
 				<p>
 				One of my biggest occupations within <em>Candy</em>, however, has been involvement with the Saga map format and its episodes. <br /><br />
-				Episodes are bundles of 15 new levels, released every week, with custom art and narrative on the Saga map and behind the game board. 
+				Episodes are bundles of 15 new levels, released every week, with custom art and narrative on the Saga map and behind the game board.
 				Here are some examples of mine!
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[16,17,18]} height={248} marginBottom={33} />
 				<Thumbnails thumbnails={thumbnails} positions={[19,20,21]} height={248} marginBottom={33} />
 				<Thumbnails thumbnails={thumbnails} positions={[22,23,24]} height={248} marginBottom={33} />
 				<p>
-				At one point in time, <em>Candy</em> made the switch from a 2D to a 3D map. Now, episode art was shown more elaborately near the player's progress, 
-				rather than flat images behind the game board. 
+				At one point in time, <em>Candy</em> made the switch from a 2D to a 3D map. Now, episode art was shown more elaborately near the player's progress,
+				rather than flat images behind the game board.
 				<br /><br />
 				It was an exciting challenge to both rework our old episodes into this new format and then see
 				where the opportunities for new ways of showing stories could take us.
@@ -197,10 +197,10 @@ const CandyCrushSaga = (props) => {
 				<Thumbnails thumbnails={thumbnails} positions={[28,29,30]} height={298} marginBottom={33} />
 				<p>
 				For each episode, the team would brainstorm narrative and titles themselves, no matter how the look and feel evolded
-				over the years. 
+				over the years.
 				<br /><br />
 				I was actively engaged in our efforts to maintain a fresh, relevant look. Internally, this meant improving
-				our ways of working continuously as well, tackling unique challenges like maintaining a decent app size for a game that's filling up 
+				our ways of working continuously as well, tackling unique challenges like maintaining a decent app size for a game that's filling up
 				with years worth of content!
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[31,32,33]} height={298} marginBottom={33} />
@@ -223,24 +223,24 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[49,50,51]} height={360} marginBottom={33} />
 				<p>
-				Needless to say, it has been really special being a part of a live game for so long. 
+				Needless to say, it has been really special being a part of a live game for so long.
 				We celebrated many more milestones in mobile gaming together, with an example shown below!
 				</p>
 				<Video videoId={"vU9W3EWRrHQ"} hasThumbnail={'1OYFDlb7lbOwoTRmF49CgA_b-mG6g2t9I'} />
 				<p>
-				One great milestone was reaching level 2000 at the time, around which King also launched a great campaign. I got to work on the episode Bubblegum Bazaar, 
-				featuring this special level.<br /><br /> 
+				One great milestone was reaching level 2000 at the time, around which King also launched a great campaign. I got to work on the episode Bubblegum Bazaar,
+				featuring this special level.<br /><br />
 				I depicted main characters Tiffi and Yeti in search what would happen after level 2000. The mischievous Bubblegum Troll was there to soothe their Y2K scare
 				with a glimpse into the future.
 				</p>
 				<Thumbnails thumbnails={thumbnails} positions={[37,38,39]} height={248} marginBottom={0} />
 				<p>
-				These designs were featured on worldwide media (such as {BBC_URL}), in app stores and on social media. 
+				These designs were featured on worldwide media (such as {BBC_URL}), in app stores and on social media.
 				</p>
 				<Video videoId={"D4pCVx6ln3E"} hasThumbnail={'1raXQnJo5wJvxvaIN-JWQJYJ2NkMbPrP8'} />
 				<p>
 				Another great memory was <em>Candy</em>'s first collaboration with an outside brand.<br /><br />
-				Creative Director Nina Garcia of the US based magazine Marie Claire worked with King to design a <em>Candy</em> level herself. 
+				Creative Director Nina Garcia of the US based magazine Marie Claire worked with King to design a <em>Candy</em> level herself.
 				<br /><br />
 				The magazine did a big spread on game design and <em>Candy</em> couldn't stay behind - in the game, we launched an event where you work your way through an editor's room.
 				</p>
@@ -251,25 +251,29 @@ const CandyCrushSaga = (props) => {
 				</p>
 				<Video videoId={"xVzDu_g8-vY"} hasThumbnail={'1cKa0YUHFQw-M5uI9FJrVBsm4uuVQXQNX'}/>
 				<p>
-				Behind the scenes, I always did my best to support the art function in different ways. I've done quite some in-house presentations, 
+				Behind the scenes, I always did my best to support the art function in different ways. I've done quite some in-house presentations,
 				hosted workshops centered around learning and ways of working and had a lot of fun organizing offsites and other events to promote team bonding.
 				</p>
 				<BigImage googleId={"1ucQgUvuuQyLz1zXfdluRD7x5HiwiYy6U"} text={"From tools to skyscrapers to sandwich material - a sample of the hundreds assets I created over the years"} />
 				<p>
-				Additional significant learning opportunities were, among others, attending in-house courses centered on management and leadership, 
+				Additional significant learning opportunities were, among others, attending in-house courses centered on management and leadership,
 				life drawing seminars from Samantha Youssef, sculpting by Andrea Blasich and VFX by Francisco García-Obledo. <br /><br />
-				Over the years I also represented 
+				Over the years I also represented
 				King at distinguished art conferences like THU and the IAMAG Master Classes.
 				</p>
 				<BigImage googleId={"1JWieYZ7l9H2NEtpNfJijoJ9_Ph6StTeu"} text={"Fitting custom outfits on pre-existing characters"} />
 				<p>
-				Outside of working with the game team and art craft, I have had many side projects supporting King as a company. I have created 
-				graphics for internal use such as event invitations, office maps, portraits of players and colleagues and more. 
+				Outside of working with the game team and art craft, I have had many side projects supporting King as a company. I have created
+				graphics for internal use such as event invitations, office maps, portraits of players and colleagues and more.
 				</p>
 				<BigImage googleId={"1hsCnMqKDz3ZSxI6s0UVl8s6ZDC6XIxec"} />
 				<p>
 				I sometimes worked closely with King's marketing and social media team, bridging the gap between in-game art to promotional
-				material and events. Some of my designs were also featured in the Candy Crush TV show.<br /><br />
+				material and events. Some of my designs were also featured in the Candy Crush TV show. I also had a lot of fun creating the Candy versions
+				of British celebrities Roman Kemp, Alesha Dixon and Mark Wright, who featured in the UK's first ever nation wide Candy Crush tournament!
+				</p>
+				<BigImage googleId={"1tIquHutr_F7gE7eF5XDK8de-QxEhERaR"} text={"Candy Crush All Stars"} />
+				<p>
 				As mentioned before, I also functioned as a King spokesperson at times by doing interviews and other media features. This has varied from in-depth
 				discussions about the game and its art to topics like women in gaming - most of which feature at the top of this page.
 				</p>

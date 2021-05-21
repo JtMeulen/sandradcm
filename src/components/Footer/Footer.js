@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div className={styles.Footer}>
-                <p>Copyright © 2020 Sandra da Cruz Martins</p>
+                <p>Copyright © {new Date().getFullYear()} Sandra da Cruz Martins</p>
             </div>
         );
     }
