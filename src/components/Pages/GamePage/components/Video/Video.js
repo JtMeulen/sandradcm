@@ -22,7 +22,7 @@ class Video extends React.Component {
     return (
       <div className={cn(styles.video, { [styles.mobileVideo]: isMobile })}>
         {!startVideo && showThumnail && (
-          <div onClick={this.play} className={styles.thumbnail} style={{backgroundImage: `url('https://drive.google.com/uc?id=${hasThumbnail}')`}}>
+          <div onClick={this.play} className={styles.thumbnail} style={{backgroundImage: `url('https://drive.google.com/thumbnail?id=${hasThumbnail}&sz=w1200')`}}>
             <div className={styles.play} />
           </div>
         )}

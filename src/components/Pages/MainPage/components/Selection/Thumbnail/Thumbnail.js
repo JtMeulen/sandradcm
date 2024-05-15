@@ -41,7 +41,7 @@ class Thumbnail extends Component {
 
     render() {
         const backgroundStyle = {
-            backgroundImage: `url('https://drive.google.com/uc?id=${this.props.image}')`,
+            backgroundImage: `url('https://drive.google.com/thumbnail?id=${this.props.image}&sz=w1200')`,
             backgroundPosition: this.getBackgroundPosition()
         };
 

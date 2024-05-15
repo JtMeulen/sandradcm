@@ -9,7 +9,7 @@ class Banner extends Component {
         let renderBanner = (
             <div
                 className={styles.Banner}
-                style={{backgroundImage: `url('https://drive.google.com/uc?id=${this.props.googleId}')`}}
+                style={{backgroundImage: `url('https://drive.google.com/thumbnail?id=${this.props.googleId}&sz=w1200')`}}
             />
         );
 

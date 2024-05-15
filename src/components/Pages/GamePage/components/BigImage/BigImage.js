@@ -14,7 +14,7 @@ class BigImage extends Component {
       <div className={cn(styles.container, { [styles.mobileContainer]: isMobile })}>
         {this.state.loading && <Spinner />}
         <img
-          src={`https://drive.google.com/uc?id=${this.props.googleId}`}
+          src={`https://drive.google.com/thumbnail?id=${this.props.googleId}&sz=w1200`}
           alt=""
           style={{opacity: this.state.loading ? 0 : 1}}
           className={styles.image}

@@ -46,7 +46,7 @@ class Thumbnails extends Component {
           key={idx}
           className={cn(styles.thumbnail, { [styles.whiteBG]: whiteBG })}
           style={{
-            backgroundImage: `url('https://drive.google.com/uc?id=${thumbnail.image}')`,
+            backgroundImage: `url('https://drive.google.com/thumbnail?id=${thumbnail.image}&sz=w1200')`,
             width: width,
             height: isMobile ? this.props.height : 'auto',
             backgroundSize: whiteBG ? 'contain' : 'cover'

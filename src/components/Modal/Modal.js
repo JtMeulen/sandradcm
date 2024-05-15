@@ -56,7 +56,7 @@ class ImageSlider extends Component {
 
 	render() {
 		const { allImages, idx } = this.state;
-		const currentImage = `https://drive.google.com/uc?id=${allImages[idx].image}`;
+		const currentImage = `https://drive.google.com/thumbnail?id=${allImages[idx].image}&sz=w1200`;
 		const imageDetails = allImages[idx];
 		const hasText = !isMobile && imageDetails.text && imageDetails.text.length > 0;
 		const whiteBG = imageDetails.options && imageDetails.options === 'whiteBG';
